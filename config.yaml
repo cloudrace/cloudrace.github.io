@@ -1,4 +1,4 @@
-baseURL: cloudrace.github.io
+baseURL: cloudrace.github.io/public
 languageCode: en-us
 title: Personal website and blog
 theme: hugo-refresh
