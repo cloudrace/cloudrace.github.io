@@ -3,6 +3,7 @@ title: "How to start when there is a lot to learn"
 date: 2021-06-11T13:13:00+01:00
 draft: true
 hideLastModified: false
+summaryImage: "mlcheatsheet.png"
 showInMenu: false
 tags: ["gcp", "data engineering", "ml"]
 keepImageRatio: true
