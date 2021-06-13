@@ -13,7 +13,9 @@ fi
 rm -rf docs
 hugo 
 cp CNAME docs/
-git add -A
+#force add all files when needed
+#git add -A
 git add .
 git commit -m "$msg"
-git push --force origin main
+#--force when you need to force your push
+git push origin main
