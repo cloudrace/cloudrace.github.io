@@ -1,0 +1,3 @@
+Contact: https://www.linkedin.com/in/kanchanapatlolla/
+Preferred-Languages: en
+Canonical: https://cloudrace.info/well-known/security.txt

@@ -1,0 +1,675 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head><link rel="icon" href="/favicon_main.svg"><meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+<meta http-equiv="x-ua-compatible" content="ie=edge" /><title>Kanch&#39;s musings - data engineering</title>
+
+    
+<link href="https://fonts.googleapis.com/css?family=Baloo&#43;2" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Baloo&#43;2" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet"><link rel="stylesheet" type="text/css" href="/css/style.05c7913cae9d6f5f01deaa897831162971d35e5beac74d0d69370b0dd208eaad.css" integrity="sha256-BceRPK6db18B3qqJeDEWKXHTXlvqx00NaTcLDdII6q0=">
+<link rel="stylesheet" type="text/css" href="/css/monokai-sublime.9.15.8.min.91376415864fdd3a92be524052267afece4bdb1bb8c6c754f5e60c5ac28e93be.css" integrity="sha256-kTdkFYZP3TqSvlJAUiZ6/s5L2xu4xsdU9eYMWsKOk74=">
+<link rel="stylesheet" type="text/css" href="/css/all.min.2d91c07e15fc26f2697117b326256c0a2b0586dd12a15c622a53cd47a9e54a1d.css" integrity="sha256-LZHAfhX8JvJpcRezJiVsCisFht0SoVxiKlPNR6nlSh0=">
+<link rel="stylesheet" type="text/css" href="/css/refresh.ccfd23f8053a1571a3e474a6877f42a6a1924c6bbf1b64c7704b49a0353b4650.css" integrity="sha256-zP0j&#43;AU6FXGj5HSmh39CpqGSTGu/G2THcEtJoDU7RlA=">
+<link rel="stylesheet" type="text/css" href="/css/devicon.min.149016fbf45c8bc157d6f55ce3ee875feaa3f90446bf7d151fbc16a9f21a8859.css" integrity="sha256-FJAW&#43;/Rci8FX1vVc4&#43;6HX&#43;qj&#43;QRGv30VH7wWqfIaiFk=">
+    
+
+  </head>
+  <body>
+     
+
+    <div id="preloader">
+      <div id="status"></div>
+    </div><nav class="navbar is-fresh is-transparent no-shadow" role="navigation" aria-label="main navigation">
+  <div class="container">
+    <div class="navbar-brand">
+
+      
+      
+      
+      <a class="navbar-item">
+        <div class="menu-icon-wrapper left-menu-icon-wrapper" style="visibility: visible;">
+          <svg width="1000px" height="1000px">
+            <path class="path1" d="M 300 400 L 700 400 C 900 400 900 750 600 850 A 400 400 0 0 1 200 200 L 800 800"></path>
+            <path class="path2" d="M 300 500 L 700 500"></path>
+            <path class="path3" d="M 700 600 L 300 600 C 100 600 100 200 400 150 A 400 380 0 1 1 200 800 L 800 200"></path>
+          </svg>
+          <button id="menu-icon-trigger" class="menu-icon-trigger"></button>
+        </div>
+        <div class="navbar-item left-menu-icon-wrapper">
+          Tags
+        </div>
+      </a>
+
+      <div class="navbar-item is-expanded"></div>
+      <a class="navbar-item is-hidden-desktop">  
+        <div data-target="navbar-menu" class="navbar-item right-menu-icon-wrapper is-hidden-desktop">
+          Menu
+        </div>
+        <div data-target="navbar-menu" class="menu-icon-wrapper right-menu-icon-wrapper" style="visibility: visible;">
+          <svg width="1000px" height="1000px">
+            <path class="path1" d="M 300 400 L 700 400 C 900 400 900 750 600 850 A 400 400 0 0 1 200 200 L 800 800"></path>
+            <path class="path2" d="M 300 500 L 700 500"></path>
+            <path class="path3" d="M 700 600 L 300 600 C 100 600 100 200 400 150 A 400 380 0 1 1 200 800 L 800 200"></path>
+          </svg>
+          <button id="menu-icon-trigger" class="menu-icon-trigger"></button>
+        </div>
+      </a>
+    </div><div id="navbar-menu" class="navbar-menu is-static">
+      
+      <div class="navbar-end">
+        <a href="/about/" class="navbar-item is-secondary"><i class="fa fa-bookmark" style="color:#F39200;">&nbsp;</i>About Me</a><a href="/videos/" class="navbar-item is-secondary"><i class="fa fa-book" style="color:#F39200;">&nbsp;</i>My  Videos</a><a href="/machine-learning/" class="navbar-item is-secondary"><i class="fa fa-book" style="color:#F39200;">&nbsp;</i>Machine Learning</a>
+            <div class="navbar-item has-dropdown is-hoverable">
+              <a href="/miscellanous/" class="navbar-link"><i class="fa fa-book" style="color:#F39200;">&nbsp;</i>Miscellanous</a>
+              <div class="navbar-dropdown">
+                <a href="/miscellanous/certs/" class="navbar-item">Certs</a></div>
+            </div>
+        
+        
+        
+        
+        
+        
+        
+      </div>
+    </div>
+  </div>
+</nav>
+<nav id="navbar-clone" class="navbar is-fresh is-transparent" role="navigation" aria-label="main navigation">
+  <div class="container">
+      <div class="navbar-brand">
+  
+        
+        
+        
+        <a class="navbar-item">
+          <div class="menu-icon-wrapper left-menu-icon-wrapper" style="visibility: visible;">
+            <svg width="1000px" height="1000px">
+              <path class="path1" d="M 300 400 L 700 400 C 900 400 900 750 600 850 A 400 400 0 0 1 200 200 L 800 800"></path>
+              <path class="path2" d="M 300 500 L 700 500"></path>
+              <path class="path3" d="M 700 600 L 300 600 C 100 600 100 200 400 150 A 400 380 0 1 1 200 800 L 800 200"></path>
+            </svg>
+            <button id="menu-icon-trigger" class="menu-icon-trigger"></button>
+          </div>
+          <div class="navbar-item left-menu-icon-wrapper">
+            Tags
+          </div>
+        </a>
+  
+        <div class="navbar-item is-expanded"></div>
+        <a class="navbar-item is-hidden-desktop">  
+          <div data-target="cloned-navbar-menu" class="navbar-item right-menu-icon-wrapper is-hidden-desktop">
+            Menu
+          </div>
+          <div data-target="cloned-navbar-menu" class="menu-icon-wrapper right-menu-icon-wrapper" style="visibility: visible;">
+            <svg width="1000px" height="1000px">
+              <path class="path1" d="M 300 400 L 700 400 C 900 400 900 750 600 850 A 400 400 0 0 1 200 200 L 800 800"></path>
+              <path class="path2" d="M 300 500 L 700 500"></path>
+              <path class="path3" d="M 700 600 L 300 600 C 100 600 100 200 400 150 A 400 380 0 1 1 200 800 L 800 200"></path>
+            </svg>
+            <button id="menu-icon-trigger" class="menu-icon-trigger"></button>
+          </div>
+        </a>
+      </div><div id="cloned-navbar-menu" class="navbar-menu is-static">
+        <div class="navbar-end"><a href="/about/" class="navbar-item is-secondary"><i class="fa fa-bookmark" style="color:#F39200;">&nbsp;</i>About Me</a><a href="/videos/" class="navbar-item is-secondary"><i class="fa fa-book" style="color:#F39200;">&nbsp;</i>My  Videos</a><a href="/machine-learning/" class="navbar-item is-secondary"><i class="fa fa-book" style="color:#F39200;">&nbsp;</i>Machine Learning</a><div class="navbar-item has-dropdown is-hoverable">
+                <a href="/miscellanous/" class="navbar-link"><i class="fa fa-book" style="color:#F39200;">&nbsp;</i>Miscellanous</a>
+                <div class="navbar-dropdown">
+                  <a href="/miscellanous/certs/" class="navbar-item">Certs</a></div>
+              </div>
+          
+          
+          
+
+          
+          
+          
+        
+        </div>
+      </div>
+    </div>
+  </nav>
+<section class="section is-medium">
+        <div class="container">
+          
+            
+              <h1 class="title section-title">data engineering</h1>
+              <h5 class="subtitle is-5 is-muted"></h5>
+              <div class="divider"></div>        
+              <div class="section is-small">
+                <div class="columns">
+                    <div class="column is-4"><div class="box">
+      <figure class="image is-3by2">
+        <a href="/machine-learning/how_to_get_handson/how_to_get_handson/">
+        
+           
+           
+          
+            <img src="/images/default_summary_hu2be732aee21a2469ead3fe1f2df8caca_2088687_600x0_resize_q75_box.jpg" style="width: auto; margin:auto" alt="">
+          
+        
+        </a>
+      </figure>
+      <h3 class="title is-5 refresh-summary-title">
+        How to start when there is a lot to learn
+      </h3>
+      <p class="refresh-summary">If you have ever wondered how do I get a hands on experience this post may be helpful for you. I would refer to Machine Learning/Artificial Intelligence as ML/AI for the rest of the post.
+In an earlier post I discussed about how to get familiarized with some of the key topics and trends with ML/AI. I wanted to do a follow up post if you were interested in trying to get your hands on experience
+Pick a programming a language
+ Preferably Python as it is well regarded in this space Others include Julia, R, Java  My colleague Steve Walker pointed out this below note
+It’s hard to imagine a machine learning engineer who doesn’t use Python. So, if you waited for the right moment to start learning Python, this is that moment. ~ Andriy Burkov, author of The Hundred-Page Machine Learning Book.
+Pick a Cloud Provider
+ My favorite is Google Cloud for several reasons including their research strength in this space, ease of use for developers/data engineers/data scientists, performance and accuracy of the application. Of course there are good options with other cloud providers. Pick what is familiar to you  Understand the libraries available
+ Tensorflow , Keras PyTorch Scikit Learn Numpy, Panda  This would help you to start with coding
+Focus on a field
+ There is a lot to learn in this space, If you are looking to get hands on experience , focus on a specific ML discipline such as Vision, Natural Language, Video etc.,  Join a community
+ Kaggle is the best data science community there is to get experience. Kaggle owned by Google provides tools and resources which could be easily leveraged pretty quickly. Most often for small experiments, they have datasets available with challenges easy to test your skills with. They have a flexibility for you to create your own team  Get your hands dirty
+ Many free hands on labs are available at Codelabs There are also free Python Notebooks available in Github to experiment in colab. Colab owned by Google is completely free for you to use for research purposes  To summarize, I have detailed how to get your hands on experience with key things to consider.
+If you have questions/comments/suggestions please reach out to me @kanchpat
+</p> 
+      <div class="action has-text-right">
+        <a href="/machine-learning/how_to_get_handson/how_to_get_handson/" class="button is-primary">
+                Read more
+            </a>
+      </div>
+    </div>
+  </div>
+<div class="column is-4"><div class="box">
+      <figure class="image is-3by2">
+        <a href="/machine-learning/how_to_get_started/">
+        
+           
+           
+          
+            <img src="/images/default_summary_hu2be732aee21a2469ead3fe1f2df8caca_2088687_600x0_resize_q75_box.jpg" style="width: auto; margin:auto" alt="">
+          
+        
+        </a>
+      </figure>
+      <h3 class="title is-5 refresh-summary-title">
+        Five steps to get you started
+      </h3>
+      <p class="refresh-summary">with Machine Learning / Artificial Intelligence If you have ever wondered
+ how do I get myself up to speed with Machine Learning/Artificial Intelligence or thought the term artificial intelligence has been in existence since 1950s why all the hype now”  this post may be helpful for you. I would refer to Machine Learning/Artificial Intelligence as ML/AI for the rest of the post.
+Every business challenge in any organization whether its manual human errors, automating a business process , providing better customer service, recommending a product, understanding the sentiment, getting insights on the trends, predicting natural disasters, estimating vehicle damage, analyzing multiple documents for a summary, processing huge amounts of documents, predicting faults/anomalies. the list goes on. The challenges are endless and the technology is ever evolving.
+We are seeing continuous advancements in various fields, but do you have to be hands on to be an expert. Not necessarily. My colleague Steve Walker mentioned this once “ Do you have to be an expert in the design of a F35 aircraft to fly it or do you have to know just to fly?”.
+[Image from : https://xkcd.com/1838/]
+Overnight none of us can/will become Data Scientists, however there is a lot we can learn and grow. The job roles vary in a wide spectrum with hands on experience, being able to architect and if you are in a leadership role you probably would like to know the impacts of it or guide your team through a strategy.
+Mahatma Gandhi once said “Live as if you were to die tomorrow. Learn as if you were to live forever.”
+Here, I am planning to give you some quick tips on a step by step approach towards learning in ML/AI. I will also provide recommendations if you are looking to get a hands on experience in a follow up post.
+Step 0: Understand the definition of ML/AI
+As per Machine Learning Glossary by Google,
+Artificial Intelligence is a non-human program or model that can solve sophisticated tasks. For example, a program or model that translates text or a program or model that identifies diseases from radiologic images both exhibit artificial intelligence. Formally, machine learning is a subfield of artificial intelligence. However, in recent years, some organizations have begun using the terms artificial intelligence and machine learning interchangeably.
+Step 1: Understand the hype and glossary
+In general I would recommend starting with the below videos and recommended players. These are quick review material to get your hands around the topic and some of the most used terms
+Machine Learning is Fun
+Making friends with machine learning
+Machine Learning Crash Course
+ML Glossary
+towardsdatascience.com (This is a medium link but has great content to continue following)
+Optional Reading
+Rules of Machine Learning
+Machine Learning : High Interest Credit Card of Technical Debt
+Human Centered Approach to AI
+Step 2: Understand three core pillars
+For an AI driven solution, there are three core pillars. Data, Algorithms and Compute. For most conversations, understanding the terminology and glossary should be adequate. However I would like to highlight the most important of them all.
+Data fuels algorithms. Anyone who has worked with ML/AI will tell you it&amp;rsquo;s one of the prime examples for “garbage in and garbage out”. If your data fails, none of the sophisticated models will work. It’s important to understand what is data exploration, data wrangling, data cleansing, data mining, data transformation. These concepts are generic with just a search might help. I liked this article from Venturebeat which explains the importance of data for ML/AI as one of the top reasons Why Enterprises fail on their strategy.
+Also important to understand how enterprises choose to do data lake/data mart/ data pond/data river or whatever they decide to call it.
+Algorithms - There is a lot to learn and understand with Algorithms. Datascientists and some data engineers do really care with what algorithms to use.
+However, its important to have a general idea on what these are.
+I like this by Jason Brownlee in Machine Learning Mastery
+[Image from : http://machinelearningmastery.com/a-tour-of-machine-learning-algorithms/]
+Step 3: Understand the players in this market
+Every cloud provider has their unique strengths in their ML/AI portfolio. But these cloud providers are not the only ones; there are a lot of niche players in the market to keep a watch on. These are just some of the players offering products for the customers to build on their services.
+Data Robot, H2O.ai, Dataiku,Alteryx,Data Bricks
+In addition to these companies, there are SaaS providers offering AI solutions for most industries such as Banking, Insurance, Health care, Retail, Manufacturing etc.,
+Symphony Retail AI - Grocery store with AI
+Mitchell Intelligent Estimating - Vehicle Damage Estimating Platform for Insurance
+Path AI - Accurate diagnosis of diseases
+This list goes on and it helps you to understand how large this space really is and also every company focuses on how to make their customer lives a bit easier.
+Step 4: Follow technologists and leaders in this space
+There are many technologists in this space, follow them on social media. Most of them post great content for you to follow and understand. I tend to get some recent trends what they are working on and understanding how technology evolves from these players.
+I created a Twitter list. Do you have someone you follow? Send them to me so we can create a curated list
+Step 5: Understand the principles major technology companies have for their governance
+Google
+Microsoft
+It’s important to understand how major companies think about AI in the real world and how ethically responsible they are. As we look to become a more AI centric world, if this fails, we as a community would all fail.
+To summarize, I have outlined how you could learn key words in ML/AI, the key player in a project, the data, companies providing infrastructure/solution in this space and how to keep yourself updated with the recent trends .
+Keep learning, keep engaging, always be inquisitive and always be listening.
+If you have questions/comments/suggestions please reach out to me @kanchpat
+</p> 
+      <div class="action has-text-right">
+        <a href="/machine-learning/how_to_get_started/" class="button is-primary">
+                Read more
+            </a>
+      </div>
+    </div>
+  </div>
+<div class="column is-4"><div class="box">
+      <figure class="image is-3by2">
+        <a href="/machine-learning/gcp-primer/">
+        
+           
+           
+          
+            <img src="/images/default_summary_hu2be732aee21a2469ead3fe1f2df8caca_2088687_600x0_resize_q75_box.jpg" style="width: auto; margin:auto" alt="">
+          
+        
+        </a>
+      </figure>
+      <h3 class="title is-5 refresh-summary-title">
+        Key Roles in an AI driven organization
+      </h3>
+      <p class="refresh-summary">If you are someone who is interested in understanding how the teams are formed in an AI organization or unit, this post is for you.
+Most organizations have Artificial Intelligence as part of their key objectives. To help facilitate this, business units have their version of what the key roles are and their responsibilities in their teams would look like.
+In this post, we will go over some of the most common key roles in an organization. We&amp;rsquo;ll look at their personas , responsibilities and the type of products most often used by each of these roles. This is by no means the entire list of personas , responsibilities in an org. Just a generalization of things I have seen across the Enterprises.
+As you could see above each of these roles have several different path ways they could take based on their responsibilities. We will take some time to understand these roles , their background and what they normally would care about.
+Data Engineer  Data is the new oil. Data Engineers are responsible in making sure Data makes sense to others.
+ Persona:  Most likely someone with Database / Warehouse / Data Mart / Data lake background Understands the challenges related to data - Data duplication, Data silo , Data governance issues Has dealt with data transformation for business intelligence Understands the difference between Batch and real time. Can efficiently build a data pipeline Sometimes involved with the infrastructure of the setup (management,provisioning etc.,)  Responsible for:  Data collection , clean up , transformation, data pipeline  ML Ops Engineer  In some organizations, Data Engineers sometimes play this role
+ Persona:  Most likely someone with exposure to Data Engineering, DevOps and Machine Learning Understands the version control for code, data and model Can automate CI/CD/CT/CM (Continuous Integration/Deployment/Training/Monitoring Knows how to schedule, create workflow  Responsible for  ML Pipelines and monitoring  Data Scientist  They are the unicorns with very little qualified data scientists available in the market. We will go over some of why this is in a future post.
+ Persona:  Has a deep level of understanding with the business problem Solid grasp with statistics, data analytics , machine learning, deep learning, natural language processing etc., Works with programming languages in creating models  Responsible for  Building explainable models Validating between several algorithms Feature Engineering Detection of drift and skew  Citizen Data Scientist  This is an emerging set of roles. As most organizations look to redeploy their existing talents towards Data Science related jobs, this becomes more prelevant and the definitions differ
+ Persona:  Has a deep level of knowledge with the business problem Typically a developer or a data engineer . Can sometimes be a business analyst Looking to build solutions with tools available by 3rd parties and cloud providers.  Responsible for  Creating a solution for the identified business problem Understands all the options available and identifies the best of breed for accuracy, performance and cost  We saw above the key roles in an AI org and the relevant services available in Google Cloud enabling you to leverage and accelerate your learning and implementation
+Though the diagram represents Google Cloud services, it could be substituted with any cloud provider or home grown solutions. Irrespective of the options, the key path would remain the same.
+In the future posts, we&amp;rsquo;ll look at some of these Google Cloud services in detail. In the meanwhile, you can review some of these resources to get further info.
+AI with Google
+Do you want to continue the discussion with me?
+Feel free to reach out at @kanchpat
+</p> 
+      <div class="action has-text-right">
+        <a href="/machine-learning/gcp-primer/" class="button is-primary">
+                Read more
+            </a>
+      </div>
+    </div>
+  </div>
+
+                          </div>
+                          <div class="columns">
+                            <div class="column is-4"><div class="box">
+      <figure class="image is-3by2">
+        <a href="/miscellanous/certs/data-engineer/">
+        
+          <img src="/images/default_summary_hu2be732aee21a2469ead3fe1f2df8caca_2088687_600x0_resize_q75_box.jpg" alt="">
+        
+        </a>
+      </figure>
+      <h3 class="title is-5 refresh-summary-title">
+        GCP Data Engineering - Round 2!
+      </h3>
+      <p class="refresh-summary">Its been two years since my last post on the Professional Data Engineer certification AND it was time for renewal. Successfully renewed the certification exactly 2 years later
+I wanted to update some of my recommendations on what I used.
+Linux Academy Google Cloud Documentation for the services - Big Query, Dataflow, BigTable, Pub/Sub , Composer and other big data services
+Solution approach Migrating Apache Spark to Dataproc
+Building your datalake
+Data Lifecycle
+ When to use Dataflow vs Dataproc, BigTable vs Spanner vs Datastore, ML APIs vs Automl, Composer vs Kubeflow , Transfer Service vs Appliance, Pub/Sub vs Kafka IAM Permissions for all the services Background - Hadoop and its components  Wishing you the best of luck for your certification
+</p> 
+      <div class="action has-text-right">
+        <a href="/miscellanous/certs/data-engineer/" class="button is-primary">
+                Read more
+            </a>
+      </div>
+    </div>
+  </div>
+
+                  </div>
+                
+              </div>
+            
+          
+        </div>
+    </section><footer class="footer footer-dark">
+  <div class="container">
+    <div class="columns">
+      <div class="column">
+        <img src="/footer.svg" alt="">
+        
+      </div>
+      
+    <div class="column">
+        <div class="footer-column">
+          <div class="footer-header">
+              <h3>Website</h3>
+          </div>
+          <ul class="link-list"><li><a href="/credits/">
+                  <span class="icon"><i class="fa fa-cube"></i></span>
+                  Credits
+                </a></li>
+            <li><a href="/tags/">
+                <span class="icon"><i class="fa fa-tag"></i></span> 
+                All Tags
+              </a></li>
+          </ul>
+        </div>
+      </div>
+    
+      
+      <div class="column">
+        <div class="footer-column">
+          <div class="footer-header">
+              <h3>Contacts</h3>
+          </div>
+          <ul class="link-list">
+            
+            <li>
+              <a href="https://www.linkedin.com//in/kanchanapatlolla" target="_blank">
+                <span class="icon"><i class="fab fa-linkedin"></i></span>
+                
+                  LinkedIn
+                
+              </a>
+            </li>
+            
+            
+            <li>
+              <a href="https://github.com/kanchpat" target="_blank">
+                <span class="icon"><i class="fab fa-github-square"></i></span>
+                
+                  Github
+                
+              </a>
+            </li>
+                         
+            
+            <li>
+              <a href="mailto:kanch@cloudrace.info" target="_blank">
+                <span class="icon"><i class="fa fa-envelope"></i></span>
+                
+                  Email
+                
+              </a>
+            </li>
+            
+                   
+            
+            <li>
+              <a href="https://twitter.com/kanchpat" target="_blank">
+                <span class="icon"><i class="fab fa-twitter"></i></span>
+                
+                  Twitter
+                
+              </a>
+            </li>
+                   
+            
+                   
+          </ul>
+        </div>
+      </div>
+      
+
+      
+      <div class="column">
+        <div class="footer-column">
+          <div class="footer-header">
+              <h3>Copyright</h3>
+          </div>
+          <ul class="link-list">
+            <li>
+              <a>
+                <span class="icon"><i class="fa fa-copyright"></i></span>
+                Kanchana Patlolla - 2020
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      
+
+    </div>
+  </div>
+</footer>
+    <div id="backtotop"><a href="#"></a></div><div class="sidebar scroll">
+  <div class="sidebar-header"><img src="/sidebar.svg" alt="">
+    
+    <a class="sidebar-close" href="javascript:void(0);">
+      <i data-feather="x"></i>
+    </a>
+  </div>
+  <div class="inner">
+    <ul class="sidebar-menu">
+      <li class="no-children"><a href="/tags/"><div class="columns">
+              <table width="100%">  
+                <tr>
+                  <td class="">
+                    <span class="icon"><i class="fa fa-cubes"></i></span>
+                    All Tags
+                  </td>
+                  <td class="has-text-right" >
+                      
+                  </td>
+                </tr>
+              </table>
+            </div>
+          </a>
+      <li class="no-children">
+          <a href="/tags/gcp">
+            <div class="columns">
+              
+              <table width="100%">  
+                  <tr>
+                    <td class=""><span class="icon"><i class="fa fa-cube"></i></span>gcp</td>
+                    <td class="has-text-right" >
+                        <div class="tag-number">5</div>
+                      
+                    </td>
+                    
+                  </tr>
+              </table>
+              
+            </div>
+          </a>
+      </li>
+      <li class="no-children">
+          <a href="/tags/data-engineering">
+            <div class="columns">
+              
+              <table width="100%">  
+                  <tr>
+                    <td class=""><span class="icon"><i class="fa fa-cube"></i></span>data engineering</td>
+                    <td class="has-text-right" >
+                        <div class="tag-number">4</div>
+                      
+                    </td>
+                    
+                  </tr>
+              </table>
+              
+            </div>
+          </a>
+      </li>
+      <li class="no-children">
+          <a href="/tags/ml">
+            <div class="columns">
+              
+              <table width="100%">  
+                  <tr>
+                    <td class=""><span class="icon"><i class="fa fa-cube"></i></span>ml</td>
+                    <td class="has-text-right" >
+                        <div class="tag-number">4</div>
+                      
+                    </td>
+                    
+                  </tr>
+              </table>
+              
+            </div>
+          </a>
+      </li>
+      <li class="no-children">
+          <a href="/tags/api">
+            <div class="columns">
+              
+              <table width="100%">  
+                  <tr>
+                    <td class=""><span class="icon"><i class="fa fa-cube"></i></span>api</td>
+                    <td class="has-text-right" >
+                        <div class="tag-number">2</div>
+                      
+                    </td>
+                    
+                  </tr>
+              </table>
+              
+            </div>
+          </a>
+      </li>
+      <li class="no-children">
+          <a href="/tags/video">
+            <div class="columns">
+              
+              <table width="100%">  
+                  <tr>
+                    <td class=""><span class="icon"><i class="fa fa-cube"></i></span>video</td>
+                    <td class="has-text-right" >
+                        <div class="tag-number">2</div>
+                      
+                    </td>
+                    
+                  </tr>
+              </table>
+              
+            </div>
+          </a>
+      </li>
+      <li class="no-children">
+          <a href="/tags/ai">
+            <div class="columns">
+              
+              <table width="100%">  
+                  <tr>
+                    <td class=""><span class="icon"><i class="fa fa-cube"></i></span>ai</td>
+                    <td class="has-text-right" >
+                        <div class="tag-number">1</div>
+                      
+                    </td>
+                    
+                  </tr>
+              </table>
+              
+            </div>
+          </a>
+      </li>
+      <li class="no-children">
+          <a href="/tags/automl">
+            <div class="columns">
+              
+              <table width="100%">  
+                  <tr>
+                    <td class=""><span class="icon"><i class="fa fa-cube"></i></span>automl</td>
+                    <td class="has-text-right" >
+                        <div class="tag-number">1</div>
+                      
+                    </td>
+                    
+                  </tr>
+              </table>
+              
+            </div>
+          </a>
+      </li>
+      <li class="no-children">
+          <a href="/tags/cert">
+            <div class="columns">
+              
+              <table width="100%">  
+                  <tr>
+                    <td class=""><span class="icon"><i class="fa fa-cube"></i></span>cert</td>
+                    <td class="has-text-right" >
+                        <div class="tag-number">1</div>
+                      
+                    </td>
+                    
+                  </tr>
+              </table>
+              
+            </div>
+          </a>
+      </li>
+      <li class="no-children">
+          <a href="/tags/democratization">
+            <div class="columns">
+              
+              <table width="100%">  
+                  <tr>
+                    <td class=""><span class="icon"><i class="fa fa-cube"></i></span>democratization</td>
+                    <td class="has-text-right" >
+                        <div class="tag-number">1</div>
+                      
+                    </td>
+                    
+                  </tr>
+              </table>
+              
+            </div>
+          </a>
+      </li>
+      <li class="no-children">
+          <a href="/tags/dlp">
+            <div class="columns">
+              
+              <table width="100%">  
+                  <tr>
+                    <td class=""><span class="icon"><i class="fa fa-cube"></i></span>dlp</td>
+                    <td class="has-text-right" >
+                        <div class="tag-number">1</div>
+                      
+                    </td>
+                    
+                  </tr>
+              </table>
+              
+            </div>
+          </a>
+      </li>
+      <li class="no-children">
+          <a href="/tags/security">
+            <div class="columns">
+              
+              <table width="100%">  
+                  <tr>
+                    <td class=""><span class="icon"><i class="fa fa-cube"></i></span>security</td>
+                    <td class="has-text-right" >
+                        <div class="tag-number">1</div>
+                      
+                    </td>
+                    
+                  </tr>
+              </table>
+              
+            </div>
+          </a>
+      </li></ul>
+  </div>
+</div>
+<script src="/js/jquery-2.2.4.893e90f6230962e42231635df650f20544ad22affc3ee396df768eaa6bc5a6a2.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="></script>
+  <script src="/js/feather.4.22.0.1ab07abeb9975f283f6b5f29451981be680fbf77ea778f991d457511d210476a.js" integrity="sha256-GrB6vrmXXyg/a18pRRmBvmgPv3fqd4&#43;ZHUV1EdIQR2o="></script>
+  <script src="/js/modernizr-3.6.0.e013a1e54e3c19d83537ba42b900d34451e5e4b2e789be27a02ac9b152edb741.js" integrity="sha256-4BOh5U48Gdg1N7pCuQDTRFHl5LLnib4noCrJsVLtt0E="></script>
+  <script src="/js/refresh.62c1a9b7d85bcf4d944cd585a01dfa8fb15112a7d2cf9fb819db20493bfe7484.js" integrity="sha256-YsGpt9hbz02UTNWFoB36j7FREqfSz5&#43;4GdsgSTv&#43;dIQ="></script><script>
+  window.MathJax = {
+    loader: {
+      load: ['core', 'input/tex-base', 'output/chtml'],  
+      source: {
+        'core': '\/js\/mathjax\/core.d48fedf25c74c54fa6bf79646de92b02155872bdc4f5f7d0bbfc662523d8b4f5.js',
+        'input/tex-base': '\/js\/mathjax\/tex-base.1b68b8741dfc54e8f7222f88bea8ffcfc57ac54b2a2d8f4edf6800aa44d49441.js',
+        'output/chtml': '\/js\/mathjax\/chtml.926cd166e0f8c1f8a566a718d60c9c58a2b7142b156d30d5f02cec7c3b0ad60a.js',
+        'output/chtml/fonts/tex': '\/js\/mathjax\/tex_out.b8b2bb939c0dae84bf1390bfe6d32af13e83f647cdac01d544d2a7a517477e9d.js'
+      },
+    },
+    chtml: {
+      fontURL: '/fonts' 
+    },
+  };
+</script><script src="/js/mathjax/startup.234a2513e6bdbc1eee06ca19abceca30fe4034e82afb373c08274c1ba2feb1a6.js" integrity="sha256-I0olE&#43;a9vB7uBsoZq87KMP5ANOgq&#43;zc8CCdMG6L&#43;saY="></script>
+  <script src="/js/highlight.9.18.1.b1c58829c55afcc1f568022af4b08ed8976da404d2990b7535bd8e19c0e3310c.js" integrity="sha256-scWIKcVa/MH1aAIq9LCO2JdtpATSmQt1Nb2OGcDjMQw="></script>
+  <script src="/js/highlightjs-line-numbers.2.7.0.min.ddfe282e07b7ec1ed069c23f92c7c8216ddb3f1879c4e962d37fd52adbd15a05.js" integrity="sha256-3f4oLge37B7QacI/ksfIIW3bPxh5xOli03/VKtvRWgU="></script><script>
+  hljs.initHighlightingOnLoad();
+  hljs.initLineNumbersOnLoad();
+  document.addEventListener('DOMContentLoaded', (event) => {
+    document.querySelectorAll('.codeinline').forEach((block) => {
+      hljs.highlightBlock(block);
+    });
+  });
+</script>
+
+</body>
+</html>
