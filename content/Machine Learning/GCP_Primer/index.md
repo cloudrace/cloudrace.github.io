@@ -3,6 +3,7 @@ title: "Key Roles in an AI driven organization"
 date: 2020-12-11T13:13:00+01:00
 draft: false
 hideLastModified: false
+summaryImage: "AIwithGCP.png"
 showInMenu: false
 tags: ["gcp", "data engineering", "ml"]
 keepImageRatio: true
