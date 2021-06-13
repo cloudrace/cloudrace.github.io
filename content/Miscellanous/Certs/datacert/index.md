@@ -2,6 +2,7 @@
 title: "GCP Data Engineering - Round 2!"
 date: 2019-06-17T23:53:00+01:00
 draft: false
+summaryImage: "datacert.png"
 hideLastModified: true
 tags: ["gcp", "data engineering"]
 ---
