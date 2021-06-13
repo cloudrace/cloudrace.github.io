@@ -13,6 +13,7 @@ fi
 rm -rf docs
 hugo 
 cp CNAME docs/
+git add -A
 git add .
 git commit -m "$msg"
 git push origin main
