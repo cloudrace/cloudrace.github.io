@@ -23,9 +23,9 @@ If you have ever wondered
 
 *   _how do I get myself up to speed with Machine Learning/Artificial Intelligence_ 
     or 
-*   _why the term artificial intelligence has existed since 1950s why all the hype now”_
+*   _why the hype now for a term artificial intelligence that has existed since 1950s”_
 
- This post  may be helpful for you. I would refer to Machine Learning/Artificial Intelligence as ML/AI for the rest of the post.
+ This post may be helpful for you. I would refer to Machine Learning/Artificial Intelligence as ML/AI for the rest of the post.
 
 There are multiple business challenges in any organization. There could be usecases related to manual human errors, automating a business process, providing better customer service, recommending a product, understanding the sentiment, getting insights on the trends, predicting natural disasters, estimating vehicle damage, analyzing multiple documents for a summary, processing huge amounts of documents, predicting faults/anomalies. the list goes on. The challenges are endless and the technology is ever evolving.  
 
