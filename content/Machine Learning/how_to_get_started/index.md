@@ -55,16 +55,15 @@ Artificial Intelligence is a moving target as technology advancements grow in se
 
 **_Step 1: Understand the glossary_**
 
-Understanding some key things in ML/AI is crucial as you are architecting a future solution. 
+As you would expect there are numerous items to know in ML/AI. I would like to highlight the below terminologies for you to get familiarized with
 
-The key glossary items to know are
 - Supervised vs Unsupervised vs Reinforcement Learning
 - Training vs Evaluation vs Inference
 - Chatbots, Natural Language Processing/Understanding/Generation, Sentiment Analysis 
 
 [Priyanka Vergadia](https://twitter.com/pvergadia/status/1356663694780887042?lang=en) walks you through the key things to learn in Machine Learning
 
-Below are some of the other quick review material to get your hands around the topic. 
+If you have time and would like to dig a little bit deeper, Below are some of the other quick review material to get your hands around the topic. 
 
 [Machine Learning is Fun](https://medium.com/@ageitgey/machine-learning-is-fun-80ea3ec3c471#.cydc21t6q)
 
@@ -88,18 +87,16 @@ Below are some of the other quick review material to get your hands around the t
 
 For an AI driven solution, there are three core pillars. Data, Algorithms and Compute. For most conversations, understanding the terminology and glossary should be adequate. However I would like to highlight the most important of them all. 
 
-**Data** fuels algorithms.  Anyone who has worked with ML/AI will tell you it's one of the prime examples for “garbage in and garbage out”. If your data fails, none of the sophisticated  models will work. It’s important to understand what is **data exploration, data wrangling, data cleansing, data mining, data transformation**. These concepts are generic with just a search might help. I liked this [article](https://venturebeat.com/2021/02/25/why-machine-learning-strategies-fail/) from Venturebeat which explains the importance of data for ML/AI as one of the top reasons Why Enterprises fail on their strategy.
+**Data** fuels algorithms.  Anyone who has worked with ML/AI will tell you it's one of the prime examples for “garbage in and garbage out”. 
+
+
+If your data fails, none of the sophisticated  models will work. It’s important to understand what is **data exploration, data wrangling, data cleansing, data mining, data transformation**. These concepts are generic with just a search might help. I liked this [article](https://venturebeat.com/2021/02/25/why-machine-learning-strategies-fail/) from Venturebeat which explains the importance of data for ML/AI as one of the top reasons Why Enterprises fail on their strategy.
 
 Also important to understand how enterprises choose to do data lake/data mart/ data pond/data river or whatever they decide to call it.
 
+![gin-gout](images/garbageingarbageout.png "image_tooltip")
 
-**Algorithms** - There is a lot to learn and understand with Algorithms. Datascientists and some data engineers do really care with what algorithms to use. However for our purpose, its important to have a general idea on what these are. 
-
-I like this by Jason Brownlee in [Machine Learning Mastery](https://machinelearningmastery.com/a-tour-of-machine-learning-algorithms/) 
-
-![ML Algorithm](/images/mlcheatsheet.png "image_tooltip")
-
-[Image from : http://machinelearningmastery.com/a-tour-of-machine-learning-algorithms/]
+**Algorithms** and **Compute** - Though these are one of the core pillars of Machine Learning this generally comes when the AI/ML project is kicked off. Most times these decisions falls upon the Data Scientist, Data Engineers and Architects based on the use case, security concerns, familiarity with tool stack etc.,
 
 **_Step 3: Understand the players in this market_**
 
