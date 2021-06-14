@@ -94,7 +94,7 @@ If your data fails, none of the sophisticated  models will work. It’s importan
 
 Also important to understand how enterprises choose to do data lake/data mart/ data pond/data river or whatever they decide to call it.
 
-![gin-gout](images/garbageingarbageout.png "image_tooltip")
+![gin-gout](/images/garbageingarbageout.png "image_tooltip")
 
 **Algorithms** and **Compute** - Though these are one of the core pillars of Machine Learning this generally comes when the AI/ML project is kicked off. Most times these decisions falls upon the Data Scientist, Data Engineers and Architects based on the use case, security concerns, familiarity with tool stack etc.,
 
