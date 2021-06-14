@@ -15,28 +15,33 @@ fontFamily: "Baloo 2"
 
 ### with Machine Learning / Artificial Intelligence
 
+![5steps](5steps.png "image_tooltip")
+
+
 If you have ever wondered 
 
 
 *   _how do I get myself up to speed with Machine Learning/Artificial Intelligence_ or 
-*   _thought the term artificial intelligence has been in existence since 1950s why all the hype now”_
+*   _thought the term artificial intelligence has existed since 1950s why all the hype now”_
 
- this post  may be helpful for you. I would refer to Machine Learning/Artificial Intelligence as ML/AI for the rest of the post.
+ This post  may be helpful for you. I would refer to Machine Learning/Artificial Intelligence as ML/AI for the rest of the post.
 
-Every business challenge in any organization  whether its manual human errors, automating a business process , providing better customer service, recommending a product, understanding the sentiment, getting insights on the trends, predicting natural disasters, estimating vehicle damage, analyzing multiple documents for a summary, processing huge amounts of documents, predicting faults/anomalies. the list goes on. The challenges are endless and the technology is ever evolving.  
+There are multiple business challenges in any organization. There could be usecases related to manual human errors, automating a business process, providing better customer service, recommending a product, understanding the sentiment, getting insights on the trends, predicting natural disasters, estimating vehicle damage, analyzing multiple documents for a summary, processing huge amounts of documents, predicting faults/anomalies. the list goes on. The challenges are endless and the technology is ever evolving.  
 
-We are seeing continuous advancements in various fields, but do you have to be hands on to be an expert. Not necessarily. My colleague [Steve Walker](https://www.linkedin.com/in/steve-walker-7473368/) mentioned this once “ Do you have to be an expert in the design of a F35 aircraft to fly it or do you have to know just to fly?”. 
+We are seeing continuous advancements in various fields, but do you have to be hands on to be an expert? Not necessarily. My colleague [Steve Walker](https://www.linkedin.com/in/steve-walker-7473368/) mentioned this once “Do you have to be an expert in the design of an F35 aircraft to fly it or do you have to know just to fly?”. 
 
 ![xkcd-img](https://imgs.xkcd.com/comics/machine_learning.png "image_tooltip")
 
 
-[Image from : https://xkcd.com/1838/]
+[Image from: https://xkcd.com/1838/]
 
-Overnight none of us can/will become Data Scientists, however there is a lot we can learn and grow. The job roles vary in a wide spectrum with hands on experience, being able to architect and if you are in a leadership role you probably would like to know the impacts of it or guide your team through a strategy. 
+Overnight none of us can/will become Data Scientists, however there is a lot we can learn and grow. 
 
-Mahatma Gandhi once said “Live as if you were to die tomorrow. Learn as if you were to live forever.”  
+The job roles vary in a wide spectrum some much needed hands on experience, some having the ability to architect for an Enterprise solution and some in a leadership role for guiding your team through a strategy. 
 
-Here, I am planning to give you some quick tips on a step by step approach towards learning in ML/AI. I will also provide recommendations if you are looking to get a hands on experience in a follow up post. 
+Mahatma Gandhi once said, “Live as if you were to die tomorrow. Learn as if you were to live forever.”  
+
+Here, I am planning to give you some quick tips on a step-by-step approach towards learning in ML/AI. I will also provide recommendations if you are looking to get a hands-on experience in a follow up post. 
 
 **_Step 0: Understand the definition of ML/AI_**
 
@@ -48,14 +53,14 @@ _Formally, **[machine learning](https://developers.google.com/machine-learning/g
 
 Often I see the terms are being used as synonyms. 
 
-The example of how I would differentiate is through its usage. 
-Netflix has recently pitched in an idea of using [Eye Tracking for navigation](https://www.engadget.com/2018-11-07-netflix-eye-nav-iphone-hack-day.html) of screens. This would fall under Artifical Intelligence whereas Netflix using Recommendation Engine to predict your next recommended video would come under machine learning.
+The example of how I would differentiate is through its usage 
+Netflix has recently pitched in an idea of using [Eye Tracking for navigation](https://www.engadget.com/2018-11-07-netflix-eye-nav-iphone-hack-day.html) of screens. This would fall under Artificial Intelligence whereas Netflix using Recommendation Engine to predict your next recommended video would come under machine learning.
 
-Artificial Intelligence is a moving target as technology advancements grow in several fields this would keep evolving where as Machine Learning deals with predictive and/or reinforcement behavior.
+Artificial Intelligence is a moving target as technology advancements grow in several fields this would keep evolving, whereas Machine Learning deals with predictive and/or reinforcement behavior.
 
 **_Step 1: Understand the glossary_**
 
-As you would expect there are numerous items to know in ML/AI. I would like to highlight the below terminologies for you to get familiarized with
+As you would expect, there are many items to know in ML/AI. I would like to highlight the below terminologies for you to get familiarized with.
 
 - Supervised vs Unsupervised vs Reinforcement Learning
 - Training vs Evaluation vs Inference
@@ -63,7 +68,7 @@ As you would expect there are numerous items to know in ML/AI. I would like to h
 
 [Priyanka Vergadia](https://twitter.com/pvergadia/status/1356663694780887042?lang=en) walks you through the key things to learn in Machine Learning
 
-If you have time and would like to dig a little bit deeper, Below are some of the other quick review material to get your hands around the topic. 
+If you have time and would like to dig a little deeper, Below are some of the other quick review material to get your hands around the topic. 
 
 [Machine Learning is Fun](https://medium.com/@ageitgey/machine-learning-is-fun-80ea3ec3c471#.cydc21t6q)
 
@@ -85,48 +90,48 @@ If you have time and would like to dig a little bit deeper, Below are some of th
 
 **_Step 2: Understand three core pillars_**
 
-For an AI driven solution, there are three core pillars. Data, Algorithms and Compute. For most conversations, understanding the terminology and glossary should be adequate. However I would like to highlight the most important of them all. 
+For an AI driven solution, there are three core pillars. Data, Algorithms and Compute. For most conversations, understanding the terminology and glossary should be adequate. However, I would like to highlight the most important of them all. 
 
 **Data** fuels algorithms.  Anyone who has worked with ML/AI will tell you it's one of the prime examples for “garbage in and garbage out”. 
 
 ![gin-gout](/images/garbageingarbageout.png "image_tooltip")
 
 
-If your data fails, none of the sophisticated  models will work. It’s important to understand what is **data exploration, data wrangling, data cleansing, data mining, data transformation**. These concepts are generic with just a search might help. I liked this [article](https://venturebeat.com/2021/02/25/why-machine-learning-strategies-fail/) from Venturebeat which explains the importance of data for ML/AI as one of the top reasons Why Enterprises fail on their strategy.
+If your data fails, none of the sophisticated  models will work. It’s important to understand what is **data exploration, data wrangling, data cleansing, data mining, data transformation**. These concepts are generic, with just a search might help. I liked this [article](https://venturebeat.com/2021/02/25/why-machine-learning-strategies-fail/) from Venturebeat which explains the importance of data for ML/AI as one of the top reasons Why Enterprises fail on their strategy.
 
 Also important to understand how enterprises choose to do data lake/data mart/ data pond/data river or whatever they decide to call it.
 
-**Algorithms** and **Compute** - Though these are one of the core pillars of Machine Learning this generally comes when the AI/ML project is kicked off. Most times these decisions falls upon the Data Scientist, Data Engineers and Architects based on the use case, security concerns, familiarity with tool stack etc.,
+**Algorithms** and **Compute** - Though these are one of the core pillars of Machine Learning, this generally comes once the AI/ML project is kicked off. Most times these decisions fall upon the Data Scientist, Data Engineers and Architects based on the use case, security concerns, familiarity with tool stack etc.,
 
 **_Step 3: Understand the players in this market_**
 
-Every cloud provider has their unique strengths in their ML/AI portfolio. But these cloud providers are not the only ones; there are a lot of niche players in the market to keep a watch on. These are just some of the players offering products for the customers to build on their services. 
+Every cloud provider has their unique strengths in their ML/AI portfolio. But these cloud providers are not the only ones; there are a lot of niche players in the market to keep a watch on. These are just some players offering products for the customers to build on their services. 
 
 [Data Robot](https://www.datarobot.com/), [H2O.ai](https://www.h2o.ai/), [Dataiku](https://www.dataiku.com/),[Alteryx](https://www.alteryx.com/),[Data Bricks](https://databricks.com/)
 
-In addition to these companies, there are SaaS providers offering AI solutions for most industries such as Banking, Insurance, Health care, Retail, Manufacturing etc.,
+Besides these companies, there are SaaS providers offering AI solutions for most industries such as Banking, Insurance, Health care, Retail, Manufacturing etc.,
 
 [Symphony Retail AI](https://www.symphonyretailai.com/) - Grocery store with AI
 
 [Mitchell Intelligent Estimating](https://www.mitchell.com/mitchell-intelligent-estimating/) - Vehicle Damage Estimating Platform for Insurance 
 
-[Path AI ](https://www.pathai.com/)- Accurate diagnosis of diseases
+[Path AI ](https://www.pathai.com/)- Accurate diagnosis of diseases.
 
-This list goes on and it helps you to understand how large this space really is and also every company focuses on how to make their customer lives a bit easier.
+This list goes on and it helps you to understand how large this space really is and also every company focuses on how to make their customer lives easier.
 
 **_Step 4: Follow technologists and leaders in this space_**
 
 
 
-There are many technologists in this space, follow them on social media. Most of them post great content for you to follow and understand. I tend to get some recent trends what they are working on and understanding how technology evolves from these players. 
+There are many technologists in this space, follow them on social media. Most of them post great content for you to follow and understand. I get some recent trends what they are working on and understanding how technology evolves from these players. 
 
-I created a Twitter [list](https://twitter.com/i/lists/1403493802678030342).  Do you have someone you follow? Send them to me so we can create a curated list
+I created a Twitter [list](https://twitter.com/i/lists/1403493802678030342).  Do you have someone you follow? Send them to me so we can create a curated list.
 
 **_Step 5: Understand the principles major technology companies have for their governance_**
 
-During Nov'2019 Apple announced Apple card by Goldman Sachs. There were [claims](https://www.zdnet.com/article/apple-card-issuer-investigated-over-gender-bias-in-credit-algorithm/) suggesting that the credit limit for men were substantially higher than women due to bias in the system. 
+During Nov'2019 Apple announced Apple card by Goldman Sachs. There were [claims](https://www.zdnet.com/article/apple-card-issuer-investigated-over-gender-bias-in-credit-algorithm/) suggesting that the credit limit for men was substantially higher than women due to bias in the system. 
 
-As organizations accelerate their adoption journey,there *needs* to be an ethical process on what can and cannot the organizations do. These ethical and responsible principles guide the way how end user customers are best served without bias, respectful of cultural/social norms, data security and privacy considerations.
+As organizations accelerate their adoption journey,there *needs* to be an ethical process on what can and cannot the organizations do. These ethical and responsible principles guide the way how end-user customers are best served without bias, respectful of cultural/social norms, data security and privacy considerations.
 
 Some major companies publicly discuss their AI principles for their product strategy. I have highlighted two large AI players.  
 
@@ -137,8 +142,8 @@ Some major companies publicly discuss their AI principles for their product stra
  As we look to become a more AI centric world, if this fails, we as a community would all fail.
 
 
-To summarize, I have outlined how you could learn key words in ML/AI, organizations you need to watch out for, how to keep yourself updated with the recent trends and Responsible AI for product strategy.
+To summarize, I have outlined how you could learn keywords in ML/AI, organizations you need to watch out for, how to keep yourself updated with the recent trends and Responsible AI for product strategy.
 
 Keep learning, keep engaging, always be inquisitive and always be listening.
 
-If you have questions/comments/suggestions please reach out to me [@kanchpat](twitter.com/kanchpat)
+If you have questions/comments/suggestions, please reach out to me [@kanchpat](twitter.com/kanchpat)
