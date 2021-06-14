@@ -135,7 +135,7 @@ I created a Twitter [list](https://twitter.com/i/lists/1403493802678030342).  Do
 
 During Nov'2019 Apple announced Apple card by Goldman Sachs. There were [claims](https://www.zdnet.com/article/apple-card-issuer-investigated-over-gender-bias-in-credit-algorithm/) suggesting that the credit limit for men was substantially higher than women due to bias in the system. 
 
-As organizations accelerate their adoption journey,there *needs* to be an ethical process on what can and cannot the organizations do. These ethical and responsible principles guide the way how end-user customers are best served without bias, respectful of cultural/social norms, data security and privacy considerations.
+As organizations accelerate their adoption journey, there *needs* to be an ethical process on what can and cannot the organizations do. These ethical and responsible principles guide the way how end-user customers are best served without bias, respectful of cultural/social norms, data security and privacy considerations.
 
 Some major companies publicly discuss their AI principles for their product strategy. I have highlighted two large AI players.  
 
