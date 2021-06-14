@@ -89,12 +89,12 @@ For an AI driven solution, there are three core pillars. Data, Algorithms and Co
 
 **Data** fuels algorithms.  Anyone who has worked with ML/AI will tell you it's one of the prime examples for “garbage in and garbage out”. 
 
+![gin-gout](/images/garbageingarbageout.png "image_tooltip")
+
 
 If your data fails, none of the sophisticated  models will work. It’s important to understand what is **data exploration, data wrangling, data cleansing, data mining, data transformation**. These concepts are generic with just a search might help. I liked this [article](https://venturebeat.com/2021/02/25/why-machine-learning-strategies-fail/) from Venturebeat which explains the importance of data for ML/AI as one of the top reasons Why Enterprises fail on their strategy.
 
 Also important to understand how enterprises choose to do data lake/data mart/ data pond/data river or whatever they decide to call it.
-
-![gin-gout](/images/garbageingarbageout.png "image_tooltip")
 
 **Algorithms** and **Compute** - Though these are one of the core pillars of Machine Learning this generally comes when the AI/ML project is kicked off. Most times these decisions falls upon the Data Scientist, Data Engineers and Architects based on the use case, security concerns, familiarity with tool stack etc.,
 
