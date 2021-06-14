@@ -40,13 +40,31 @@ Here, I am planning to give you some quick tips on a step by step approach towar
 
 **_Step 0: Understand the definition of ML/AI_**
 
-As per Machine Learning [Glossary](https://developers.google.com/machine-learning/glossary) by Google,
+As per Machine Learning [Glossary](https://developers.google.com/machine-learning/glossary) by Google, below are the definitions provided
 
-[Artificial Intelligence](https://developers.google.com/machine-learning/glossary#artificial-intelligence) is _a non-human program or model that can solve sophisticated tasks. For example, a program or model that translates text or a program or model that identifies diseases from radiologic images both exhibit artificial intelligence_. _Formally, **[machine learning](https://developers.google.com/machine-learning/glossary#machine_learning)** is a subfield of artificial intelligence. However, in recent years, some organizations have begun using the terms artificial intelligence and machine learning interchangeably._
+**[Artificial Intelligence](https://developers.google.com/machine-learning/glossary#artificial-intelligence)** is _a non-human program or model that can solve sophisticated tasks. For example, a program or model that translates text or a program or model that identifies diseases from radiologic images both exhibit artificial intelligence_. 
 
-**_Step 1: Understand the hype and glossary_**
+_Formally, **[machine learning](https://developers.google.com/machine-learning/glossary#machine_learning)** is a subfield of artificial intelligence. However, in recent years, some organizations have begun using the terms artificial intelligence and machine learning interchangeably._
 
-In general I would recommend starting with the below videos and recommended players. These are quick review material to get your hands around the topic and some of the most used terms
+Often I see the terms are being used as synonyms. 
+
+The example of how I would differentiate is through its usage. 
+Netflix has recently pitched in an idea of using (Eye Tracking for navigation)[https://www.engadget.com/2018-11-07-netflix-eye-nav-iphone-hack-day.html] of screens. This would fall under Artifical Intelligence whereas Netflix using Recommendation Engine to predict your next recommended video would come under machine learning.
+
+Artificial Intelligence is a moving target as technology advancements grow in several fields this would keep evolving where as Machine Learning deals with predictive and/or reinforcement behavior.
+
+**_Step 1: Understand the glossary_**
+
+Understanding some key things in ML/AI is crucial as you are architecting a future solution. 
+
+The key glossary items to know are
+- Supervised vs Unsupervised vs Reinforcement Learning
+- Training vs Evaluation vs Inference
+- Chatbots, Natural Language Processing/Understanding/Generation, Sentiment Analysis 
+
+[Priyanka Vergadia](https://twitter.com/pvergadia/status/1356663694780887042?lang=en) walks you through the key things to learn in Machine Learning
+
+Below are some of the other quick review material to get your hands around the topic. 
 
 [Machine Learning is Fun](https://medium.com/@ageitgey/machine-learning-is-fun-80ea3ec3c471#.cydc21t6q)
 
@@ -75,9 +93,7 @@ For an AI driven solution, there are three core pillars. Data, Algorithms and Co
 Also important to understand how enterprises choose to do data lake/data mart/ data pond/data river or whatever they decide to call it.
 
 
-**Algorithms** - There is a lot to learn and understand with Algorithms. Datascientists and some data engineers do really care with what algorithms to use. 
-
-However, its important to have a general idea on what these are. 
+**Algorithms** - There is a lot to learn and understand with Algorithms. Datascientists and some data engineers do really care with what algorithms to use. However for our purpose, its important to have a general idea on what these are. 
 
 I like this by Jason Brownlee in [Machine Learning Mastery](https://machinelearningmastery.com/a-tour-of-machine-learning-algorithms/) 
 
@@ -111,11 +127,17 @@ I created a Twitter [list](https://twitter.com/i/lists/1403493802678030342).  Do
 
 **_Step 5: Understand the principles major technology companies have for their governance_**
 
+As organizations accelerate their adoption journey,there *needs* to be an ethical process on what can and cannot the organizations do. These ethical and responsible principles guide the way how end user customers are best served without bias, respectful of cultural/social norms, data security and privacy considerations.
+
+For example, Nov'2019 when Apple announced Apple card by Goldman Sachs. There were[claims](https://www.zdnet.com/article/apple-card-issuer-investigated-over-gender-bias-in-credit-algorithm/) suggesting that the credit limit for men were substantially higher than women due to bias in the system. 
+
+It’s important to understand how major companies think about AI in the real world and how ethically responsible they are. Here are some of the organizations and their principles
+
 [Google](https://www.blog.google/technology/ai/ai-principles/)
 
 [Microsoft](https://www.microsoft.com/en-us/ai/our-approach?activetab=pivot1%3aprimaryr5)
 
-It’s important to understand how major companies think about AI in the real world and how ethically responsible they are. As we look to become a more AI centric world, if this fails, we as a community would all fail.
+ As we look to become a more AI centric world, if this fails, we as a community would all fail.
 
 
 To summarize, I have outlined how you could learn key words in ML/AI, the key player in a project, the data, companies providing infrastructure/solution in this space and how to keep yourself updated with the recent trends .
