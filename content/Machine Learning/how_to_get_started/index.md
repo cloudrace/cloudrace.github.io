@@ -55,7 +55,8 @@ _Formally, **[machine learning](https://developers.google.com/machine-learning/g
 Often I see the terms are being used as synonyms. 
 
 The example of how I would differentiate is through its usage 
-Netflix has recently pitched in an idea of using [Eye Tracking for navigation](https://www.engadget.com/2018-11-07-netflix-eye-nav-iphone-hack-day.html) of screens. This would fall under Artificial Intelligence whereas Netflix using Recommendation Engine to predict your next recommended video would come under machine learning.
+
+Netflix has recently pitched in an idea of using [Eye Tracking for navigation](https://www.engadget.com/2018-11-07-netflix-eye-nav-iphone-hack-day.html) of screens. This would fall under Artificial Intelligence whereas Netflix using Recommendation Engine to predict your next recommended video would fall under Machine Learning.
 
 Artificial Intelligence is a moving target as technology advancements grow in several fields this would keep evolving, whereas Machine Learning deals with predictive and/or reinforcement behavior.
 
@@ -106,7 +107,9 @@ Also important to understand how enterprises choose to do data lake/data mart/ d
 
 **_Step 3: Understand the players in this market_**
 
-Every cloud provider has their unique strengths in their ML/AI portfolio. But these cloud providers are not the only ones; there are a lot of niche players in the market to keep a watch on. These are just some players offering products for the customers to build on their services. 
+Every cloud provider has their unique strengths in their ML/AI portfolio. But these cloud providers are not the only ones; there are a lot of niche players in the market to keep a watch on. 
+
+Below are just some players offering products for the customers to build on their services. 
 
 [Data Robot](https://www.datarobot.com/), [H2O.ai](https://www.h2o.ai/), [Dataiku](https://www.dataiku.com/),[Alteryx](https://www.alteryx.com/),[Data Bricks](https://databricks.com/)
 
