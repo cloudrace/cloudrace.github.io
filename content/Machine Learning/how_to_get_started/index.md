@@ -49,7 +49,7 @@ _Formally, **[machine learning](https://developers.google.com/machine-learning/g
 Often I see the terms are being used as synonyms. 
 
 The example of how I would differentiate is through its usage. 
-Netflix has recently pitched in an idea of using (Eye Tracking for navigation)[https://www.engadget.com/2018-11-07-netflix-eye-nav-iphone-hack-day.html] of screens. This would fall under Artifical Intelligence whereas Netflix using Recommendation Engine to predict your next recommended video would come under machine learning.
+Netflix has recently pitched in an idea of using [Eye Tracking for navigation](https://www.engadget.com/2018-11-07-netflix-eye-nav-iphone-hack-day.html) of screens. This would fall under Artifical Intelligence whereas Netflix using Recommendation Engine to predict your next recommended video would come under machine learning.
 
 Artificial Intelligence is a moving target as technology advancements grow in several fields this would keep evolving where as Machine Learning deals with predictive and/or reinforcement behavior.
 
@@ -127,11 +127,11 @@ I created a Twitter [list](https://twitter.com/i/lists/1403493802678030342).  Do
 
 **_Step 5: Understand the principles major technology companies have for their governance_**
 
+During Nov'2019 Apple announced Apple card by Goldman Sachs. There were [claims](https://www.zdnet.com/article/apple-card-issuer-investigated-over-gender-bias-in-credit-algorithm/) suggesting that the credit limit for men were substantially higher than women due to bias in the system. 
+
 As organizations accelerate their adoption journey,there *needs* to be an ethical process on what can and cannot the organizations do. These ethical and responsible principles guide the way how end user customers are best served without bias, respectful of cultural/social norms, data security and privacy considerations.
 
-For example, Nov'2019 when Apple announced Apple card by Goldman Sachs. There were[claims](https://www.zdnet.com/article/apple-card-issuer-investigated-over-gender-bias-in-credit-algorithm/) suggesting that the credit limit for men were substantially higher than women due to bias in the system. 
-
-It’s important to understand how major companies think about AI in the real world and how ethically responsible they are. Here are some of the organizations and their principles
+Some major companies publicly discuss their AI principles for their product strategy. I have highlighted two large AI players.  
 
 [Google](https://www.blog.google/technology/ai/ai-principles/)
 
@@ -140,7 +140,7 @@ It’s important to understand how major companies think about AI in the real wo
  As we look to become a more AI centric world, if this fails, we as a community would all fail.
 
 
-To summarize, I have outlined how you could learn key words in ML/AI, the key player in a project, the data, companies providing infrastructure/solution in this space and how to keep yourself updated with the recent trends .
+To summarize, I have outlined how you could learn key words in ML/AI, organizations you need to watch out for, how to keep yourself updated with the recent trends and Responsible AI for product strategy.
 
 Keep learning, keep engaging, always be inquisitive and always be listening.
 
