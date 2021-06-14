@@ -21,8 +21,9 @@ fontFamily: "Baloo 2"
 If you have ever wondered 
 
 
-*   _how do I get myself up to speed with Machine Learning/Artificial Intelligence_ or 
-*   _thought the term artificial intelligence has existed since 1950s why all the hype now”_
+*   _how do I get myself up to speed with Machine Learning/Artificial Intelligence_ 
+    or 
+*   _why the term artificial intelligence has existed since 1950s why all the hype now”_
 
  This post  may be helpful for you. I would refer to Machine Learning/Artificial Intelligence as ML/AI for the rest of the post.
 
