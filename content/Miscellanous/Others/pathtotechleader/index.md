@@ -1,6 +1,6 @@
 ---
 title: "The Path to Becoming a Technology Leader"
-date: 2022-02-10T23:53:00+01:00
+date: 2022-02-10T13:53:00+01:00
 draft: false
 summaryImage: "SETFramework.png"
 hideLastModified: true
