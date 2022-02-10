@@ -1,5 +1,5 @@
 ---
-title: "The Path to Becoming a Technology Leader"
+title: "Career is in our hands"
 date: 2022-02-10T13:53:00+01:00
 draft: false
 summaryImage: "SETFramework.png"
