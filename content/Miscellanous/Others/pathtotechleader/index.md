@@ -45,7 +45,7 @@ This evaluation of strengths and weaknesses will help guide you to your next ste
 *   Identify how to balance your strengths towards your weaknesses
 
   
-![SETFramework](SETframework.png "image_tooltip")
+![SETFramework](SETFramework.png "image_tooltip")
 
 
 #### Soft Skills : 
@@ -113,7 +113,10 @@ Some final thought on anyone embarking in this journey:
 
 If you have the above goals in mind, the sky’s the limit! .  
 
-So many of our dreams at first seem impossible, then they seem improbable, and then, when we summon the will, they soon become inevitable.”—_Christopher Reeve._
+_So many of our dreams at first seem impossible, 
+then they seem improbable, and then, 
+when we summon the will, 
+they soon become inevitable.” — Christopher Reeve._
 
 Any questions, comments or suggestions please reach out to [kanch@cloudrace.info](mailto:kanch@cloudrace.info).
 
