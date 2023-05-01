@@ -50,7 +50,7 @@ Here are a few examples of prompts. For a language model: “Write a poem for Wo
 Many prompt engineering guides available today focus on GPT-2 or GPT-3, as this was a word popularized by OpenAI. Guides which exist today can be used interchangeably with other language models as well.
 
 
-![alt_text](images/prompt1.png "image_tooltip")
+![alt_text](/images/prompt1.png "image_tooltip")
 
 
 
@@ -94,7 +94,7 @@ Basic Prompts ([cited](https://github.com/dair-ai/Prompt-Engineering-Guide/blob/
 
 
 
-![alt_text](images/prompt2.png "image_tooltip")
+![alt_text](/images/prompt2.png "image_tooltip")
 
 
 This is still evolving but [structure of prompts](https://www.linkedin.com/pulse/prompt-engineering-101-introduction-resources-amatriain/) might include various components to have a successful conversation with LLM. Some prompts might include - 
@@ -102,7 +102,7 @@ This is still evolving but [structure of prompts](https://www.linkedin.com/pulse
 
 
 
-![alt_text](images/prompt3.png "image_tooltip")
+![alt_text](/images/prompt3.png "image_tooltip")
 
 
 All the above prompts have certain structure which facilitates the LLM’s to derive at an answer
@@ -153,7 +153,7 @@ Google’s release of [Chain of Thought](https://arxiv.org/pdf/2201.11903.pdf) p
 
 
 
-![alt_text](images/prompt4.png "image_tooltip")
+![alt_text](/images/prompt4.png "image_tooltip")
 
 
 Image credit: Chain of Thought prompting Research Paper
