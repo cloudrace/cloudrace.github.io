@@ -178,4 +178,4 @@ https://www.sequoiacap.com/article/generative-ai-a-creative-new-world/
 
 _Note: ChatGPT was not used to write any of the content above._
 
-If you have questions/comments/suggestions, please reach out to me [@kanchpat](twitter.com/kanchpat)
+If you have questions/comments/suggestions, please reach out to me [kanch@cloudrace.info](kanch@cloudrace.info)

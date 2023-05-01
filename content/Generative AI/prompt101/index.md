@@ -202,4 +202,4 @@ https://medium.com/eni-digitalks/prompt-and-predict-what-can-you-do-with-large-l
 
 [TRANSFORMER MODELS: AN INTRODUCTION AND CATALOG](https://arxiv.org/pdf/2302.07730.pdf)
 
-If you have questions/comments/suggestions, please reach out to me [@kanchpat](twitter.com/kanchpat)
+If you have questions/comments/suggestions, please reach out to me [kanch@cloudrace.info](kanch@cloudrace.info)
