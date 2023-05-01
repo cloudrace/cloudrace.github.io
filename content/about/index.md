@@ -20,21 +20,21 @@ I have helped support customers with architecting AI / ML solutions to Google Cl
 
 Personally , I am a mom of two. Most time spent being their personal chauffeur pre-covid days. I am learning Mandarin through Duolingo and its been a lot of fun.
 
-👥 I specialize in:
-✔ Innovation (Design Thinking, Ideation sessions, Culture of Innovation workshops, Establishing process and governance on Data and AI Platform , Establishing roadmaps, Game boarding and Use case prioritization)
-✔AI/ML Solutions (Document AI, Contact Center AI, ML APIs and Vertex AI)
-✔Enterprise Cloud Solutions (New Cloud Architecture Solutions, Lift and Shift Migration, Redesigning Architecture)
-✔Serverless Cloud Solutions (Data Proc, Data Flow)
-✔Database with Cloud (Oracle, Postgre SQL, Big Table, Data store, Big Query, Cloud SQL, Hadoop, Spark)
-✔Learning with Cloud (Strategies to learn and excel in Cloud computing)
-✔Women in technology (Challenges faced, Work-Life Balance, For collaboration and mentorship)
+ 👥 I specialize in:
+  ✔ Innovation (Design Thinking, Ideation sessions, Culture of Innovation workshops, Establishing process and governance on Data and AI Platform , Establishing roadmaps, Game boarding and Use case prioritization) <br>
+  ✔AI/ML Solutions (Document AI, Contact Center AI, ML APIs and Vertex AI) <br>
+  ✔Enterprise Cloud Solutions (New Cloud Architecture Solutions, Lift and Shift Migration, Redesigning Architecture) <br>
+  ✔Serverless Cloud Solutions (Data Proc, Data Flow) <br>
+  ✔Database with Cloud (Oracle, Postgre SQL, Big Table, Data store, Big Query, Cloud SQL, Hadoop, Spark) <br>
+  ✔Learning with Cloud (Strategies to learn and excel in Cloud computing)<br>
+  ✔Women in technology (Challenges faced, Work-Life Balance, For collaboration and mentorship) <br>
 
-🏆 Peer recognition: 
-✔AWS Certified Solutions Architect Professional
-✔Google Cloud Certified Professional - Data Engineer
-✔Google Cloud Certified Professional - Machine Learning Engineer
+ 🏆 Peer recognition: 
+  ✔AWS Certified Solutions Architect Professional <br>
+  ✔Google Cloud Certified Professional - Data Engineer <br>
+  ✔Google Cloud Certified Professional - Machine Learning Engineer <br>
 
-My Clifton Strengths Assessment results - Significance| Futuristic | Individualization | Focus | Maximizer
+  My Clifton Strengths Assessment results - Significance| Futuristic | Individualization | Focus | Maximizer <br>
 
 ## Intention for this blog:
 Everyday is a learning experience when you are in tech , more with cloud as there are new services / features in the market almost everyday. 
@@ -56,7 +56,7 @@ I enjoy speaking to varied set of audiences. Some of the talks I have given are
 ```
 
 My interests lie in a broad spectrum of AI.\
-         `Democratizing AI` `MLOps` `Business use cases` `Kaggle` `Generative AI`
+         `Democratizing AI` `MLOps` `Business use cases` `Kaggle` `Generative AI` `LLM`
 
 ## Contact:
 Please feel free to reach out to me for any questions/feedback/suggestions/advice - kanch@cloudrace.info
