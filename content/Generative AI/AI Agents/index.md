@@ -7,7 +7,7 @@ summaryImage: ai_agents_evolution.jpg
 showInMenu: false
 tags: ["gcp", "generative ai", "ml","ai agents"]
 keepImageRatio: true
-fontFamily: "Baloo 2"
+fontFamily: "sans-serif"
 
 # no need for the "summary" parameter as it is not displayed in any previews
 ---
@@ -26,8 +26,7 @@ I hope to cover a series of articles on AI agents. Let's start from the basics. 
 _Disclaimer: The following article is my own comments based on my research and has no bearing on my employer. Any reproduction of this article needs explicit permission from the author._
 
 <b>
-![alt_text](images/ai_agents_evolution.jpg "image_tooltip")
-
+![alt_text](/images/ai_agents_evolution.jpeg "image_tooltip")
 </b>
  
 
@@ -69,7 +68,7 @@ Assumptions on what exists today:
 
 ### Foundation Model Call :
 
-**_  If you were to create an application that answers for  “Plan a 3 day itinerary to Paris”  _**
+<mark>  If you were to create an application that answers for  “Plan a 3 day itinerary to Paris”  </mark>
 
 **Action taken:  **
 
@@ -86,13 +85,11 @@ _More on foundation models [here](https://arxiv.org/pdf/1706.03762)_
 
 ### Few Shot Prompting
 
-**_ If you were to create an application that answers for “Plan a 3 day trip itinerary to Paris” and you have added two samples such as _**
-
-**_ “Plan a 3 day trip itinerary to Rome” and _**
-
-**_“Plan a 3 day trip itinerary to Tokyo” _**
-
-**_with the answers focused on art museums. _**
+<mark> If you were to create an application that answers for “Plan a 3 day trip itinerary to Paris” and you have added two samples such as 
+	 “Plan a 3 day trip itinerary to Rome” and 
+	 “Plan a 3 day trip itinerary to Tokyo” 
+	 with the answers focused on art museums. _**
+</mark>
 
 **Action taken:**
 
@@ -103,7 +100,7 @@ _More on few shot prompting [here](https://arxiv.org/pdf/2005.14165)_
 
 ### Fine Tuning
 
-**_If you were to create an application that accesses several different itineraries for its answers based on the “Gemini Getaways” database, fine tune them based on your dataset.  _**
+<mark>If you were to create an application that accesses several different itineraries for its answers based on the “Gemini Getaways” database, fine tune them based on your dataset.  </mark>
 
 **Action taken: **
 
@@ -114,7 +111,7 @@ _More on Fine tuning [here](https://arxiv.org/pdf/2306.09782)_
 
 ### Chain of Thought Prompting
 
-**_ If you were to create an application that answers for  “ A flight departs San Francisco at 11:00 AM PST and arrives in Chicago at 4:00 PM CST. The connecting flight to New York leaves at 5:30 PM CST. Is there enough time to make the connection“_**
+<mark> If you were to create an application that answers for  “ A flight departs San Francisco at 11:00 AM PST and arrives in Chicago at 4:00 PM CST. The connecting flight to New York leaves at 5:30 PM CST. Is there enough time to make the connection“ </mark>
 
 **Action taken: **
 
@@ -131,7 +128,7 @@ _More on Chain of thought prompting is [here](https://arxiv.org/pdf/2201.11903)_
 
 ### ReAct Agent
 
-**_If you were to create an application that answers for “Book me a flight that leaves Boston to Paris and make itinerary arrangements for art museums”_**
+<mark> If you were to create an application that answers for “Book me a flight that leaves Boston to Paris and make itinerary arrangements for art museums”</mark>
 
 **Action taken: **
 
@@ -146,7 +143,7 @@ In the case of booking a flight, the agent would leverage an API call to a booki
 
 ### Multi Agent
 
-**_If you were to create an application that answers to “Book me hotel and flights in New York city that is pet friendly and no smoking”_**
+<mark> If you were to create an application that answers to “Book me hotel and flights in New York city that is pet friendly and no smoking”</mark>
 
 Action taken:
 
@@ -159,7 +156,7 @@ Overall, the combination of multiple agents, tools, and knowledge sources empowe
 
 ### Autonomous Agent 
 
-**_If you were to create an application that answers for “Book me hotel and flights in New york city that is pet friendly, no smoking and that has availability in both my and friends calendar”_**
+<mark> If you were to create an application that answers for “Book me hotel and flights in New york city that is pet friendly, no smoking and that has availability in both my and friends calendar”</mark>
 
 Indeed, the path to creating effective Agentic AI systems requires more than just reasoning, acting, or collaboration. It also demands the ability to engage in self-refinement and participate in debates to determine the most optimal outcome.
 
@@ -180,7 +177,7 @@ This is going to be pivotal for any industry we are aligned with
 *   **Education:** An AI system that combines educational content, interactive learning tools, and assessment platforms can offer personalized learning experiences, adaptive tutoring, and real-time feedback.
 *   **Retail:** An AI system that integrates product information, customer preferences, and inventory management tools can provide personalized product recommendations, optimize pricing, and enhance supply chain efficiency.
 
-![alt_text](images/ai_agent_evolution_examples.jpeg "image_tooltip")
+![alt_text](/images/ai_agent_evolution_examples.jpeg "image_tooltip")
 
 
 In our future series, we will cover some topics and some example to follow through
