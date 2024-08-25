@@ -12,7 +12,8 @@ Thank you for viewing my profile. After 3 years of owning a domain, now is the t
 ## Intro:
 I am Kanch. I am a self acknowledged technology addict. Curious about many things on cloud/ML currently. 
 
-I currently work as an AI Innovation Program Leader serving Google Cloud customers on their innovation journey from Ideation to Implementation. I take an area of interest and bring them to a productionization level.
+In my day job, I work as a Generative AI solutions leader. I work with customers to identify patterns of problems in the Data Engineering and AI agents space. We then work to create code samples, reference architectures, functional demos, and near production artifacts. 
+In the data engineering with Generative AI, I led and managed the effort with this[https://github.com/GoogleCloudPlatform/Open_Data_QnA] release and also released a defensive publication[tdcommons.org/dpubs_series/6763/] 
 
 I started as an engineer and have worked on all database products starting from hierarchical database to the most recent technologies such as Hive, Pig , HCatalog. I am always in the pursuit of self learning which encouraged me to gain my Masters in Information Systems Management from Harvard University Extension School. I keep myself current in the ever changing race of technology.
 
@@ -21,13 +22,13 @@ I have helped support customers with architecting AI / ML solutions to Google Cl
 Personally , I am a mom of two. Most time spent being their personal chauffeur pre-covid days. I am learning Mandarin through Duolingo and its been a lot of fun.
 
  👥 I specialize in:
-  ✔ Innovation (Design Thinking, Ideation sessions, Culture of Innovation workshops, Establishing process and governance on Data and AI Platform , Establishing roadmaps, Game boarding and Use case prioritization) <br>
-  ✔AI/ML Solutions (Document AI, Contact Center AI, ML APIs and Vertex AI) <br>
-  ✔Enterprise Cloud Solutions (New Cloud Architecture Solutions, Lift and Shift Migration, Redesigning Architecture) <br>
-  ✔Serverless Cloud Solutions (Data Proc, Data Flow) <br>
-  ✔Database with Cloud (Oracle, Postgre SQL, Big Table, Data store, Big Query, Cloud SQL, Hadoop, Spark) <br>
-  ✔Learning with Cloud (Strategies to learn and excel in Cloud computing)<br>
-  ✔Women in technology (Challenges faced, Work-Life Balance, For collaboration and mentorship) <br>
+  ✔ Innovation (Design Thinking, Ideation sessions, Culture of Innovation workshops, Establishing process and governance on Data and AI Platform , Establishing roadmaps, Game boarding and Use case prioritization) <br>\
+  ✔AI/ML Solutions (Document AI, Contact Center AI, ML APIs and Vertex AI) <br>\
+  ✔Enterprise Cloud Solutions (New Cloud Architecture Solutions, Lift and Shift Migration, Redesigning Architecture) <br>\
+  ✔Serverless Cloud Solutions (Data Proc, Data Flow) <br>\
+  ✔Database with Cloud (Oracle, Postgre SQL, Big Table, Data store, Big Query, Cloud SQL, Hadoop, Spark) <br>\
+  ✔Learning with Cloud (Strategies to learn and excel in Cloud computing)<br>\
+  ✔Women in technology (Challenges faced, Work-Life Balance, For collaboration and mentorship) <br>\
 
  🏆 Peer recognition: 
   ✔AWS Certified Solutions Architect Professional <br>
