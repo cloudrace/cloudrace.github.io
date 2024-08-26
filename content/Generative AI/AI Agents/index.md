@@ -66,7 +66,7 @@ Assumptions on what exists today:
 ## Evolution of Agents: 
 
 
-### Foundation Model Call :
+### _Foundation Model Call_ :
 
 > **If you were to create an application that answers for  “Plan a 3 day itinerary to Paris”**
 
@@ -83,13 +83,13 @@ Based on “[Transformer](https://arxiv.org/pdf/1706.03762)” research from Goo
 _More on foundation models [here](https://arxiv.org/pdf/1706.03762)_
 
 
-### Few Shot Prompting
+### _Few Shot Prompting_
 
-> **If you were to create an application that answers for “Plan a 3 day trip itinerary to Paris” and you have added two 
->  samples such as 
->	 “Plan a 3 day trip itinerary to Rome” and 
->	 “Plan a 3 day trip itinerary to Tokyo” 
->	 with the answers focused on art museums.**
+> **If you were to create an application that answers for “Plan a 3 day trip itinerary to Paris” and you have added two \
+>  samples such as \
+>	 “Plan a 3 day trip itinerary to Rome” and \
+>	 “Plan a 3 day trip itinerary to Tokyo” \
+>	 with the answers focused on art museums.**\
 
 **Action taken:**
 
@@ -98,9 +98,10 @@ This is considered a few shot prompting , the approach similar as above but adds
 _More on few shot prompting [here](https://arxiv.org/pdf/2005.14165)_
 
 
-### Fine Tuning
+### _Fine Tuning_
 
-<mark>If you were to create an application that accesses several different itineraries for its answers based on the “Gemini Getaways” database, fine tune them based on your dataset.  </mark>
+> **If you were to create an application that accesses several different itineraries for its answers based on the “Gemini
+> Getaways” database, fine tune them based on your dataset.**
 
 **Action taken: **
 
@@ -109,9 +110,9 @@ Similar approach to our LLM foundation model call however the knowledge source w
 _More on Fine tuning [here](https://arxiv.org/pdf/2306.09782)_
 
 
-### Chain of Thought Prompting
+### _Chain of Thought Prompting_
 
-<mark> If you were to create an application that answers for  “ A flight departs San Francisco at 11:00 AM PST and arrives in Chicago at 4:00 PM CST. The connecting flight to New York leaves at 5:30 PM CST. Is there enough time to make the connection“ </mark>
+> **If you were to create an application that answers for  “ A flight departs San Francisco at 11:00 AM PST and arrives in >Chicago at 4:00 PM CST. The connecting flight to New York leaves at 5:30 PM CST. Is there enough time to make the >connection“ **
 
 **Action taken: **
 
@@ -126,9 +127,9 @@ This chain of thought prompting involves “reasoning” skills with “acting�
 _More on Chain of thought prompting is [here](https://arxiv.org/pdf/2201.11903)_
 
 
-### ReAct Agent
+### _ReAct Agent_
 
-<mark> If you were to create an application that answers for “Book me a flight that leaves Boston to Paris and make itinerary arrangements for art museums”</mark>
+> **If you were to create an application that answers for “Book me a flight that leaves Boston to Paris and make itinerary >arrangements for art museums”**
 
 **Action taken: **
 
@@ -141,9 +142,9 @@ We will discuss more about what is an agent and types of agents in a future blog
 In the case of booking a flight, the agent would leverage an API call to a booking API to check availability, fares, and make reservations. Additionally, it would utilize a knowledge source containing information about art museums to provide relevant itineraries and recommendations.
 
 
-### Multi Agent
+### _Multi Agent_
 
-<mark> If you were to create an application that answers to “Book me hotel and flights in New York city that is pet friendly and no smoking”</mark>
+> **If you were to create an application that answers to “Book me hotel and flights in New York city that is pet friendly and > no smoking” **
 
 Action taken:
 
@@ -154,9 +155,9 @@ By combining multiple agents, tools, and knowledge sources, AI systems can achie
 Overall, the combination of multiple agents, tools, and knowledge sources empowers AI systems to handle complex tasks, deliver personalized experiences, and engage users in a comprehensive and meaningful way. As AI continues to evolve, we can expect even more innovative and groundbreaking applications of this technology, transforming industries and enhancing our daily lives.
 
 
-### Autonomous Agent 
+### _Autonomous Agent_
 
-<mark> If you were to create an application that answers for “Book me hotel and flights in New york city that is pet friendly, no smoking and that has availability in both my and friends calendar”</mark>
+>  **If you were to create an application that answers for “Book me hotel and flights in New york city that is pet friendly, > no smoking and that has availability in both my and friends calendar”**
 
 Indeed, the path to creating effective Agentic AI systems requires more than just reasoning, acting, or collaboration. It also demands the ability to engage in self-refinement and participate in debates to determine the most optimal outcome.
 

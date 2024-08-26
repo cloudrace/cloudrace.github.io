@@ -169,7 +169,7 @@
 <li>For  personalized recommendations, the travel agency maintains customer profile information with their preferences such as stops , duration, pet friendly, family friendly etc.,</li>
 </ul>
 <h2 id="evolution-of-agents">Evolution of Agents:</h2>
-<h3 id="foundation-model-call-">Foundation Model Call :</h3>
+<h3 id="_foundation-model-call_-"><em>Foundation Model Call</em> :</h3>
 <blockquote>
 <p><strong>If you were to create an application that answers for  “Plan a 3 day itinerary to Paris”</strong></p>
 </blockquote>
@@ -181,45 +181,56 @@
 <li>Encoder + Decoder approach - The embedding is then fed to components that predicts the next token based on what it knows.</li>
 </ol>
 <p><em>More on foundation models <a href="https://arxiv.org/pdf/1706.03762">here</a></em></p>
-<h3 id="few-shot-prompting">Few Shot Prompting</h3>
+<h3 id="_few-shot-prompting_"><em>Few Shot Prompting</em></h3>
 <blockquote>
-<p><strong>If you were to create an application that answers for “Plan a 3 day trip itinerary to Paris” and you have added two
-samples such as
-“Plan a 3 day trip itinerary to Rome” and
-“Plan a 3 day trip itinerary to Tokyo”
-with the answers focused on art museums.</strong></p>
+<p><strong>If you were to create an application that answers for “Plan a 3 day trip itinerary to Paris” and you have added two<br>
+samples such as<br>
+“Plan a 3 day trip itinerary to Rome” and<br>
+“Plan a 3 day trip itinerary to Tokyo”<br>
+with the answers focused on art museums.</strong>\</p>
 </blockquote>
 <p><strong>Action taken:</strong></p>
 <p>This is considered a few shot prompting , the approach similar as above but adds more with influences the LLM&rsquo;s response generation by providing context and examples, leading to more focused, informative, and well-structured answers. Through a few shot tuning you are guiding the foundation model in the template of the outputs and some of the reasoning in this case may be art museums.</p>
 <p><em>More on few shot prompting <a href="https://arxiv.org/pdf/2005.14165">here</a></em></p>
-<h3 id="fine-tuning">Fine Tuning</h3>
-<p><!-- raw HTML omitted -->If you were to create an application that accesses several different itineraries for its answers based on the “Gemini Getaways” database, fine tune them based on your dataset.  <!-- raw HTML omitted --></p>
+<h3 id="_fine-tuning_"><em>Fine Tuning</em></h3>
+<blockquote>
+<p><strong>If you were to create an application that accesses several different itineraries for its answers based on the “Gemini
+Getaways” database, fine tune them based on your dataset.</strong></p>
+</blockquote>
 <p>**Action taken: **</p>
 <p>Similar approach to our LLM foundation model call however the knowledge source will prioritize from the fine tuned model with the domain expertise before the larger foundation model. Fine tuning is costly as it involves understanding the data, cleaning the enterprise data and labeling. It also involves integration to a MLOps (Machine Learning Operations) platform for CI/CD/CT.</p>
 <p><em>More on Fine tuning <a href="https://arxiv.org/pdf/2306.09782">here</a></em></p>
-<h3 id="chain-of-thought-prompting">Chain of Thought Prompting</h3>
-<p><!-- raw HTML omitted --> If you were to create an application that answers for  “ A flight departs San Francisco at 11:00 AM PST and arrives in Chicago at 4:00 PM CST. The connecting flight to New York leaves at 5:30 PM CST. Is there enough time to make the connection“ <!-- raw HTML omitted --></p>
+<h3 id="_chain-of-thought-prompting_"><em>Chain of Thought Prompting</em></h3>
+<blockquote>
+<p>**If you were to create an application that answers for  “ A flight departs San Francisco at 11:00 AM PST and arrives in &gt;Chicago at 4:00 PM CST. The connecting flight to New York leaves at 5:30 PM CST. Is there enough time to make the &gt;connection“ **</p>
+</blockquote>
 <p>**Action taken: **</p>
 <p>For  the above question, though the approach would be similar as before. However the question needs in depth reasoning skills to derive the answer in addition to the knowledge of the foundation model. It is not just knowing the answer but knowing how to get to the answer</p>
 <p>This approach above was solved through <a href="https://arxiv.org/pdf/2201.11903">“Chain of Thought Prompting”</a> paper</p>
 <p>Likely the steps will be to calculate the time zone conversion, layover time calculation, minimum connection time consideration and then calculating for the final result</p>
 <p>This chain of thought prompting involves “reasoning” skills with “acting” skills to identify the course of action to take. However the reasoning is limited to the foundation model knowledge. They are very apt for mathematical reasoning and common sense reasoning.</p>
 <p><em>More on Chain of thought prompting is <a href="https://arxiv.org/pdf/2201.11903">here</a></em></p>
-<h3 id="react-agent">ReAct Agent</h3>
-<p><!-- raw HTML omitted --> If you were to create an application that answers for “Book me a flight that leaves Boston to Paris and make itinerary arrangements for art museums”<!-- raw HTML omitted --></p>
+<h3 id="_react-agent_"><em>ReAct Agent</em></h3>
+<blockquote>
+<p><strong>If you were to create an application that answers for “Book me a flight that leaves Boston to Paris and make itinerary &gt;arrangements for art museums”</strong></p>
+</blockquote>
 <p>**Action taken: **</p>
 <p><a href="https://research.google/blog/react-synergizing-reasoning-and-acting-in-language-models/">&ldquo;ReAct Based Agent&rdquo;</a> - In this research paper by Google, the concept of an Agentic approach with &ldquo;Reasoning&rdquo; and &ldquo;Acting&rdquo; is introduced, utilizing Large Language Models (LLMs). This approach aims to move forward towards human-aligned task-solving trajectories, enhancing interpretability, diagnosability, and controllability.</p>
 <p>Agents, in general, comprise a &ldquo;core&rdquo; component consisting of a LLM Foundational Model, Instructions, Memory, and Grounding knowledge. To interact with external systems or APIs, specialized agents are often required. These agents serve as intermediaries, receiving instructions from the LLM and executing specific actions. They may be referred to as <strong><em>function-calling agents, extensions, or plugins</em></strong>.</p>
 <p>We will discuss more about what is an agent and types of agents in a future blog in this series</p>
 <p>In the case of booking a flight, the agent would leverage an API call to a booking API to check availability, fares, and make reservations. Additionally, it would utilize a knowledge source containing information about art museums to provide relevant itineraries and recommendations.</p>
-<h3 id="multi-agent">Multi Agent</h3>
-<p><!-- raw HTML omitted --> If you were to create an application that answers to “Book me hotel and flights in New York city that is pet friendly and no smoking”<!-- raw HTML omitted --></p>
+<h3 id="_multi-agent_"><em>Multi Agent</em></h3>
+<blockquote>
+<p>**If you were to create an application that answers to “Book me hotel and flights in New York city that is pet friendly and &gt; no smoking” **</p>
+</blockquote>
 <p>Action taken:</p>
 <p>The example provided showcases a scenario where multiple ReAct agents are chained together. Unlike in previous examples, these agents do not require orchestration; instead, they announce their availability and capabilities through self-declaration. This approach enables seamless collaboration among the agents, allowing them to collectively tackle complex tasks and deliver enhanced user experiences.</p>
 <p>By combining multiple agents, tools, and knowledge sources, AI systems can achieve remarkable capabilities. They can handle intricate tasks, provide personalized experiences tailored to individual users, and engage in not only natural and informative conversations but also key aspects of a business&rsquo;s workflow. This integration of various components allows AI systems to become indispensable partners in various domains, offering valuable assistance and automating repetitive or time-consuming tasks.</p>
 <p>Overall, the combination of multiple agents, tools, and knowledge sources empowers AI systems to handle complex tasks, deliver personalized experiences, and engage users in a comprehensive and meaningful way. As AI continues to evolve, we can expect even more innovative and groundbreaking applications of this technology, transforming industries and enhancing our daily lives.</p>
-<h3 id="autonomous-agent">Autonomous Agent</h3>
-<p><!-- raw HTML omitted --> If you were to create an application that answers for “Book me hotel and flights in New york city that is pet friendly, no smoking and that has availability in both my and friends calendar”<!-- raw HTML omitted --></p>
+<h3 id="_autonomous-agent_"><em>Autonomous Agent</em></h3>
+<blockquote>
+<p><strong>If you were to create an application that answers for “Book me hotel and flights in New york city that is pet friendly, &gt; no smoking and that has availability in both my and friends calendar”</strong></p>
+</blockquote>
 <p>Indeed, the path to creating effective Agentic AI systems requires more than just reasoning, acting, or collaboration. It also demands the ability to engage in self-refinement and participate in debates to determine the most optimal outcome.</p>
 <p>The examples we have explored demonstrate that while many aspects of Agentic AI can be implemented at a production level today, there are still key areas that require further refinement to achieve true production-level quality.</p>
 <p>In the specific example of booking a meeting, we need to combine the actions of booking, incorporate reasoning across multiple filters and bookings, and facilitate collaboration among multiple agents, all while debating the best date for all parties involved. This process requires the ability to self-refine and adapt based on feedback and changing circumstances.</p>

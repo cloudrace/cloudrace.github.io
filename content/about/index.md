@@ -31,9 +31,9 @@ Personally , I am a mom of two. Most time spent being their personal chauffeur p
   ✔Women in technology (Challenges faced, Work-Life Balance, For collaboration and mentorship) <br>\
 
  🏆 Peer recognition: \
-  ✔AWS Certified Solutions Architect Professional <br>
-  ✔Google Cloud Certified Professional - Data Engineer <br>
-  ✔Google Cloud Certified Professional - Machine Learning Engineer <br>
+  ✔AWS Certified Solutions Architect Professional <br> \
+  ✔Google Cloud Certified Professional - Data Engineer <br>\
+  ✔Google Cloud Certified Professional - Machine Learning Engineer <br>\
 
   My Clifton Strengths Assessment results - Significance| Futuristic | Individualization | Focus | Maximizer <br>
 
