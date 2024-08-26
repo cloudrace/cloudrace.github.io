@@ -13,7 +13,7 @@ fontFamily: "sans-serif"
 ---
  
 # AI Agents Evolution
-![alt_text](/images/ai_agents_evolution "image_tooltip")
+![alt_text](/images/ai_agents_evolution.png "image_tooltip")
 
 Are you 
 
@@ -163,7 +163,7 @@ Overall, the combination of multiple agents, tools, and knowledge sources empowe
 ### _Autonomous Agent_
 
 If you were to create an application that answers for
->  **“Book me hotel and flights in New york city that is pet friendly,  no smoking and that has availability in both my and >friends calendar”**
+>  **“Book me hotel and flights in New york city that is pet friendly,  no smoking and that has availability in both my and friends calendar”**
 
 Indeed, the path to creating effective Agentic AI systems requires more than just reasoning, acting, or collaboration. It also demands the ability to engage in self-refinement and participate in debates to determine the most optimal outcome.
 
@@ -184,7 +184,7 @@ This is going to be pivotal for any industry we are aligned with
 *   **Education:** An AI system that combines educational content, interactive learning tools, and assessment platforms can offer personalized learning experiences, adaptive tutoring, and real-time feedback.
 *   **Retail:** An AI system that integrates product information, customer preferences, and inventory management tools can provide personalized product recommendations, optimize pricing, and enhance supply chain efficiency.
 
-![alt_text](/images/ai_agent_evolution_examples.jpeg "image_tooltip")
+![alt_text](/images/ai_agent_evolution_examples.png "image_tooltip")
 
 
 In our future series, we will cover some topics and some example to follow through
