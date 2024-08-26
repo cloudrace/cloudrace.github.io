@@ -28,12 +28,12 @@ Personally , I am a mom of two. Most time spent being their personal chauffeur p
   ✔Serverless Cloud Solutions (Data Proc, Data Flow) <br>\
   ✔Database with Cloud (Oracle, Postgre SQL, Big Table, Data store, Big Query, Cloud SQL, Hadoop, Spark) <br>\
   ✔Learning with Cloud (Strategies to learn and excel in Cloud computing)<br>\
-  ✔Women in technology (Challenges faced, Work-Life Balance, For collaboration and mentorship) <br>\
+  ✔Women in technology (Challenges faced, Work-Life Balance, For collaboration and mentorship) <br>
 
  🏆 Peer recognition: \
   ✔AWS Certified Solutions Architect Professional <br> \
   ✔Google Cloud Certified Professional - Data Engineer <br>\
-  ✔Google Cloud Certified Professional - Machine Learning Engineer <br>\
+  ✔Google Cloud Certified Professional - Machine Learning Engineer <br>
 
   My Clifton Strengths Assessment results - Significance| Futuristic | Individualization | Focus | Maximizer <br>
 

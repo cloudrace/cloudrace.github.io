@@ -12,9 +12,10 @@ fontFamily: "sans-serif"
 # no need for the "summary" parameter as it is not displayed in any previews
 ---
  
-
+<p align="center">
 # AI Agents Evolution
-
+![alt_text](/images/ai_agents_evolution.jpeg "image_tooltip")
+</p>
 Are you 
 
 1. baffled by the AI buzzwords
@@ -25,10 +26,6 @@ I hope to cover a series of articles on AI agents. Let's start from the basics. 
 
 _Disclaimer: The following article is my own comments based on my research and has no bearing on my employer. Any reproduction of this article needs explicit permission from the author._
 
-<b>
-![alt_text](/images/ai_agents_evolution.jpeg "image_tooltip")
-</b>
- 
 
 Over the past year, there has been a surge of interest in Large Language Models (LLMs) and their potential applications. As the field continues to evolve and gain momentum, it is becoming increasingly apparent that the current approaches to LLM applications are insufficient to fully harness their potential.
 
@@ -68,7 +65,9 @@ Assumptions on what exists today:
 
 ### _Foundation Model Call_ :
 
-> **If you were to create an application that answers for  “Plan a 3 day itinerary to Paris”**
+If you were to create an application that answers for 
+
+> ** “Plan a 3 day itinerary to Paris”**
 
 **Action taken:  **
 
@@ -85,11 +84,12 @@ _More on foundation models [here](https://arxiv.org/pdf/1706.03762)_
 
 ### _Few Shot Prompting_
 
-> **If you were to create an application that answers for “Plan a 3 day trip itinerary to Paris” and you have added two \
->  samples such as \
+If you were to create an application that answers for
+
+> ** “Plan a 3 day trip itinerary to Paris” and you have added two samples such as \
 >	 “Plan a 3 day trip itinerary to Rome” and \
 >	 “Plan a 3 day trip itinerary to Tokyo” \
->	 with the answers focused on art museums.**\
+>	 with the answers focused on art museums.**
 
 **Action taken:**
 
@@ -99,9 +99,10 @@ _More on few shot prompting [here](https://arxiv.org/pdf/2005.14165)_
 
 
 ### _Fine Tuning_
+If you were to create an application that accesses
 
-> **If you were to create an application that accesses several different itineraries for its answers based on the “Gemini
-> Getaways” database, fine tune them based on your dataset.**
+> ** several different itineraries for its answers based on the “Gemini Getaways” database, fine tune them based on your 
+> dataset.**
 
 **Action taken: **
 
@@ -111,8 +112,9 @@ _More on Fine tuning [here](https://arxiv.org/pdf/2306.09782)_
 
 
 ### _Chain of Thought Prompting_
-
-> **If you were to create an application that answers for  “ A flight departs San Francisco at 11:00 AM PST and arrives in >Chicago at 4:00 PM CST. The connecting flight to New York leaves at 5:30 PM CST. Is there enough time to make the >connection“ **
+If you were to create an application that answers for 
+> ** “ A flight departs San Francisco at 11:00 AM PST and arrives in >Chicago at 4:00 PM CST. 
+> The connecting flight to New York leaves at 5:30 PM CST. Is there enough time to make the connection“ **
 
 **Action taken: **
 
@@ -129,7 +131,9 @@ _More on Chain of thought prompting is [here](https://arxiv.org/pdf/2201.11903)_
 
 ### _ReAct Agent_
 
-> **If you were to create an application that answers for “Book me a flight that leaves Boston to Paris and make itinerary >arrangements for art museums”**
+If you were to create an application that answers for
+
+> ** “Book me a flight that leaves Boston to Paris and make itinerary >arrangements for art museums”**
 
 **Action taken: **
 
@@ -144,9 +148,11 @@ In the case of booking a flight, the agent would leverage an API call to a booki
 
 ### _Multi Agent_
 
-> **If you were to create an application that answers to “Book me hotel and flights in New York city that is pet friendly and > no smoking” **
+If you were to create an application that answers to 
 
-Action taken:
+> **“Book me hotel and flights in New York city that is pet friendly and > no smoking” **
+
+**Action taken:**
 
 The example provided showcases a scenario where multiple ReAct agents are chained together. Unlike in previous examples, these agents do not require orchestration; instead, they announce their availability and capabilities through self-declaration. This approach enables seamless collaboration among the agents, allowing them to collectively tackle complex tasks and deliver enhanced user experiences.
 
@@ -157,7 +163,8 @@ Overall, the combination of multiple agents, tools, and knowledge sources empowe
 
 ### _Autonomous Agent_
 
->  **If you were to create an application that answers for “Book me hotel and flights in New york city that is pet friendly, > no smoking and that has availability in both my and friends calendar”**
+If you were to create an application that answers for
+>  ** “Book me hotel and flights in New york city that is pet friendly, > no smoking and that has availability in both my and > friends calendar”**
 
 Indeed, the path to creating effective Agentic AI systems requires more than just reasoning, acting, or collaboration. It also demands the ability to engage in self-refinement and participate in debates to determine the most optimal outcome.
 
