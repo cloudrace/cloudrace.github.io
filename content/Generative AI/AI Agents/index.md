@@ -68,7 +68,7 @@ Assumptions on what exists today:
 
 ### Foundation Model Call :
 
-<mark>  If you were to create an application that answers for  “Plan a 3 day itinerary to Paris”  </mark>
+> **If you were to create an application that answers for  “Plan a 3 day itinerary to Paris”**
 
 **Action taken:  **
 
@@ -85,11 +85,11 @@ _More on foundation models [here](https://arxiv.org/pdf/1706.03762)_
 
 ### Few Shot Prompting
 
-<mark> If you were to create an application that answers for “Plan a 3 day trip itinerary to Paris” and you have added two samples such as 
-	 “Plan a 3 day trip itinerary to Rome” and 
-	 “Plan a 3 day trip itinerary to Tokyo” 
-	 with the answers focused on art museums. _**
-</mark>
+> **If you were to create an application that answers for “Plan a 3 day trip itinerary to Paris” and you have added two 
+>  samples such as 
+>	 “Plan a 3 day trip itinerary to Rome” and 
+>	 “Plan a 3 day trip itinerary to Tokyo” 
+>	 with the answers focused on art museums.**
 
 **Action taken:**
 
