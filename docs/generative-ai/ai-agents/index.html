@@ -139,7 +139,9 @@
         <div class="divider"></div>
         
         <section class="section content has-text-justified">
-          <!-- raw HTML omitted -->
+          <h1 id="ai-agents-evolution">AI Agents Evolution</h1>
+<p><img src="/images/ai_agents_evolution" alt="alt_text" title="image_tooltip"></p>
+<p>Are you</p>
 <ol>
 <li>baffled by the AI buzzwords</li>
 <li>wanting to understand how generative AI application comes together</li>
@@ -197,16 +199,16 @@ with the answers focused on art museums.</strong></p>
 <p><strong>several different itineraries for its answers based on the “Gemini Getaways” database, fine tune them based on your
 dataset.</strong></p>
 </blockquote>
-<p>**Action taken: **</p>
+<p><strong>Action taken:</strong></p>
 <p>Similar approach to our LLM foundation model call however the knowledge source will prioritize from the fine tuned model with the domain expertise before the larger foundation model. Fine tuning is costly as it involves understanding the data, cleaning the enterprise data and labeling. It also involves integration to a MLOps (Machine Learning Operations) platform for CI/CD/CT.</p>
 <p><em>More on Fine tuning <a href="https://arxiv.org/pdf/2306.09782">here</a></em></p>
 <h3 id="_chain-of-thought-prompting_"><em>Chain of Thought Prompting</em></h3>
 <p>If you were to create an application that answers for</p>
 <blockquote>
-<p><strong>“ A flight departs San Francisco at 11:00 AM PST and arrives in &gt;Chicago at 4:00 PM CST.
+<p><strong>“ A flight departs San Francisco at 11:00 AM PST and arrives in Chicago at 4:00 PM CST.
 The connecting flight to New York leaves at 5:30 PM CST. Is there enough time to make the connection“</strong></p>
 </blockquote>
-<p>**Action taken: **</p>
+<p><strong>Action taken:</strong></p>
 <p>For  the above question, though the approach would be similar as before. However the question needs in depth reasoning skills to derive the answer in addition to the knowledge of the foundation model. It is not just knowing the answer but knowing how to get to the answer</p>
 <p>This approach above was solved through <a href="https://arxiv.org/pdf/2201.11903">“Chain of Thought Prompting”</a> paper</p>
 <p>Likely the steps will be to calculate the time zone conversion, layover time calculation, minimum connection time consideration and then calculating for the final result</p>
@@ -217,7 +219,7 @@ The connecting flight to New York leaves at 5:30 PM CST. Is there enough time to
 <blockquote>
 <p><strong>“Book me a flight that leaves Boston to Paris and make itinerary &gt;arrangements for art museums”</strong></p>
 </blockquote>
-<p>**Action taken: **</p>
+<p><strong>Action taken:</strong></p>
 <p><a href="https://research.google/blog/react-synergizing-reasoning-and-acting-in-language-models/">&ldquo;ReAct Based Agent&rdquo;</a> - In this research paper by Google, the concept of an Agentic approach with &ldquo;Reasoning&rdquo; and &ldquo;Acting&rdquo; is introduced, utilizing Large Language Models (LLMs). This approach aims to move forward towards human-aligned task-solving trajectories, enhancing interpretability, diagnosability, and controllability.</p>
 <p>Agents, in general, comprise a &ldquo;core&rdquo; component consisting of a LLM Foundational Model, Instructions, Memory, and Grounding knowledge. To interact with external systems or APIs, specialized agents are often required. These agents serve as intermediaries, receiving instructions from the LLM and executing specific actions. They may be referred to as <strong><em>function-calling agents, extensions, or plugins</em></strong>.</p>
 <p>We will discuss more about what is an agent and types of agents in a future blog in this series</p>
@@ -234,7 +236,7 @@ The connecting flight to New York leaves at 5:30 PM CST. Is there enough time to
 <h3 id="_autonomous-agent_"><em>Autonomous Agent</em></h3>
 <p>If you were to create an application that answers for</p>
 <blockquote>
-<p><strong>“Book me hotel and flights in New york city that is pet friendly, &gt; no smoking and that has availability in both my and &gt; friends calendar”</strong></p>
+<p><strong>“Book me hotel and flights in New york city that is pet friendly,  no smoking and that has availability in both my and &gt;friends calendar”</strong></p>
 </blockquote>
 <p>Indeed, the path to creating effective Agentic AI systems requires more than just reasoning, acting, or collaboration. It also demands the ability to engage in self-refinement and participate in debates to determine the most optimal outcome.</p>
 <p>The examples we have explored demonstrate that while many aspects of Agentic AI can be implemented at a production level today, there are still key areas that require further refinement to achieve true production-level quality.</p>

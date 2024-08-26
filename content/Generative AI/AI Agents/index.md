@@ -12,10 +12,9 @@ fontFamily: "sans-serif"
 # no need for the "summary" parameter as it is not displayed in any previews
 ---
  
-<p align="center">
 # AI Agents Evolution
 ![alt_text](/images/ai_agents_evolution "image_tooltip")
-</p>
+
 Are you 
 
 1. baffled by the AI buzzwords
@@ -104,7 +103,7 @@ If you were to create an application that accesses
 > **several different itineraries for its answers based on the “Gemini Getaways” database, fine tune them based on your 
 > dataset.**
 
-**Action taken: **
+**Action taken:**
 
 Similar approach to our LLM foundation model call however the knowledge source will prioritize from the fine tuned model with the domain expertise before the larger foundation model. Fine tuning is costly as it involves understanding the data, cleaning the enterprise data and labeling. It also involves integration to a MLOps (Machine Learning Operations) platform for CI/CD/CT. 
 
@@ -113,10 +112,10 @@ _More on Fine tuning [here](https://arxiv.org/pdf/2306.09782)_
 
 ### _Chain of Thought Prompting_
 If you were to create an application that answers for 
-> **“ A flight departs San Francisco at 11:00 AM PST and arrives in >Chicago at 4:00 PM CST. 
+> **“ A flight departs San Francisco at 11:00 AM PST and arrives in Chicago at 4:00 PM CST. 
 > The connecting flight to New York leaves at 5:30 PM CST. Is there enough time to make the connection“**
 
-**Action taken: **
+**Action taken:**
 
 For  the above question, though the approach would be similar as before. However the question needs in depth reasoning skills to derive the answer in addition to the knowledge of the foundation model. It is not just knowing the answer but knowing how to get to the answer
 
@@ -135,7 +134,7 @@ If you were to create an application that answers for
 
 > **“Book me a flight that leaves Boston to Paris and make itinerary >arrangements for art museums”**
 
-**Action taken: **
+**Action taken:**
 
 ["ReAct Based Agent"](https://research.google/blog/react-synergizing-reasoning-and-acting-in-language-models/) - In this research paper by Google, the concept of an Agentic approach with "Reasoning" and "Acting" is introduced, utilizing Large Language Models (LLMs). This approach aims to move forward towards human-aligned task-solving trajectories, enhancing interpretability, diagnosability, and controllability.
 
@@ -164,7 +163,7 @@ Overall, the combination of multiple agents, tools, and knowledge sources empowe
 ### _Autonomous Agent_
 
 If you were to create an application that answers for
->  **“Book me hotel and flights in New york city that is pet friendly, > no smoking and that has availability in both my and > friends calendar”**
+>  **“Book me hotel and flights in New york city that is pet friendly,  no smoking and that has availability in both my and >friends calendar”**
 
 Indeed, the path to creating effective Agentic AI systems requires more than just reasoning, acting, or collaboration. It also demands the ability to engage in self-refinement and participate in debates to determine the most optimal outcome.
 
