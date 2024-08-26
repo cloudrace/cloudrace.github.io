@@ -170,7 +170,7 @@
 <h3 id="_foundation-model-call_-"><em>Foundation Model Call</em> :</h3>
 <p>If you were to create an application that answers for</p>
 <blockquote>
-<p>** “Plan a 3 day itinerary to Paris”**</p>
+<p><strong>“Plan a 3 day itinerary to Paris”</strong></p>
 </blockquote>
 <p>**Action taken:  **</p>
 <p>Based on “<a href="https://arxiv.org/pdf/1706.03762">Transformer</a>” research from Google which is the backbone of LLM</p>
@@ -183,10 +183,10 @@
 <h3 id="_few-shot-prompting_"><em>Few Shot Prompting</em></h3>
 <p>If you were to create an application that answers for</p>
 <blockquote>
-<p>** “Plan a 3 day trip itinerary to Paris” and you have added two samples such as<br>
+<p><strong>“Plan a 3 day trip itinerary to Paris” and you have added two samples such as<br>
 “Plan a 3 day trip itinerary to Rome” and<br>
 “Plan a 3 day trip itinerary to Tokyo”<br>
-with the answers focused on art museums.**</p>
+with the answers focused on art museums.</strong></p>
 </blockquote>
 <p><strong>Action taken:</strong></p>
 <p>This is considered a few shot prompting , the approach similar as above but adds more with influences the LLM&rsquo;s response generation by providing context and examples, leading to more focused, informative, and well-structured answers. Through a few shot tuning you are guiding the foundation model in the template of the outputs and some of the reasoning in this case may be art museums.</p>
@@ -194,8 +194,8 @@ with the answers focused on art museums.**</p>
 <h3 id="_fine-tuning_"><em>Fine Tuning</em></h3>
 <p>If you were to create an application that accesses</p>
 <blockquote>
-<p>** several different itineraries for its answers based on the “Gemini Getaways” database, fine tune them based on your
-dataset.**</p>
+<p><strong>several different itineraries for its answers based on the “Gemini Getaways” database, fine tune them based on your
+dataset.</strong></p>
 </blockquote>
 <p>**Action taken: **</p>
 <p>Similar approach to our LLM foundation model call however the knowledge source will prioritize from the fine tuned model with the domain expertise before the larger foundation model. Fine tuning is costly as it involves understanding the data, cleaning the enterprise data and labeling. It also involves integration to a MLOps (Machine Learning Operations) platform for CI/CD/CT.</p>
@@ -203,8 +203,8 @@ dataset.**</p>
 <h3 id="_chain-of-thought-prompting_"><em>Chain of Thought Prompting</em></h3>
 <p>If you were to create an application that answers for</p>
 <blockquote>
-<p>** “ A flight departs San Francisco at 11:00 AM PST and arrives in &gt;Chicago at 4:00 PM CST.
-The connecting flight to New York leaves at 5:30 PM CST. Is there enough time to make the connection“ **</p>
+<p><strong>“ A flight departs San Francisco at 11:00 AM PST and arrives in &gt;Chicago at 4:00 PM CST.
+The connecting flight to New York leaves at 5:30 PM CST. Is there enough time to make the connection“</strong></p>
 </blockquote>
 <p>**Action taken: **</p>
 <p>For  the above question, though the approach would be similar as before. However the question needs in depth reasoning skills to derive the answer in addition to the knowledge of the foundation model. It is not just knowing the answer but knowing how to get to the answer</p>
@@ -215,7 +215,7 @@ The connecting flight to New York leaves at 5:30 PM CST. Is there enough time to
 <h3 id="_react-agent_"><em>ReAct Agent</em></h3>
 <p>If you were to create an application that answers for</p>
 <blockquote>
-<p>** “Book me a flight that leaves Boston to Paris and make itinerary &gt;arrangements for art museums”**</p>
+<p><strong>“Book me a flight that leaves Boston to Paris and make itinerary &gt;arrangements for art museums”</strong></p>
 </blockquote>
 <p>**Action taken: **</p>
 <p><a href="https://research.google/blog/react-synergizing-reasoning-and-acting-in-language-models/">&ldquo;ReAct Based Agent&rdquo;</a> - In this research paper by Google, the concept of an Agentic approach with &ldquo;Reasoning&rdquo; and &ldquo;Acting&rdquo; is introduced, utilizing Large Language Models (LLMs). This approach aims to move forward towards human-aligned task-solving trajectories, enhancing interpretability, diagnosability, and controllability.</p>
@@ -225,7 +225,7 @@ The connecting flight to New York leaves at 5:30 PM CST. Is there enough time to
 <h3 id="_multi-agent_"><em>Multi Agent</em></h3>
 <p>If you were to create an application that answers to</p>
 <blockquote>
-<p>**“Book me hotel and flights in New York city that is pet friendly and &gt; no smoking” **</p>
+<p><strong>“Book me hotel and flights in New York city that is pet friendly and no smoking”</strong></p>
 </blockquote>
 <p><strong>Action taken:</strong></p>
 <p>The example provided showcases a scenario where multiple ReAct agents are chained together. Unlike in previous examples, these agents do not require orchestration; instead, they announce their availability and capabilities through self-declaration. This approach enables seamless collaboration among the agents, allowing them to collectively tackle complex tasks and deliver enhanced user experiences.</p>
@@ -234,7 +234,7 @@ The connecting flight to New York leaves at 5:30 PM CST. Is there enough time to
 <h3 id="_autonomous-agent_"><em>Autonomous Agent</em></h3>
 <p>If you were to create an application that answers for</p>
 <blockquote>
-<p>** “Book me hotel and flights in New york city that is pet friendly, &gt; no smoking and that has availability in both my and &gt; friends calendar”**</p>
+<p><strong>“Book me hotel and flights in New york city that is pet friendly, &gt; no smoking and that has availability in both my and &gt; friends calendar”</strong></p>
 </blockquote>
 <p>Indeed, the path to creating effective Agentic AI systems requires more than just reasoning, acting, or collaboration. It also demands the ability to engage in self-refinement and participate in debates to determine the most optimal outcome.</p>
 <p>The examples we have explored demonstrate that while many aspects of Agentic AI can be implemented at a production level today, there are still key areas that require further refinement to achieve true production-level quality.</p>

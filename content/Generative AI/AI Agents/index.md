@@ -14,7 +14,7 @@ fontFamily: "sans-serif"
  
 <p align="center">
 # AI Agents Evolution
-![alt_text](/images/ai_agents_evolution.jpeg "image_tooltip")
+![alt_text](/images/ai_agents_evolution "image_tooltip")
 </p>
 Are you 
 
@@ -67,7 +67,7 @@ Assumptions on what exists today:
 
 If you were to create an application that answers for 
 
-> ** “Plan a 3 day itinerary to Paris”**
+> **“Plan a 3 day itinerary to Paris”**
 
 **Action taken:  **
 
@@ -86,7 +86,7 @@ _More on foundation models [here](https://arxiv.org/pdf/1706.03762)_
 
 If you were to create an application that answers for
 
-> ** “Plan a 3 day trip itinerary to Paris” and you have added two samples such as \
+> **“Plan a 3 day trip itinerary to Paris” and you have added two samples such as \
 >	 “Plan a 3 day trip itinerary to Rome” and \
 >	 “Plan a 3 day trip itinerary to Tokyo” \
 >	 with the answers focused on art museums.**
@@ -101,7 +101,7 @@ _More on few shot prompting [here](https://arxiv.org/pdf/2005.14165)_
 ### _Fine Tuning_
 If you were to create an application that accesses
 
-> ** several different itineraries for its answers based on the “Gemini Getaways” database, fine tune them based on your 
+> **several different itineraries for its answers based on the “Gemini Getaways” database, fine tune them based on your 
 > dataset.**
 
 **Action taken: **
@@ -113,8 +113,8 @@ _More on Fine tuning [here](https://arxiv.org/pdf/2306.09782)_
 
 ### _Chain of Thought Prompting_
 If you were to create an application that answers for 
-> ** “ A flight departs San Francisco at 11:00 AM PST and arrives in >Chicago at 4:00 PM CST. 
-> The connecting flight to New York leaves at 5:30 PM CST. Is there enough time to make the connection“ **
+> **“ A flight departs San Francisco at 11:00 AM PST and arrives in >Chicago at 4:00 PM CST. 
+> The connecting flight to New York leaves at 5:30 PM CST. Is there enough time to make the connection“**
 
 **Action taken: **
 
@@ -133,7 +133,7 @@ _More on Chain of thought prompting is [here](https://arxiv.org/pdf/2201.11903)_
 
 If you were to create an application that answers for
 
-> ** “Book me a flight that leaves Boston to Paris and make itinerary >arrangements for art museums”**
+> **“Book me a flight that leaves Boston to Paris and make itinerary >arrangements for art museums”**
 
 **Action taken: **
 
@@ -150,7 +150,7 @@ In the case of booking a flight, the agent would leverage an API call to a booki
 
 If you were to create an application that answers to 
 
-> **“Book me hotel and flights in New York city that is pet friendly and > no smoking” **
+> **“Book me hotel and flights in New York city that is pet friendly and no smoking”**
 
 **Action taken:**
 
@@ -164,7 +164,7 @@ Overall, the combination of multiple agents, tools, and knowledge sources empowe
 ### _Autonomous Agent_
 
 If you were to create an application that answers for
->  ** “Book me hotel and flights in New york city that is pet friendly, > no smoking and that has availability in both my and > friends calendar”**
+>  **“Book me hotel and flights in New york city that is pet friendly, > no smoking and that has availability in both my and > friends calendar”**
 
 Indeed, the path to creating effective Agentic AI systems requires more than just reasoning, acting, or collaboration. It also demands the ability to engage in self-refinement and participate in debates to determine the most optimal outcome.
 
