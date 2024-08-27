@@ -66,7 +66,7 @@ Assumptions on what exists today:
 
 If you were to create an application that answers for 
 
-> **“Plan a 3 day itinerary to Paris”**
+> **Plan a 3 day itinerary to Paris**
 
 **Action taken:  **
 
@@ -112,8 +112,8 @@ _More on Fine tuning [here](https://arxiv.org/pdf/2306.09782)_
 
 ### _Chain of Thought Prompting_
 If you were to create an application that answers for 
-> **“ A flight departs San Francisco at 11:00 AM PST and arrives in Chicago at 4:00 PM CST. 
-> The connecting flight to New York leaves at 5:30 PM CST. Is there enough time to make the connection“**
+> **A flight departs San Francisco at 11:00 AM PST and arrives in Chicago at 4:00 PM CST. 
+> The connecting flight to New York leaves at 5:30 PM CST. Is there enough time to make the connection**
 
 **Action taken:**
 
@@ -132,7 +132,7 @@ _More on Chain of thought prompting is [here](https://arxiv.org/pdf/2201.11903)_
 
 If you were to create an application that answers for
 
-> **“Book me a flight that leaves Boston to Paris and make itinerary >arrangements for art museums”**
+> **Book me a flight that leaves Boston to Paris and make itinerary >arrangements for art museums**
 
 **Action taken:**
 
@@ -149,7 +149,7 @@ In the case of booking a flight, the agent would leverage an API call to a booki
 
 If you were to create an application that answers to 
 
-> **“Book me hotel and flights in New York city that is pet friendly and no smoking”**
+> **Book me hotel and flights in New York city that is pet friendly and no smoking**
 
 **Action taken:**
 
@@ -163,7 +163,7 @@ Overall, the combination of multiple agents, tools, and knowledge sources empowe
 ### _Autonomous Agent_
 
 If you were to create an application that answers for
->  **“Book me hotel and flights in New york city that is pet friendly,  no smoking and that has availability in both my and friends calendar”**
+>  **Book me hotel and flights in New york city that is pet friendly,  no smoking and that has availability in both my and friends calendar**
 
 Indeed, the path to creating effective Agentic AI systems requires more than just reasoning, acting, or collaboration. It also demands the ability to engage in self-refinement and participate in debates to determine the most optimal outcome.
 
@@ -177,12 +177,7 @@ We have witnessed the transformation from a simple foundation model to an autono
 
 This is going to be pivotal for any industry we are aligned with
 
-
-
-*   **Healthcare:** An AI system that combines medical knowledge, patient data, and diagnostic tools can provide personalized treatment recommendations, early disease detection, and remote healthcare services.
-*   **Finance:** An AI system that integrates financial data, market insights, and risk assessment tools can assist in investment decisions, fraud prevention, and personalized financial planning.
-*   **Education:** An AI system that combines educational content, interactive learning tools, and assessment platforms can offer personalized learning experiences, adaptive tutoring, and real-time feedback.
-*   **Retail:** An AI system that integrates product information, customer preferences, and inventory management tools can provide personalized product recommendations, optimize pricing, and enhance supply chain efficiency.
+If you are ready to experiment with Agents , this series will cover some hands on code you can work with.
 
 ![alt_text](/images/ai_agent_evolution_examples.png "image_tooltip")
 
