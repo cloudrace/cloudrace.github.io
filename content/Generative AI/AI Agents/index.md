@@ -96,20 +96,6 @@ This is considered a few shot prompting , the approach similar as above but adds
 
 _More on few shot prompting [here](https://arxiv.org/pdf/2005.14165)_
 
-
-### _Fine Tuning_
-If you were to create an application that accesses
-
-> **several different itineraries for its answers based on the “Gemini Getaways” database, fine tune them based on your 
-> dataset.**
-
-**Action taken:**
-
-Similar approach to our LLM foundation model call however the knowledge source will prioritize from the fine tuned model with the domain expertise before the larger foundation model. Fine tuning is costly as it involves understanding the data, cleaning the enterprise data and labeling. It also involves integration to a MLOps (Machine Learning Operations) platform for CI/CD/CT. 
-
-_More on Fine tuning [here](https://arxiv.org/pdf/2306.09782)_
-
-
 ### _Chain of Thought Prompting_
 If you were to create an application that answers for 
 > **A flight departs San Francisco at 11:00 AM PST and arrives in Chicago at 4:00 PM CST. 
