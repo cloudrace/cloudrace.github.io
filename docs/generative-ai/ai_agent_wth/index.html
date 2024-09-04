@@ -144,7 +144,7 @@
 <p>This article aims to bridge the gap between the familiar and the unfamiliar by exploring the similarities and differences between AI Agents and concepts you might have encountered in the past. The goal is to enhance your understanding and utilization of AI Agents.</p>
 <h2 id="agent--as-a-word">“Agent”  as a word</h2>
 <p>Agent is not a new word. Before software engineering existed, Agents existed. Human agents such as Real estate agents, customer service agents, travel agents etc. The specialty of these agents is they understand the context of the request, they have a catalog of information, based on the input request they service the request. They leverage tools to perform their tasks depending on the role</p>
-<p><img src="images/ai_agent_wth_1.png" alt="alt_text" title="image_tooltip"></p>
+<p><img src="/images/ai_agent_wth_1.png" alt="alt_text" title="image_tooltip"></p>
 <p>This agent received a request , they consulted the catalog but leveraged some sociocultural reasoning before they created a response.</p>
 <p>For example, Imagine the agent being in a lost and found section,</p>
 <p>Customer : “Where is my bag?”</p>
@@ -209,7 +209,7 @@ public void run()
 <p>Now let&rsquo;s come to LLM agents, very similar to what we have learnt before with a human agent or a software system built with Object Oriented Programming (OOP) .</p>
 <p>An AI agent is one that leverages reasoning skills, memory and execution skills to complete an interaction. This interaction could be a simple task, simple question, complex task</p>
 <p>Reviewing the concepts from the previous two , they all have most things in common</p>
-<p><img src="images/ai_agent_wth_2.png" alt="alt_text" title="image_tooltip"></p>
+<p><img src="/images/ai_agent_wth_2.png" alt="alt_text" title="image_tooltip"></p>
 <p>And when we discuss AI agents , this is an instantiation of a foundation model that performs a task with its ability of corpus of knowledge its trained on and the grounded information that is available to that LLM</p>
 <p>For example, imagine creating a similar monitoring agent with LLM and leveraging the knowledge it has on certain errors, it recommends monitoring agents with recommendations in addition to the capability a regular software agent we built could have provided.</p>
 <p>Lets now walk through an <a href="https://github.com/GoogleCloudPlatform/generative-ai/blob/main/gemini/function-calling/intro_function_calling.ipynb">example</a> that creates an Agent using Gemini with Function calling (tool). We will explore how the agent is defined and how that performs its task using tools and knowledge . You would need a Google Cloud account to test this notebook. Instructions on how to get started <a href="https://cloud.google.com/free?e=48754805&amp;hl=en">here</a></p>
@@ -234,7 +234,7 @@ public void run()
     agent_executor_kwargs={&quot;return_intermediate_steps&quot;: True},
 )
 </code></pre><p>The Agent definition is done through a Langchain agent with models and tools. This example does not have a grounded information. It is still worth to have it started from here</p>
-<p><img src="images/ai_agent_wth_3" alt="alt_text" title="image_tooltip"></p>
+<p><img src="/images/ai_agent_wth_3.png" alt="alt_text" title="image_tooltip"></p>
 <p><em>What we don&rsquo;t know</em></p>
 <ul>
 <li>Smaller vs Larger - There is still debate about if a large AI agent will be needed to solve a complex problem or if smaller AI agents will focus on excelling certain tasks.</li>
