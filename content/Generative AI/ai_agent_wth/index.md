@@ -155,7 +155,7 @@ agent = reasoning_engines.LangchainAgent(
 The Agent definition is done through a Langchain agent with models and tools. This example does not have a grounded information. It is still worth to have it started from here
 
 
-![alt_text](images/ai_agent_wth_3.png "image_tooltip")
+![alt_text](images/ai_agent_wth_3 "image_tooltip")
 
 
 _What we don't know_
