@@ -23,7 +23,6 @@ This article aims to bridge the gap between the familiar and the unfamiliar by e
 
 Agent is not a new word. Before software engineering existed, Agents existed. Human agents such as Real estate agents, customer service agents, travel agents etc. The specialty of these agents is they understand the context of the request, they have a catalog of information, based on the input request they service the request. They leverage tools to perform their tasks depending on the role
 
-<b>>>>>>GDCALERT:inline image link here (to images/image1.png). Store image on your image server and adjust path/filename/extension if necessary.>>>>></b>
 ![alt_text](images/ai_agent_wth_1.png "image_tooltip")
 
 
@@ -112,7 +111,6 @@ An AI agent is one that leverages reasoning skills, memory and execution skills 
 
 Reviewing the concepts from the previous two , they all have most things in common
 
-<b>>>>>>GDCALERT:inline image link here (to images/image2.png). Store image on your image server and adjust path/filename/extension if necessary.>>>>></b>
 ![alt_text](images/ai_agent_wth_2.png "image_tooltip")
 
 
@@ -156,7 +154,7 @@ agent = reasoning_engines.LangchainAgent(
 
 The Agent definition is done through a Langchain agent with models and tools. This example does not have a grounded information. It is still worth to have it started from here
 
-<b>>>>>>GDCALERT:inline image link here (to images/image3.png). Store image on your image server and adjust path/filename/extension if necessary.>>>>></b>
+
 ![alt_text](images/ai_agent_wth_3.png "image_tooltip")
 
 
