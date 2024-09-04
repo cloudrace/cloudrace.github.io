@@ -2,9 +2,9 @@
 <html lang="en-us">
   <head><link rel="icon" href="/favicon_main.svg"><meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-<meta http-equiv="x-ua-compatible" content="ie=edge" /><meta property="og:url"  content="http://cloudrace.github.io/generative-ai/this_week_03_17/" />
-    <meta property="og:type" content="article" /><meta property="og:title" content="This week with Generative AI 03_17_" /><meta property="og:description" content="" /><meta property="og:image:width"  content="600" />
-        <meta property="og:image:height" content="600" /><meta property="og:image" content="http://cloudrace.github.io/generative-ai/this_week_03_17/gen_hu2006682da7132b63ad704b4f3d6c71a5_933543_600x0_resize_box_2.png" /><title>Kanch&#39;s musings - This week with Generative AI 03_17_</title>
+<meta http-equiv="x-ua-compatible" content="ie=edge" /><meta property="og:url"  content="http://cloudrace.github.io/generative-ai/ai_agent_wth/" />
+    <meta property="og:type" content="article" /><meta property="og:title" content="WTH are AI Agents?" /><meta property="og:description" content="" /><meta property="og:image:width"  content="600" />
+        <meta property="og:image:height" content="364" /><meta property="og:image" content="http://cloudrace.github.io/generative-ai/ai_agent_wth/ai_agent_wth_1_hu93a47fcc9fe26c5443394d42022e7c45_171365_600x0_resize_box_2.png" /><title>Kanch&#39;s musings - WTH are AI Agents?</title>
 
     
 <link href="https://fonts.googleapis.com/css?family=Baloo&#43;2" rel="stylesheet">
@@ -134,54 +134,123 @@
   <div class="container">
     <div class="columns">
       <div class="column is-centered-tablet-portrait">
-        <h1 class="title is-2 section-title">This week with Generative AI 03_17_</h1>
+        <h1 class="title is-2 section-title">WTH are AI Agents?</h1>
         <h5 class="subtitle is-5 is-muted"></h5>
         <div class="divider"></div>
         
         <section class="section content has-text-justified">
-          <h3 id="a-primer">A Primer</h3>
-<p><em>In my next series of Generative AI post, I thought I will share how fast the industry is adapting to the new kid in town.</em></p>
-<p><em>It has been an exciting week of announcements across the Industry Leaders on all things Generative AI. This week is a testament to the coming year ahead with technology companies enabling Enterprises with the way we work.</em></p>
-<p><em>“Success in management requires learning as fast as the world is changing.” – Warren Bennis</em></p>
-<p><em>If you have not been able to catch up this week with all the announcements, here is a one-stop shop for all that came out.</em></p>
-<h3 id="_ai-announcements-this-week-ending-0317_"><em>AI announcements this week ending 03/17</em></h3>
-<p><em><!-- raw HTML omitted -->Google Announcements<!-- raw HTML omitted --></em></p>
+          <h1 id="wth-are-ai-agents">WTH are AI Agents?</h1>
+<p>As a developer, you may be intrigued by the concept of AI Agents. Despite their growing popularity, the underlying idea is not novel. You may have encountered similar concepts before. The democratization of AI happens when developers have access to new tools that align with their knowledge and experience.</p>
+<p>This article aims to bridge the gap between the familiar and the unfamiliar by exploring the similarities and differences between AI Agents and concepts you might have encountered in the past. The goal is to enhance your understanding and utilization of AI Agents.</p>
+<h2 id="agent--as-a-word">“Agent”  as a word</h2>
+<p>Agent is not a new word. Before software engineering existed, Agents existed. Human agents such as Real estate agents, customer service agents, travel agents etc. The specialty of these agents is they understand the context of the request, they have a catalog of information, based on the input request they service the request. They leverage tools to perform their tasks depending on the role</p>
+<p><!-- raw HTML omitted -->&raquo;&raquo;&gt;GDCALERT:inline image link here (to images/image1.png). Store image on your image server and adjust path/filename/extension if necessary.&raquo;&raquo;&gt;<!-- raw HTML omitted -->
+<img src="images/ai_agent_wth_1.png" alt="alt_text" title="image_tooltip"></p>
+<p>This agent received a request , they consulted the catalog but leveraged some sociocultural reasoning before they created a response.</p>
+<p>For example, Imagine the agent being in a lost and found section,</p>
+<p>Customer : “Where is my bag?”</p>
+<p>Agent: Checks the catalog does not find the bag <em>(Reasons and leverages a tool to perform a task)</em></p>
+<p>Agent: <em>Seeing the bag on shoulder</em>. Agent will use their socio reasoning skills to respond “Are you sure it&rsquo;s not in your shoulder?”</p>
+<p>Above showcases Reasoning skills, leveraging a tool and performing an action where needed</p>
+<h2 id="agent-in-a-software-world">Agent in a software world</h2>
+<p>Let’s look at the word from software perspective,</p>
+<p>Then came software engineering concepts, we had an evolution of these agents. We had a series of agents: Network agent, monitoring agent, deployment agent. All of these were meant to orchestrate a workflow, create a consistency for repeatability or in general perform a certain task that a path is clearly defined and a sequence of actions can be defined.</p>
+<p>Well, let&rsquo;s see how the Agents have evolved with AI agents.</p>
+<p>For ex., Consider writing a monitoring agent that we are going to develop (Simplistic approach)</p>
+<ol>
+<li>Initialize monitoring parameters and thresholds.</li>
+<li>Continuously collect data from agent logs, performance metrics, and security events.</li>
+<li>Aggregate and store data in a central repository.</li>
+<li>Perform real-time analysis of data stream:
 <ul>
-<li><em><a href="https://developers.googleblog.com/2023/03/announcing-palm-api-and-makersuite.html">PaLm API and Maker Suite available for developers</a> - Access Google’s LLM with a single API call for content generation, summarization, classification , generate embeddings and more to come. Maker Suite - Brings this to reality for prompt engineering, synthetic data generation, tuning custom model</em></li>
-<li><em><a href="https://workspace.google.com/blog/product-announcements/generative-ai">Google Workspace with Generative AI </a>- Gen AI in your Gmail, docs, slides, sheets, meet and chat. Enabling organizations to a new Era of collaboration</em></li>
-<li><em><a href="https://www.prnewswire.com/news-releases/midjourney-selects-google-cloud-to-power-ai-generated-creative-platform-301771558.html">MidJourney selects Google Cloud</a> - MidJourney has employed Google Cloud&rsquo;s custom-developed AI accelerators TPU&rsquo;s to train the fourth gen AI model</em></li>
-<li><em><a href="https://blog.google/technology/health/ai-llm-medpalm-research-thecheckup/">MedPalm 2 </a> - Model scores 85% expert doctor level on medical exam questions. AI can improve maternal care, cancer treatments and tuberculosis</em></li>
+<li>Check for anomalies, errors, or security violations.</li>
+<li>If detected, trigger alerts and take appropriate actions.</li>
 </ul>
-<p><em><!-- raw HTML omitted -->Baidu<!-- raw HTML omitted --></em></p>
+</li>
+<li>Perform historical analysis of data:
 <ul>
-<li><em><a href="https://www.engadget.com/baidu-unveils-ernie-bot-its-chatgpt-rival-105509006.html">Baidu unveils ErnieBot</a> - Focused on Chinese market.</em></li>
+<li>Identify trends, patterns, and potential issues.</li>
 </ul>
-<p><em><!-- raw HTML omitted -->Microsoft + Open AI Announcement<!-- raw HTML omitted --></em></p>
+</li>
+<li>Generate reports and visualizations on a regular basis.</li>
+<li>Refine monitoring parameters and thresholds based on feedback.</li>
+<li>Repeat steps 2-7 continuously.</li>
+</ol>
+<p>For the above system, let&rsquo;s write the code in Object oriented programming (hypothetical - with just declarations)</p>
+<pre><code>import java.util.*; 
+public class MonitoringAgent 
+{ 
+// Member Variables 
+private Agent agent; 
+private DataRepository repository; 
+private AlertingSystem alerter; 
+private MonitoringParameters parameters; 
+
+// Constructor public 
+MonitoringAgent(Agent agentToMonitor) 
+{ // Initialization logic
+} 
+// Main Monitoring Loop 
+public void run() 
+{ // Main monitoring loop logic 
+} 
+// Other Methods (Placeholders) 
+
+// (e.g., for parameter adjustment, historical analysis, etc.) 
+
+} 
+</code></pre><p>In the above example, Agent, DataRepository, AlertingSystem, MonitoringParameters are all classes that instantiate objects in this class MonitoringAgent.</p>
+<p>Each of these agents will have:</p>
+<ol>
+<li>a memory component for knowledge source or external knowledge through files</li>
+<li>a tool component that executes something else, creates something , analyzes</li>
+<li>a layer that connects between these agents where needed</li>
+</ol>
+<h2 id="agents-in-genai">Agents in GenAI</h2>
+<p>Now let&rsquo;s come to LLM agents, very similar to what we have learnt before with a human agent or a software system built with Object Oriented Programming (OOP) .</p>
+<p>An AI agent is one that leverages reasoning skills, memory and execution skills to complete an interaction. This interaction could be a simple task, simple question, complex task</p>
+<p>Reviewing the concepts from the previous two , they all have most things in common</p>
+<p><!-- raw HTML omitted -->&raquo;&raquo;&gt;GDCALERT:inline image link here (to images/image2.png). Store image on your image server and adjust path/filename/extension if necessary.&raquo;&raquo;&gt;<!-- raw HTML omitted -->
+<img src="images/ai_agent_wth_2.png" alt="alt_text" title="image_tooltip"></p>
+<p>And when we discuss AI agents , this is an instantiation of a foundation model that performs a task with its ability of corpus of knowledge its trained on and the grounded information that is available to that LLM</p>
+<p>For example, imagine creating a similar monitoring agent with LLM and leveraging the knowledge it has on certain errors, it recommends monitoring agents with recommendations in addition to the capability a regular software agent we built could have provided.</p>
+<p>Lets now walk through an <a href="https://github.com/GoogleCloudPlatform/generative-ai/blob/main/gemini/function-calling/intro_function_calling.ipynb">example</a> that creates an Agent using Gemini with Function calling (tool). We will explore how the agent is defined and how that performs its task using tools and knowledge . You would need a Google Cloud account to test this notebook. Instructions on how to get started <a href="https://cloud.google.com/free?e=48754805&amp;hl=en">here</a></p>
+<p>Once you get past the installations and declarations, you would find a definition of function</p>
+<pre><code>def get_exchange_rate(             
+    currency_from: str = &quot;USD&quot;,
+    currency_to: str = &quot;EUR&quot;,
+    currency_date: str = &quot;latest&quot;,
+):
+    &quot;&quot;&quot;Retrieves the exchange rate between two currencies on a specified date.&quot;&quot;&quot;
+    import requests
+
+    response = requests.get(
+        f&quot;https://api.frankfurter.app/{currency_date}&quot;,
+        params={&quot;from&quot;: currency_from, &quot;to&quot;: currency_to},
+    )
+    return response.json()
+</code></pre><p>In this function get_exchange_rate is a tool that calls api.frankfurter.app API</p>
+<pre><code>agent = reasoning_engines.LangchainAgent(
+    model=model,
+    tools=[get_exchange_rate],
+    agent_executor_kwargs={&quot;return_intermediate_steps&quot;: True},
+)
+</code></pre><p>The Agent definition is done through a Langchain agent with models and tools. This example does not have a grounded information. It is still worth to have it started from here</p>
+<p><!-- raw HTML omitted -->&raquo;&raquo;&gt;GDCALERT:inline image link here (to images/image3.png). Store image on your image server and adjust path/filename/extension if necessary.&raquo;&raquo;&gt;<!-- raw HTML omitted -->
+<img src="images/ai_agent_wth_3.png" alt="alt_text" title="image_tooltip"></p>
+<p><em>What we don&rsquo;t know</em></p>
 <ul>
-<li><em><a href="https://openai.com/product/gpt-4">Open AI releases GPT 4</a></em></li>
-<li><em><a href="https://blogs.microsoft.com/blog/2023/03/16/introducing-microsoft-365-copilot-your-copilot-for-work/">Microsoft CoPilot</a></em></li>
+<li>Smaller vs Larger - There is still debate about if a large AI agent will be needed to solve a complex problem or if smaller AI agents will focus on excelling certain tasks.</li>
+<li>Cons of LLM follow - Agents being an evolution of LLMs still has all the cons such as Hallucinations</li>
+<li>Autonomous - Though autonomous agents are starting to get the hype and we see prototypes, it&rsquo;s still a challenge to create an enterprise application without Human in the loop</li>
 </ul>
-<p><em><!-- raw HTML omitted -->Stanford Announcement<!-- raw HTML omitted --></em></p>
-<ul>
-<li><em><a href="https://www.marktechpost.com/2023/03/15/researchers-from-stanford-release-alpaca-an-instruction-following-model-based-on-meta-ai-llama-7b/">Alpaca</a> - Alpaca exhibits many of the same behaviors as OpenAI’s text-DaVinci-003 on the self-instruct evaluation set, but it is remarkably compact and simple/cheap to reproduce.</em></li>
-</ul>
-<p><em><!-- raw HTML omitted -->Stable Diffusion and Hugging Face<!-- raw HTML omitted --></em></p>
-<ul>
-<li><em><a href="https://mobile.twitter.com/DiffusionPics/status/1633577534825840640">Elite</a>- New fine-tuning technique that can be trained in less than a second for vision model</em></li>
-<li><em><a href="https://huggingface.co/spaces/togethercomputer/OpenChatKit">Open Chat kit</a> - Designed for conversation and instructions. The bot is good at summarizing, generating tables, classification, and dialog.</em></li>
-</ul>
-<p><em><!-- raw HTML omitted -->Adaptation to other Apps<!-- raw HTML omitted --></em></p>
-<ul>
-<li><em><a href="http://stripe.com/newsroom/news/stripe-and-openai%E2%80%A6">Stripe + Open AI</a> - Two way Partnership - OpenAI chooses Stripe to power payments for ChatGPT Plus and DALL·E. Stripe is building tools on OpenAI’s new GPT-4 model.</em></li>
-<li><em><a href="https://techcrunch.com/2023/03/15/linkedin-expands-its-generative-ai-assistant-to-recruitment-ads-and-writing-profiles/">LinkedIn</a> - Adds Gen AI to recruitment ads and writing profiles</em></li>
-<li><em><a href="https://www.grammarly.com/blog/augmented-intelligence/">Grammarly</a> - Generative or not, the future of AI lies in Augmented Intelligence</em></li>
-<li><em><a href="https://www.khanacademy.org/khan-labs">Khan Academy</a>- Khanmigo, Khan Academy’s AI-powered guide. Tutor for learners. Assistant for teachers.</em></li>
-<li><em><a href="https://blog.duolingo.com/duolingo-max/">Duo Lingo</a> -Gives learners access to two brand-new features and exercises: Explain My Answer and Roleplay.</em></li>
-<li><em><a href="https://twitter.com/BeMyEyes/status/1635690254689599488">Be My Eyes</a> - Fashion Designer, Green Thumb, Gym Partner</em></li>
-</ul>
-<p><em>All the excitements ahead.</em></p>
-<p><em>My most favorite one is <a href="https://blog.google/technology/health/ai-llm-medpalm-research-thecheckup/">MedPalm2</a>. Helping the community get ahead one step at a time.</em></p>
-<p><em>What&rsquo;s yours?</em></p>
+<p>Thanks to <a href="https://www.linkedin.com/in/ghchinoy/">Hussain Chinoy</a>for the brainstorming and his relentlessness to make sure we don’t forget and learn from our mistakes of software engineering. If you are looking for best practices may be a good place to start would be from software development</p>
+<p>In our future series, we will cover</p>
+<p>3: Type of Agents</p>
+<p>4: Develop AI Agents</p>
+<p>5: Agent Enterprise needs</p>
+<p>Do you have other topics in mind, please do suggest
+If you have questions/comments/suggestions, please reach out to me <a href="kanch@cloudrace.info">kanch@cloudrace.info</a></p>
 
         </section>
       </div>
@@ -190,7 +259,7 @@
   <div class="container">
     <div class="columns">
       <div class="column has-text-right is-family-monospace is-centered-tablet-portrait">
-        Last modified:&nbsp;1 May 2023</div>
+        Last modified:&nbsp;3 September 2024</div>
     </div>
   </div></section>
 <footer class="footer footer-dark">
