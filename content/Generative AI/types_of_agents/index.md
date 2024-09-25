@@ -1,6 +1,6 @@
 ---
 title: "Types of Agents"
-date: 2024-09-25T20:51:00+01:00
+date: 2024-09-25T12:51:00+01:00
 draft: false
 hideLastModified: false
 summaryImage: agent_complexity.png

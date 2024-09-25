@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="en-us">
-  <head>
-	<meta name="generator" content="Hugo 0.83.1" /><link rel="icon" href="/favicon_main.svg"><meta charset="utf-8" />
+  <head><link rel="icon" href="/favicon_main.svg"><meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-<meta http-equiv="x-ua-compatible" content="ie=edge" /><title>Kanch&#39;s musings</title>
+<meta http-equiv="x-ua-compatible" content="ie=edge" /><meta property="og:url"  content="http://cloudrace.github.io/generative-ai/types_of_agents/" />
+    <meta property="og:type" content="article" /><meta property="og:title" content="Types of Agents" /><meta property="og:description" content="" /><meta property="og:image:width"  content="600" />
+        <meta property="og:image:height" content="480" /><meta property="og:image" content="http://cloudrace.github.io/generative-ai/types_of_agents/agent_complexity_hue4c088e8a6d6b5b53ddfaed04e152012_176098_600x0_resize_box_2.png" /><title>Kanch&#39;s musings - Types of Agents</title>
 
     
 <link href="https://fonts.googleapis.com/css?family=Baloo&#43;2" rel="stylesheet">
@@ -21,7 +22,7 @@
 
     <div id="preloader">
       <div id="status"></div>
-    </div><section class="hero is-fullheight is-default is-bold"><nav class="navbar is-fresh is-transparent no-shadow" role="navigation" aria-label="main navigation">
+    </div><nav class="navbar is-fresh is-transparent no-shadow" role="navigation" aria-label="main navigation">
   <div class="container">
     <div class="navbar-brand">
 
@@ -129,23 +130,84 @@
       </div>
     </div>
   </nav>
-<div class="hero-body">
-        <div class="container">
-            <div class="columns is-vcentered">
-            <div class="column is-5 is-offset-1 landing-caption">
-                <h1 class="title is-1 is-bold is-spaced">Kanch&#39;s Cloud Race Musings</h1><h2 class="subtitle is-5 is-muted">
-                Personal website and blog
-                </h2>
-            </div>
-            <div class="column is-5 is-offset-1">
-                <figure class="image"><img src="/images/avataaars.png" 
-                     style="width:500px" alt="Myself">
-                </figure>
-            </div>
-            </div>
-        </div>
-        </div>
-    </section><footer class="footer footer-dark">
+<section class="section is-medium">
+  <div class="container">
+    <div class="columns">
+      <div class="column is-centered-tablet-portrait">
+        <h1 class="title is-2 section-title">Types of Agents</h1>
+        <h5 class="subtitle is-5 is-muted"></h5>
+        <div class="divider"></div>
+        
+        <section class="section content has-text-justified">
+          <p><em>Disclaimer: The following article is my own comments based on my research and has no bearing on my employer. Any reproduction of this article needs explicit permission from the author. The article discusses concepts that are rapidly changing and needs to be considered as point of time as of this release in September , 2024</em></p>
+<p>We uncovered some of the key concepts of Agents earlier (<a href="https://cloudrace.info/generative-ai/ai-agents/">Evolution</a> and <a href="https://cloudrace.info/generative-ai/ai_agent_wth/">What are Agents</a>). In this document, we walk through several different types of AI Agents.</p>
+<p>Before we delve into the topic of agent types and their involvement, it&rsquo;s essential to understand that there is no one-size-fits-all approach. Different perspectives and interpretations exist, and the following is my personal viewpoint. As Andrew Ng once wisely <a href="https://x.com/AndrewYNg/status/1801295202788983136">said</a>, &ldquo;The only way to learn is to build things.&rdquo; With that in mind, let&rsquo;s explore some of the agent types and their potential roles:</p>
+<p>In our current world today, we see most vendors and platforms emphasizing conversational agents as “THE” AI Agents. Every website today has a “kind” of Virtual agent or conversational AI agent.</p>
+<p>We would need to first understand what is difference between a chatbot vs virtual agent vs conversational AI agent</p>
+<p>**Chatbot: **A basic program designed to simulate conversation through text or voice, often following scripted interactions. (This existed pre-generative AI)</p>
+<p>**Virtual Agent: **A more advanced AI that can perform specific tasks and provide support, often incorporating natural language processing and contextual understanding (This also existed pre-generative AI).</p>
+<p>**Conversational AI Agent: **An intelligent system capable of understanding, processing, and generating human-like dialogue across various contexts, often using machine learning to improve interactions over time.</p>
+<p>Then the question comes to are conversational AI agents the only ones? The surfaces for AI agents development are evolving towards a workflow based approach where there is reasoning, planning, evaluation, execution is needed</p>
+<p>Below we differentiate the types based on surface, complexity and domain.</p>
+<p><strong>Based on surface:</strong></p>
+<p><img src="images/agent_complexity.png" alt="alt_text" title="Agent Complexity"></p>
+<p><strong>Based on the complexity</strong></p>
+<ul>
+<li>Single - When an agent performs <strong>reasoning and acting</strong>(ReAct)
+<ul>
+<li>with  its LLM (Foundation model or a Fine tuned model)</li>
+<li>with its one or more context through a RAG based data store</li>
+<li>with its one or more Tools based on OpenAPI schema (any API calls)</li>
+<li>with its session based access information</li>
+<li>with its episodic memory</li>
+<li>with its prompts that adopt a persona, clear instructions and few shot</li>
+</ul>
+</li>
+<li>Multiple - When multiple agents are orchestrating towards a completion of a task
+<ul>
+<li>with their observation on the other agents tasks and completion</li>
+<li>with their collaboration on orchestration of multiple agents</li>
+</ul>
+</li>
+<li>Autonomous - When agents perform tasks that does not require intervention and can execute
+<ul>
+<li>with their self refinement</li>
+<li>with their self learning</li>
+<li>with their scaling up and down based on the task needs</li>
+</ul>
+</li>
+</ul>
+<p>**Based on the domain **</p>
+<p>We see a plethora of companies swarming the market with their own version of Autonomous agents to drive adoptions of their platforms. It can be considered as an evolution of a SaaS platform with more and more Agents in a marketplace. While some of these organizations have started with a chatbot as a starting point, it would be a quick turnaround to “Reason and Act”</p>
+<ul>
+<li><a href="https://www.salesforce.com/blog/ai-software-development/">Salesforce Agents</a></li>
+<li><a href="https://investor.workday.com/2024-09-17-Workday-Announces-New-AI-Agents-to-Transform-HR-and-Finance-Processes">Workday Agents</a></li>
+<li><a href="https://www.adobe.com/ai/overview.html">Adobe Sensei</a></li>
+<li><a href="https://www.hubspot.com/products/artificial-intelligence">Hubspot Breeze</a></li>
+<li><a href="https://www.servicenow.com/products/ai-agents.html">Service Now AI Agent</a></li>
+</ul>
+<p>Though these are the types of agents, there are several different types based on “n” number of classifications. For now, lets focus on what are the frameworks available in the market to deploy these agents</p>
+<p>Popular frameworks available in the market to build AI agents include</p>
+<p><strong>Langchain &amp; Langgraph</strong>
+<strong>Crew AI</strong>
+<strong>Autogen</strong><br>
+<strong>Llama Index</strong>
+**One Two **</p>
+<p>Though there are popular frameworks, the overhead of these frameworks are starting to give a pause on widespread adoption. There are certainly adoptions that benefit from it. However, the rising concept of LLMOps/GenOps will need to be certainly evaluated for AI agents and there is certainly more to come.</p>
+<p>In our further series , we will get to do hands on how we can start building agents</p>
+<p>As always please reach out to <a href="mailto:kanch@cloudrace.info">kanch@cloudrace.info</a> for questions/thoughts/suggestions</p>
+
+        </section>
+      </div>
+    </div>
+  </div>  
+  <div class="container">
+    <div class="columns">
+      <div class="column has-text-right is-family-monospace is-centered-tablet-portrait">
+        Last modified:&nbsp;25 September 2024</div>
+    </div>
+  </div></section>
+<footer class="footer footer-dark">
   <div class="container">
     <div class="columns">
       <div class="column">
