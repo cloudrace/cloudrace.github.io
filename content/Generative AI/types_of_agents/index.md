@@ -1,5 +1,5 @@
 ---
-title: "Types of Agents"
+title: "A Typology of AI Agents"
 date: 2024-09-25T12:51:00+01:00
 draft: false
 hideLastModified: false
@@ -34,23 +34,29 @@ Below we differentiate the types based on surface, complexity and domain.
 
 **Based on surface:**
 
+In an Enterprise, we see a few types of agents based on the surface. Some of these are based on conversational just as we mentioned above. and some of these are based on workflow orchestration. 
+We classify the agents based on the surface as below 
+**Conversational Agents** (Collaborative Agents and Assistive Agents)
+**Workflow Orchestration Agents** (Supervisory, Collaborative and Autonomous)
+
+More on examples and purpose below
 ![alt_text](/images/agent_complexity.png "Agent Complexity")
 
 
 **Based on the complexity**
 
 
-*   Single - When an agent performs **reasoning and acting**(ReAct)
-    *   with  its LLM (Foundation model or a Fine tuned model)
-    *    with its one or more context through a RAG based data store
+*   **Single** - When an agent performs **reasoning and acting**(ReAct)
+    *   with its LLM (Foundation model or a Fine tuned model)
+    *   with its one or more context through a RAG based data store
     *   with its one or more Tools based on OpenAPI schema (any API calls)
     *   with its session based access information
     *   with its episodic memory
     *   with its prompts that adopt a persona, clear instructions and few shot
-*   Multiple - When multiple agents are orchestrating towards a completion of a task
+*   **Multiple** - When multiple agents are orchestrating towards a completion of a task
     *   with their observation on the other agents tasks and completion
     *   with their collaboration on orchestration of multiple agents
-*   Autonomous - When agents perform tasks that does not require intervention and can execute 
+*   **Autonomous** - When agents perform tasks that does not require intervention and can execute 
     *   with their self refinement
     *   with their self learning
     *   with their scaling up and down based on the task needs
@@ -85,4 +91,4 @@ Though there are popular frameworks, the overhead of these frameworks are starti
 
 In our further series , we will get to do hands on how we can start building agents 
 
-As always please reach out to [kanch@cloudrace.info](mailto:kanch@cloudrace.info) for questions/thoughts/suggestions
+This post is cross posted in [Medium](https://medium.com/@kpatlolla/a-typology-of-ai-agents-d5bb016c3821), [LinkedIn](https://www.linkedin.com/pulse/typology-ai-agents-kanchana-patlolla-6ag3c/?published=t) and [my blog](https://cloudrace.info/generative-ai/types_of_agents/).As always please reach out to [kanch@cloudrace.info](mailto:kanch@cloudrace.info) for questions/thoughts/suggestions
