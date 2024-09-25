@@ -22,11 +22,11 @@ In our current world today, we see most vendors and platforms emphasizing conver
 
 We would need to first understand what is difference between a chatbot vs virtual agent vs conversational AI agent
 
-**Chatbot: **A basic program designed to simulate conversation through text or voice, often following scripted interactions. (This existed pre-generative AI)
+**Chatbot:** A basic program designed to simulate conversation through text or voice, often following scripted interactions. (This existed pre-generative AI)
 
-**Virtual Agent: **A more advanced AI that can perform specific tasks and provide support, often incorporating natural language processing and contextual understanding (This also existed pre-generative AI).
+**Virtual Agent:** A more advanced AI that can perform specific tasks and provide support, often incorporating natural language processing and contextual understanding (This also existed pre-generative AI).
 
-**Conversational AI Agent: **An intelligent system capable of understanding, processing, and generating human-like dialogue across various contexts, often using machine learning to improve interactions over time.
+**Conversational AI Agent:**An intelligent system capable of understanding, processing, and generating human-like dialogue across various contexts, often using machine learning to improve interactions over time.
 
 Then the question comes to are conversational AI agents the only ones? The surfaces for AI agents development are evolving towards a workflow based approach where there is reasoning, planning, evaluation, execution is needed
 
@@ -55,7 +55,7 @@ Below we differentiate the types based on surface, complexity and domain.
     *   with their self learning
     *   with their scaling up and down based on the task needs
 
-**Based on the domain **
+**Based on the domain**
 
 We see a plethora of companies swarming the market with their own version of Autonomous agents to drive adoptions of their platforms. It can be considered as an evolution of a SaaS platform with more and more Agents in a marketplace. While some of these organizations have started with a chatbot as a starting point, it would be a quick turnaround to “Reason and Act”
 
@@ -72,10 +72,14 @@ Though these are the types of agents, there are several different types based on
 Popular frameworks available in the market to build AI agents include 
 
 **Langchain & Langgraph**
+
 **Crew AI** 
+
 **Autogen**  
+
 **Llama Index**
-**One Two **
+
+**One Two**
 
 Though there are popular frameworks, the overhead of these frameworks are starting to give a pause on widespread adoption. There are certainly adoptions that benefit from it. However, the rising concept of LLMOps/GenOps will need to be certainly evaluated for AI agents and there is certainly more to come. 
 
