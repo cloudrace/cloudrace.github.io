@@ -26,7 +26,7 @@ We would need to first understand what is difference between a chatbot vs virtua
 
 **Virtual Agent:** A more advanced AI that can perform specific tasks and provide support, often incorporating natural language processing and contextual understanding (This also existed pre-generative AI).
 
-**Conversational AI Agent:**An intelligent system capable of understanding, processing, and generating human-like dialogue across various contexts, often using machine learning to improve interactions over time.
+**Conversational AI Agent:** An intelligent system capable of understanding, processing, and generating human-like dialogue across various contexts, often using machine learning to improve interactions over time.
 
 Then the question comes to are conversational AI agents the only ones? The surfaces for AI agents development are evolving towards a workflow based approach where there is reasoning, planning, evaluation, execution is needed
 
@@ -34,7 +34,7 @@ Below we differentiate the types based on surface, complexity and domain.
 
 **Based on surface:**
 
-![alt_text](images/agent_complexity.png "Agent Complexity")
+![alt_text](/images/agent_complexity.png "Agent Complexity")
 
 
 **Based on the complexity**
