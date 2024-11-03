@@ -4,7 +4,7 @@ date: 2024-11-03T10:51:00+01:00
 draft: false
 hideLastModified: false
 summaryImage: imagen-conversationalagent.png
-showInMenu: true
+showInMenu: false
 tags: ["gcp", "generative ai", "ml","ai agents"]
 keepImageRatio: true
 fontFamily: "sans-serif"
