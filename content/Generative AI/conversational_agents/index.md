@@ -12,7 +12,6 @@ fontFamily: "sans-serif"
 # no need for the "summary" parameter as it is not displayed in any previews
 ---
  
-# AI Agents Evolution
 ![alt_text](/images/imagen-conversationalagent.png "image_tooltip")
 
 _Disclaimer: The following article is my own comments based on my research and has no bearing on my employer. Any reproduction of this article needs explicit permission from the author. The article discusses concepts that are rapidly changing and needs to be considered as point of time as of this release in November , 2024_
@@ -24,11 +23,11 @@ By this point you are curious and getting ready to get hands on with the hands o
 
 Reminder on some of the definitions we discussed [before](https://cloudrace.info/generative-ai/types_of_agents/)
 
-**Chatbot: **A basic program designed to simulate conversation through text or voice, often following scripted interactions. (This existed pre-generative AI)
+**Chatbot:** A basic program designed to simulate conversation through text or voice, often following scripted interactions. (This existed pre-generative AI)
 
-**Virtual Agent: **A more advanced AI that can perform specific tasks and provide support, often incorporating natural language processing and contextual understanding (This also existed pre-generative AI).
+**Virtual Agent:** A more advanced AI that can perform specific tasks and provide support, often incorporating natural language processing and contextual understanding (This also existed pre-generative AI).
 
-**Conversational AI Agent: **An intelligent system capable of understanding, processing, and generating human-like dialogue across various contexts, often using machine learning to improve interactions over time.
+**Conversational AI Agent:** An intelligent system capable of understanding, processing, and generating human-like dialogue across various contexts, often using machine learning to improve interactions over time.
 
 When we consider the evolution of chatbots -> virtual agents - > conversational agents , the complexity of them have progressed based on the expanded needs of the customer and also the technology advancements
 
@@ -38,66 +37,7 @@ Before we delve into how to work with conversational agents ? lets dig into the 
 
 If you have interacted with a conversational system (let's forget for a moment what category the application is) you might have seen some of these behaviors
 
-
-<table>
-  <tr>
-   <td>Question
-   </td>
-   <td>Example (Bank website app)
-   </td>
-   <td>Response
-   </td>
-  </tr>
-  <tr>
-   <td>For predetermined questions mentioned through a selection or button in the interface
-   </td>
-   <td>“Credit card questions”
-   </td>
-   <td>Only answers from that topic and no way to ask personalized questions
-   </td>
-  </tr>
-  <tr>
-   <td>For irrelevant questions
-   </td>
-   <td>“Why is the sky blue” to a bank 
-   </td>
-   <td>Don't know or similar
-   </td>
-  </tr>
-  <tr>
-   <td>For relevant questions but need clarification
-   </td>
-   <td>“Where is the bank located” 
-   </td>
-   <td>Asks clarification questions
-   </td>
-  </tr>
-  <tr>
-   <td>For relevant questions with direct answers
-   </td>
-   <td>“Whats a cash credit line”
-   </td>
-   <td>Answers from a FAQ
-   </td>
-  </tr>
-  <tr>
-   <td>For relevant questions when not logged in 
-   </td>
-   <td>“What are the bank hours”
-   </td>
-   <td>Please visit us at: website to locate a financial center closest to you.
-   </td>
-  </tr>
-  <tr>
-   <td>For relevant questions when logged in 
-   </td>
-   <td>“What are the bank hours”
-   </td>
-   <td>Relevant details to my near by bank
-   </td>
-  </tr>
-</table>
-
+![alt_text](/images/conv3.png "image_tooltip")
 
 The goal now is to learn how to build this application, that can take questions in a natural language format and create actions we need. This sounds like a finite state machine. If you are aware of the concept. Definition of Finite State Machines [here](https://en.wikipedia.org/wiki/Finite-state_machine). But are they finite state machines if they are generative (that's a discussion for another day)?  
 
