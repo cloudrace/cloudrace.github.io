@@ -68,16 +68,6 @@ Share your interest [here](https://forms.gle/P3NKs7gtEBGueex27) and start your o
     *   We provide access to regular code reviews from experienced developers, and opportunities to present your projects at community events.
     *   Collaborate with other passionate individuals and build lasting relationships in the AI community
 
-Mentors
-
-
-
-    *    Become an active contributor to the open-source AI community and connect with like-minded individuals.
-    *   Contribute to open-source documentation, tutorials, or blog posts to share your knowledge and establish yourself as a thought leader in the AI community
-    *   Enhance your leadership and mentoring abilities by guiding and supporting aspiring AI professionals
-    *   Solidify your AI expertise by sharing your knowledge and experience with eager learners
-    *   Stay at the forefront of AI innovation by engaging with enthusiastic individuals and learning about their perspectives and projects
-    *   Gain recognition for your expertise and contributions to the AI community by mentoring aspiring professionals
 
 **Rules:**
 
