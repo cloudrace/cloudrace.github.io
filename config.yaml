@@ -86,7 +86,7 @@ params:
   # navbar options
   navbar:
     # option to specify the font used in the navbar
-    fontFamily: "Abel"
+    fontFamily: "Lora"
     # option to show the little logos on the side of the navbar items
     showIcons: true
     
