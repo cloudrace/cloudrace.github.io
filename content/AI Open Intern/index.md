@@ -3,7 +3,7 @@ title: "AI Open Intern"
 date: 2024-12-31T13:13:00+01:00
 draft: true
 hideLastModified: true
-showInMenu: true
+showInMenu: false
 # no need for the "summary" parameter as it is not displayed in any previews
 ---
 
