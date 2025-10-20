@@ -1,5 +1,5 @@
 ---
-title: "Publications&Talks"
+title: ""
 date: 2020-12-11T13:13:00+01:00
 draft: false
 hideLastModified: true
@@ -14,14 +14,11 @@ showInMenu: true
 
 # Videos
 
-
-### Generative AI - A Future Unimagined 
 ## ODSC - 2025 Keynote 
-# Solving the Intelligent Agent Puzzle: From Development Hurdles to Collaborative Solutions
 [!Solving the Intelligent Agent Puzzle: From Development Hurdles to Collaborative Solutions] (https://www.youtube.com/watch?v=EyfliMSwSkM)
 
 ## For DataScience Dojo - May 2023
-[![AI for everyone](http://img.youtube.com/vi/wurtsM3IOno/0.jpg)](https://www.youtube.com/watch?v=TiJ14b4DJ5I "Generative AI")
+[![AI for everyone](http://img.youtube.com/vi/TiJ14b4DJ5I/default.jpg)](https://www.youtube.com/watch?v=TiJ14b4DJ5I "Generative AI")
 
 ### Complex problems to Simple : AI for everyone
 ## For North Central GDG - Apr 2020
