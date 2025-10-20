@@ -18,7 +18,7 @@ showInMenu: true
 [!Solving the Intelligent Agent Puzzle: From Development Hurdles to Collaborative Solutions] (https://www.youtube.com/watch?v=EyfliMSwSkM)
 
 ## For DataScience Dojo - May 2023
-[![AI for everyone](http://img.youtube.com/vi/TiJ14b4DJ5I/default.jpg)](https://www.youtube.com/watch?v=TiJ14b4DJ5I "Generative AI")
+[![AI for everyone](http://img.youtube.com/vi/TiJ14b4DJ5I/mqdefault.jpg)](https://www.youtube.com/watch?v=TiJ14b4DJ5I "Generative AI")
 
 ### Complex problems to Simple : AI for everyone
 ## For North Central GDG - Apr 2020
