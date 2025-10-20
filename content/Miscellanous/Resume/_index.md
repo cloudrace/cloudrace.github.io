@@ -8,8 +8,7 @@ showInMenu: true
 ---
 
 # My Resume
-_Please have a look at my resume here_
 
-**Resumes**
+**Resume**
 
-Have a look at my resumne [here](/KanchanaPatlolla.pdf) and reach out in my LinkedIn for immediate assistance today!
+Have a look at my resume [here](/KanchanaPatlolla.pdf) and reach out in my LinkedIn for immediate assistance today!
