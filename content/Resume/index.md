@@ -1,7 +1,7 @@
 ---
 title: "Resume"
 date: 2024-12-31T13:13:00+01:00
-draft: true
+draft: false
 hideLastModified: true
 showInMenu: false
 # no need for the "summary" parameter as it is not displayed in any previews
