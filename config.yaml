@@ -42,7 +42,7 @@ params:
   # parameter used to specify the number of article in each row 
   # for the summary pages, the possible options are: 2, 3, 4, 5 or 6
   articlesPerRow: 3 
-  fontFamily: "Roboto"
+  fontFamily: "Lora"
   # option to specify the favicon image of the site
   # the path is relative to the folder "assetDir" of this configuration
   favicon: "/images/favicon.svg"
