@@ -42,7 +42,7 @@ params:
   # parameter used to specify the number of article in each row 
   # for the summary pages, the possible options are: 2, 3, 4, 5 or 6
   articlesPerRow: 3 
-  fontFamily: "Baloo 2"
+  fontFamily: "Roboto"
   # option to specify the favicon image of the site
   # the path is relative to the folder "assetDir" of this configuration
   favicon: "/images/favicon.svg"
@@ -73,7 +73,7 @@ params:
   # main pages options
   mainPage:
     # option to specify the main font of the theme
-    fontFamily: "Baloo 2" 
+    fontFamily: "Roboto" 
 
   # sidebar options
   sidebar:
@@ -81,7 +81,7 @@ params:
     # the starting folder is configure in "assetDir" of this file
     logo: "/images/refresh-square.svg"
     # option to specify the font of the sidebar
-    fontFamily: "Baloo 2" # "Open Sans"
+    fontFamily: "Roboto" # "Open Sans"
 
   # navbar options
   navbar:
