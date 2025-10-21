@@ -12,3 +12,20 @@
 .video-details {
   flex: 1;
 }
+
+/* Force Lora font everywhere */
+* {
+  font-family: 'Lora', serif !important;
+}
+
+body, html {
+  font-family: 'Lora', serif !important;
+}
+
+.content, .content p, .content li, .content span, .content div, .content a {
+  font-family: 'Lora', serif !important;
+}
+
+.title, .subtitle, h1, h2, h3, h4, h5, h6 {
+  font-family: 'Lora', serif !important;
+}
