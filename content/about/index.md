@@ -46,19 +46,14 @@ Learning is a marathon and not a sprint. I would be drafting some common themes 
 
 ## Interests:
 
-I enjoy speaking to varied set of audiences. Some of the talks I have given are
-
-```
- Google Cloud Summits and Onboarding
- Guest lecturer for Cloud Computing Fundamentals and Streaming analytics at the Harvard Extension school since 2017
- Women in Tech forums with multiple enterprises - Big data Analytics and AI
- GDG Fests - Complex problems to simple : AI for everyone
- AI for kids - 7 to 11 year olds
- Grace Hopper - Hour of code - 7 to 11 year olds
+There are three interest areas I focus on.
 ```
 
-My interests lie in a broad spectrum of AI.\
-         `Democratizing AI` `MLOps` `Business use cases` `Kaggle` `Generative AI` `LLM`
+  AI in Humanity - How would future change in our life with AI
+  Mandarin - Learning Mandarin 
+  Finance - Investing  and Real estate investing 
+
+```
 
 ## Contact:
 Please feel free to reach out to me for any questions/feedback/suggestions/advice - kanch@cloudrace.info
