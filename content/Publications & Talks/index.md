@@ -33,11 +33,23 @@ Google Cloud Events Webinar - 2024  - Dec 2024
 [![Getting the data to tell its story](http://img.youtube.com/vi/KKblM93owU4/mqdefault.jpg)](https://www.youtube.com/watch?v=KKblM93owU4)
 Google Cloud Events Webinar - 2024  - Dec 2024
 
-[![Fireside Chat - Agent Quality](http://img.youtube.com/vi/BaaFcLzVE7g/mqdefault.jpg)](https://www.youtube.com/watch?v=BaaFcLzVE7g)
-Arize event - 2024  - Nov 2024
-
 [![Fireside Chat - Workday insights with natural language](http://img.youtube.com/vi/BBpl-1XlR28/mqdefault.jpg)](https://www.youtube.com/watch?v=BBpl-1XlR28)
 Google Cloud Next - 2024  - Apr 2024
+
+[![DLP API](http://img.youtube.com/vi/YsP4_epVxg8/mqdefault.jpg)](https://www.youtube.com/watch?v=YsP4_epVxg8 "DLP API")
+Securing your data with Data Loss Prevention API - July 2019
+
+
+# Other videos
+
+[![AI and Automation](http://img.youtube.com/vi/2tRXF3zu0MI/mqdefault.jpg)](https://www.youtube.com/watch?v=2tRXF3zu0MI)
+Podcast - 2025  - Mar 2025
+
+[![Agentic AI delivers ROI](http://img.youtube.com/vi/lhW7yJ5hmUk/mqdefault.jpg)](https://www.youtube.com/watch?v=lhW7yJ5hmUk)
+Podcast - 2025  - Jan 2025
+
+[![Fireside Chat - Agent Quality](http://img.youtube.com/vi/BaaFcLzVE7g/mqdefault.jpg)](https://www.youtube.com/watch?v=BaaFcLzVE7g)
+Arize event - 2024  - Nov 2024
 
 [![Talk to code - Limits of today and possibilities of tomorrow](http://img.youtube.com/vi/3S39VJxPMos/mqdefault.jpg)](https://www.youtube.com/watch?v=3S39VJxPMos)
 codeforward.ai - 2023  - Dec 2023
@@ -52,7 +64,5 @@ North Central GDG - Apr 2020
 International Women's Day - Middle East - Apr 2021
 
 
-[![DLP API](http://img.youtube.com/vi/YsP4_epVxg8/mqdefault.jpg)](https://www.youtube.com/watch?v=YsP4_epVxg8 "DLP API")
-Securing your data with Data Loss Prevention API - July 2019
 
 
