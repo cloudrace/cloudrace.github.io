@@ -10,18 +10,12 @@ showInMenu: true
 Thank you for viewing my profile
 
 ## Intro:
-I am Kanch. I am a self acknowledged technology addict. Curious about many things on cloud/ML currently. 
 
-In my day job, I work as a Generative AI solutions leader. I work with customers to identify patterns of problems in the Data Engineering and AI agents space. We then work to create code samples, reference architectures, functional demos, and near production artifacts. 
-In the data engineering with Generative AI, I led and managed the effort with release of [Open Data QnA](https://github.com/GoogleCloudPlatform/Open_Data_QnA)  and also released a [defensive publication](tdcommons.org/dpubs_series/6763/) for its unique architectural approach during the initial release.
+I'm a **Generative AI Solutions Leader** focused on shaping the future of enterprise technology. My day-to-day involves defining portfolio strategy for Databases and AI agents, working directly with customers to understand their needs, and driving the creation of core resources—from code samples and reference architectures to near-production functional demos.
 
-In the AI agents world, I led the key release of Agent Development Kit [samples](https://github.com/google/adk-samples) release.I also served as a Product Manager and launched them in Cloud console with Vertex AI Agent Garden
+With an engineer's foundation in databases—from hierarchical systems to modern technologies. I bring deep technical expertise to the world of AI. I was the key leader behind the release of [Open Data QnA](https://github.com/GoogleCloudPlatform/Open_Data_QnA) (an NL2SQL solution) and the Agent Development Kit [samples](https://github.com/google/adk-samples) for Vertex AI Agent Garden, even serving as a Product Manager to launch these tools in the Cloud console.
 
-I started as an engineer and have worked on all database products starting from hierarchical database to the most recent technologies such as Hive, Pig , HCatalog. I am always in the pursuit of self learning which encouraged me to gain my Masters in Information Systems Management from Harvard University Extension School. I keep myself current in the ever changing race of technology.
-
-I have helped support customers with architecting AI / ML solutions to Google Cloud that ranges between multiple use cases with structured and unstructured data. I have also helped customers in strategizing their AI platform for the next gen technologies keeping the people/process and technology in mind. I have expertise and certifications from major cloud providers.
-
-Personally , I am a mom of two. Most time spent being their personal chauffeur pre-covid days. I am learning Mandarin through Duolingo and its been a lot of fun.
+A self-acknowledged "technology addict," I'm always pursuing new knowledge, including earning my Masters in Information Systems Management from Harvard University Extension School to stay current in the ever-evolving tech race. I specialize in helping customers architect and strategize their next-generation AI/ML platforms, keeping a keen focus on people, process, and technology.
 
  👥 I specialize in: \
   ✔ Innovation (Design Thinking, Ideation sessions, Culture of Innovation workshops, Establishing process and governance on Data and AI Platform , Establishing roadmaps, Game boarding and Use case prioritization) <br>\

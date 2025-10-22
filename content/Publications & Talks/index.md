@@ -43,13 +43,13 @@ Google Cloud Next - 2024  - Apr 2024
 codeforward.ai - 2023  - Dec 2023
 
 [![AI for everyone](http://img.youtube.com/vi/TiJ14b4DJ5I/mqdefault.jpg)](https://www.youtube.com/watch?v=TiJ14b4DJ5I "Generative AI")
-For DataScience Dojo - May 2023
+DataScience Dojo - May 2023
 
 [![AI for everyone](http://img.youtube.com/vi/wurtsM3IOno/mqdefault.jpg)](https://www.youtube.com/watch?v=wurtsM3IOno "AI for everyone")
-For North Central GDG - Apr 2020
+North Central GDG - Apr 2020
 
 [![Middle East AI for everyone](http://img.youtube.com/vi/HsOy8zHzEfo/mqdefault.jpg)](https://www.youtube.com/watch?v=HsOy8zHzEfo "Middle East AI for everyone")
-For International Women's Day - Middle East - Apr 2021
+International Women's Day - Middle East - Apr 2021
 
 
 [![DLP API](http://img.youtube.com/vi/YsP4_epVxg8/mqdefault.jpg)](https://www.youtube.com/watch?v=YsP4_epVxg8 "DLP API")
