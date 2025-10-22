@@ -48,7 +48,6 @@ Learning is a marathon and not a sprint. I would be drafting some common themes 
 
 There are three interest areas I focus on.
 ```
-
   AI in Humanity - How would future change in our life with AI
   Mandarin - Learning Mandarin 
   Finance - Investing  and Real estate investing 
