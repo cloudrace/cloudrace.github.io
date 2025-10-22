@@ -13,8 +13,9 @@ Thank you for viewing my profile
 I am Kanch. I am a self acknowledged technology addict. Curious about many things on cloud/ML currently. 
 
 In my day job, I work as a Generative AI solutions leader. I work with customers to identify patterns of problems in the Data Engineering and AI agents space. We then work to create code samples, reference architectures, functional demos, and near production artifacts. 
-In the data engineering with Generative AI, I led and managed the effort with release of [Open Data QnA](https://github.com/GoogleCloudPlatform/Open_Data_QnA)  and also released a [defensive publication](tdcommons.org/dpubs_series/6763/) for its unique architectural approach during the initial release
-In the AI agents world, I led the key release of Agent Development Kit [samples](https://github.com/google/adk-samples) release with its launch and also served as a Product Manager and launched them in Cloud console with Vertex AI Agent Garden
+In the data engineering with Generative AI, I led and managed the effort with release of [Open Data QnA](https://github.com/GoogleCloudPlatform/Open_Data_QnA)  and also released a [defensive publication](tdcommons.org/dpubs_series/6763/) for its unique architectural approach during the initial release.
+
+In the AI agents world, I led the key release of Agent Development Kit [samples](https://github.com/google/adk-samples) release.I also served as a Product Manager and launched them in Cloud console with Vertex AI Agent Garden
 
 I started as an engineer and have worked on all database products starting from hierarchical database to the most recent technologies such as Hive, Pig , HCatalog. I am always in the pursuit of self learning which encouraged me to gain my Masters in Information Systems Management from Harvard University Extension School. I keep myself current in the ever changing race of technology.
 

@@ -10,8 +10,10 @@ showInMenu: true
 
 # Blogs
 
-[Defensive Publication](https://www.tdcommons.org/dpubs_series/6763/) for Natural Language to SQL
-[Blog](https://medium.com/google-cloud/unlocking-insights-natural-language-qna-on-structured-data-4055e9d0ddad) for Natural Language to SQL
+[Defensive Publication](https://www.tdcommons.org/dpubs_series/6763/) for Natural Language to SQL.
+
+
+[Blog](https://medium.com/google-cloud/unlocking-insights-natural-language-qna-on-structured-data-4055e9d0ddad) for Natural Language to SQL.
 
 # Whitepapers
 
