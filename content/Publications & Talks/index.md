@@ -20,14 +20,11 @@ One of the co-leads of Kaggle [5 days of AI Agents Intensive Course](https://www
 
 | Topic | White Paper | Live Stream |
 | :--- | :--- | :--- |
-| Introduction to Agents | [Content Contributor](https://www.kaggle.com/whitepaper-introduction-to-agents) | [Host for the Day](https://www.youtube.com/watch?v=ZaUcqznlhv8) |
-| Agent Tools & Interoperability with MCP
- | [Author](https://www.kaggle.com/whitepaper-agent-tools-and-interoperability-with-mcp) | [Host for the Day](https://www.youtube.com/watch?v=8Gk1BE3uYek) |
-| Context Engineering: Sessions & Memory
- | [Content Contributor](https://www.kaggle.com/whitepaper-context-engineering-sessions-and-memory) | [Host for the Day](https://www.youtube.com/watch?v=8o-GXj8A3nE) |
-| Agent Quality | [Content Contributor](https://www.kaggle.com/whitepaper-agent-quality) | [Host for the Day](https://www.youtube.com/watch?v=JW1Yybfxyr4) |
-| Prototype to Production
- | [Content Contributor](https://www.kaggle.com/whitepaper-prototype-to-production) | [Host for the Day](https://www.youtube.com/watch?v=4XjPh5or0ws) |
+| Introduction to Agents | [Content Contributor](https://www.kaggle.com/whitepaper-introduction-to-agents) | [Host](https://www.youtube.com/watch?v=ZaUcqznlhv8) |
+| Agent Tools & Interoperability with MCP | [Author](https://www.kaggle.com/whitepaper-agent-tools-and-interoperability-with-mcp) | [Host](https://www.youtube.com/watch?v=8Gk1BE3uYek) |
+| Context Engineering: Sessions & Memory| [Content Contributor](https://www.kaggle.com/whitepaper-context-engineering-sessions-and-memory) | [Host](https://www.youtube.com/watch?v=8o-GXj8A3nE) |
+| Agent Quality | [Content Contributor](https://www.kaggle.com/whitepaper-agent-quality) | [Host](https://www.youtube.com/watch?v=JW1Yybfxyr4) |
+| Prototype to Production| [Content Contributor](https://www.kaggle.com/whitepaper-prototype-to-production) | [Host](https://www.youtube.com/watch?v=4XjPh5or0ws) |
 
 
 # Videos
