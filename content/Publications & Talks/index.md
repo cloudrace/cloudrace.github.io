@@ -15,6 +15,8 @@ showInMenu: true
 
 [Blog](https://medium.com/google-cloud/unlocking-insights-natural-language-qna-on-structured-data-4055e9d0ddad) for Natural Language to SQL.
 
+[Agent Garden Product Launch](https://developers.googleblog.com/en/agent-garden-samples-for-learning-discovering-and-building/) 
+
 # Whitepapers
 One of the co-leads of Kaggle [5 days of AI Agents Intensive Course](https://www.kaggle.com/learn-guide/5-day-agents)
 
