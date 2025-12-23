@@ -11,7 +11,7 @@ Thank you for viewing my profile
 
 ## Intro:
 
-I'm a **Generative AI Solutions Leader** focused on shaping the future of enterprise technology. My day-to-day involves defining portfolio strategy for Databases and AI agents, working directly with customers to understand their needs, and driving the creation of core resources—from code samples and reference architectures to near-production functional demos.
+I'm Kanchana Patlolla and I work as a **Generative AI Solutions Leader** focused on shaping the future of enterprise technology. My day-to-day involves defining portfolio strategy for Databases and AI agents, working directly with customers to understand their needs, and driving the creation of core resources—from code samples and reference architectures to near-production functional demos.
 
 With an engineer's foundation in databases—from hierarchical systems to modern technologies. I bring deep technical expertise to the world of AI. I was the key leader behind the release of [Open Data QnA](https://github.com/GoogleCloudPlatform/Open_Data_QnA) (an NL2SQL solution) and the Agent Development Kit [samples](https://github.com/google/adk-samples) for Vertex AI Agent Garden, even serving as a Product Manager to launch these tools in the Cloud console.
 
