@@ -1,5 +1,5 @@
 ---
-title: "Projects"
+title: "Santa Wishing Machine"
 date: 2020-12-11T13:13:00+01:00
 draft: false
 hideLastModified: true
@@ -9,7 +9,7 @@ showInMenu: true
 
 Thank you for viewing my profile
 
-## Project 1:
+## Project 1: Santa Wishing Machine
 
 🎅✨ 🎄 𝑻𝒖𝒓𝒏𝒊𝒏𝒈 𝑯𝒐𝒍𝒊𝒅𝒂𝒚 𝑫𝒓𝒆𝒂𝒎𝒔 𝒊𝒏𝒕𝒐 𝑫𝒊𝒈𝒊𝒕𝒂𝒍 𝑹𝒆𝒂𝒍𝒊𝒕𝒚 🎅✨ 🎄 
 I’ve always believed that the best use of AI is to make the "impossible" feel like magic. 
