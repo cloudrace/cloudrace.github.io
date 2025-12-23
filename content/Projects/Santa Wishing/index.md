@@ -25,6 +25,7 @@ By stitching together the latest in generative frontier models with the tools th
 
 
 𝑻𝒉𝒆 𝑻𝒆𝒄𝒉 𝑺𝒕𝒂𝒄𝒌:
+
 𝘎𝘦𝘮𝘪𝘯𝘪: For reasoning and intent understanding.
 
 
@@ -50,4 +51,4 @@ Video: https://youtube.com/watch?v=m6RcLuxyGd8
 
 Demo Link: https://santa-wishing-machine-900091975438.us-central1.run.app/ 
 
-(Note: API access is gate-kept during peak magic hours!)
+_(Note: API access is gate-kept during peak magic hours!)_
