@@ -28,6 +28,11 @@ disableKinds: ["sitemap","RSS"]
 blackfriday:
   hrefTargetBlank: true
 
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
 Taxonomies:
   tag: "tags"
 
@@ -74,7 +79,7 @@ params:
   mainPage:
     # option to specify the main font of the theme
     fontFamily: "Lora" 
-
+  
   # sidebar options
   sidebar:
     # option to specify the logo of the sidebar
