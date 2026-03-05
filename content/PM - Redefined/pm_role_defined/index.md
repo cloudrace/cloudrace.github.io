@@ -12,9 +12,6 @@ fontFamily: "sans-serif"
 # no need for the "summary" parameter as it is not displayed in any previews
 ---
 
-
-# Product Manager to Product Builder
-
 > There is a lot of noise today. We have experts claiming Software Engineering is dead, SaaS is dead, design skills are obsolete, and Product Managers are just 'vibe coders.'
 
 I see many of these prophecies circulating. This series is meant to debunk some of those theories while providing an overview of how I see the world as it actually exists today.
@@ -85,6 +82,7 @@ A PM’s strategy only works if the rest of the company believes in it. PMs act 
 *Sales/Marketing:* To ensure the story being told to customers matches the product being built.
 
 **What a PM is Not**
+
 There are a few common misconceptions about the role:
 
 *Not the "CEO of the Product":* Unlike a real CEO, a PM usually has no direct authority over the people they work with. They must lead through influence, logic, and data rather than rank.
@@ -97,7 +95,7 @@ Traditionally, product development was a linear relay race:
 
 > Research → PRD → Design → Engineering 
 
-Today, that is collapsing into a continuous loop of creation.. We spent weeks in research, followed by more weeks drafting long requirement documents, then handing them off to design and engineering teams. Today, that linear process is becoming a fast, continuous loop of creation.
+Today, that is collapsing into a continuous loop of creation. We spent weeks in research, followed by more weeks drafting long requirement documents, then handing them off to design and engineering teams. Today, that linear process is becoming a fast, continuous loop of creation.
 
 With specialized AI assistants, the distance between defining a problem and seeing a working solution has narrowed from months to just a few hours. This doesn't just make us faster—it changes our fundamental role.
 
