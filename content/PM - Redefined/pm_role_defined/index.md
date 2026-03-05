@@ -5,7 +5,7 @@ draft: false
 hideLastModified: false
 summaryImage: pm_to_pb.jpg
 showInMenu: false
-tags: ["gcp", "generative ai", "ml","ai agents"]
+tags: ["pm", "google", "ai", "product management"]
 keepImageRatio: true
 fontFamily: "sans-serif"
 
@@ -38,38 +38,40 @@ A PM ensures that what the team builds is:
 ### Core Responsibilities
 If you were to look at a PM’s daily calendar, you’d likely see a mix of the following:
 
-1. Strategy & Vision
+**1. Strategy & Vision**
+
 They don't just decide what to build; they define why it should exist. This involves researching market trends, analyzing competitors, and setting long-term goals. 
 
 They use SWOT analysis, JTD, Customer Journey Mapping etc., If the vision is the destination, the Strategy is the route. PMs use roadmaps to communicate the sequence of problems they intend to solve.
 
 Outcome-based Roadmapping: Instead of listing "Build a Chatbot," a strategic PM lists "Reduce Customer Support Response Time by 20%." This focuses the team on results rather than just shipping code.
 
-2. Prioritization 
+**2. Prioritization**
+
 Resources are finite. A PM must decide which features are "must-haves" and which belong in the "maybe someday" pile. They manage the Product Backlog—a prioritized list of work for the development team. 
 
 They normally use frameworks such as RICE (Reach , Impact, Confidence, Score) to score a feature for them to be prioritized.
 
-3. Execution & Delivery 
-Defining Critical User Journeys (CUJs): The PM maps out the exact paths a user takes to achieve a goal. By defining these CUJs, you ensure the team isn't just building "features," but is instead smoothing the friction in a user's most important tasks. If the CUJ isn't seamless, the feature isn't finished.
-Opportunity Sizing & Business Goals: Before a single designer picks up a tool, the PM must answer: Is this worth it? They conduct opportunity sizing to estimate the potential impact on the bottom line. They align the feature with specific Business Goals—whether that’s driving top-of-funnel growth, increasing retention, or opening a new revenue stream.
-The "What" and the "Why": Every ticket in the backlog should have a clear "Why." The PM ensures that engineers and designers aren't just executing tasks; they are solving a validated problem. This clarity prevents "scope creep" and keeps the team focused on the highest-leverage work.
-Translating Strategy into Logic: In the Product Requirements Document (PRD), the PM expands on the strategy with surgical precision. This includes clear goals, KPIs (Key Performance Indicators), and OKRs (Objectives and Key Results). They define exactly what "winning" looks like before the build begins.
+**3. Execution & Delivery**
+*Defining Critical User Journeys (CUJs):* The PM maps out the exact paths a user takes to achieve a goal. By defining these CUJs, you ensure the team isn't just building "features," but is instead smoothing the friction in a user's most important tasks. If the CUJ isn't seamless, the feature isn't finished.
+*Opportunity Sizing & Business Goals:* Before a single designer picks up a tool, the PM must answer: Is this worth it? They conduct opportunity sizing to estimate the potential impact on the bottom line. They align the feature with specific Business Goals—whether that’s driving top-of-funnel growth, increasing retention, or opening a new revenue stream.
+*The "What" and the "Why":* Every ticket in the backlog should have a clear "Why." The PM ensures that engineers and designers aren't just executing tasks; they are solving a validated problem. This clarity prevents "scope creep" and keeps the team focused on the highest-leverage work.
+*Translating Strategy into Logic:* In the Product Requirements Document (PRD), the PM expands on the strategy with surgical precision. This includes clear goals, KPIs (Key Performance Indicators), and OKRs (Objectives and Key Results). They define exactly what "winning" looks like before the build begins.
 
-4. Communication
+**4. Communication**
 PMs are the ultimate translators. They explain technical constraints to stakeholders (like CEOs or Sales teams) and translate business goals into functional requirements for developers.
 
 A PM’s strategy only works if the rest of the company believes in it. PMs act as "Internal Evangelists," constantly pitching the strategy to:
 
-Executives: To secure budget and resources.
-Engineering/Design: To provide context so they understand why they are working on specific tasks.
-Sales/Marketing: To ensure the story being told to customers matches the product being built.
+*Executives:* To secure budget and resources.
+*Engineering/Design:* To provide context so they understand why they are working on specific tasks.
+*Sales/Marketing:* To ensure the story being told to customers matches the product being built.
 
 **What a PM is Not**
 There are a few common misconceptions about the role:
 
-Not the "CEO of the Product": Unlike a real CEO, a PM usually has no direct authority over the people they work with. They must lead through influence, logic, and data rather than rank.
-Not a Project Manager: While they do manage timelines, a Project Manager focuses on "How and When" (resources and schedules), whereas a Product Manager focuses on "What and Why" (value and strategy).
+*Not the "CEO of the Product":* Unlike a real CEO, a PM usually has no direct authority over the people they work with. They must lead through influence, logic, and data rather than rank.
+*Not a Project Manager:* While they do manage timelines, a Project Manager focuses on "How and When" (resources and schedules), whereas a Product Manager focuses on "What and Why" (value and strategy).
 
 The era of the " Product Manager" is shifting into the age of the "Product Builder."
 
