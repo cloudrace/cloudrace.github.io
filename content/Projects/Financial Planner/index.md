@@ -3,7 +3,7 @@ title: "FinancialPlanner"
 date: 2021-12-11T13:13:00+01:00
 draft: false
 hideLastModified: true
-showInMenu: true
+showInMenu: false
 # no need for the "summary" parameter as it is not displayed in any previews
 ---
 
