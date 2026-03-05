@@ -1,10 +1,10 @@
 ---
-title: "Projects"
+title: "Santa Wishing"
 date: 2020-12-11T13:13:00+01:00
 draft: false
 hideLastModified: true
 summaryImage: "santa.jpeg"
-showInMenu: true
+showInMenu: false
 # no need for the "summary" parameter as it is not displayed in any previews
 ---
 
