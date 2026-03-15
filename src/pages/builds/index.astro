@@ -1,0 +1,32 @@
+---
+import { getCollection } from 'astro:content';
+import Layout from '../../layouts/Layout.astro';
+
+const projects = await getCollection('builds');
+---
+
+<Layout title="Builds">
+	<header class="py-20 border-b border-white/5 mb-12">
+		<h1 class="font-outfit text-5xl font-black mb-4">Builds</h1>
+		<p class="text-white/40 text-lg">Functional prototypes and agentic applications.</p>
+	</header>
+
+	<div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+		{projects.map(project => (
+			<div class="group relative p-1 rounded-3xl bg-gradient-to-b from-white/10 to-transparent hover:from-accent/40 transition-all duration-500">
+				<div class="bg-[#0f0f0f] rounded-[22px] p-6 h-full flex flex-col">
+					{project.data.summaryImage && (
+						<div class="w-full aspect-video rounded-xl overflow-hidden mb-6 border border-white/5">
+							<img src={`/images/${project.data.summaryImage}`} alt={project.data.title} class="w-full h-full object-cover" />
+						</div>
+					)}
+					<h2 class="font-outfit text-2xl font-bold mb-3">{project.data.title}</h2>
+					<p class="text-white/50 text-sm mb-6 flex-1">Explore the architecture and logic behind {project.data.title}.</p>
+					<a href={`/builds/${project.slug}`} class="inline-flex items-center text-xs font-black tracking-widest uppercase text-accent hover:translate-x-1 transition-transform">
+						View Case Study ↗
+					</a>
+				</div>
+			</div>
+		))}
+	</div>
+</Layout>

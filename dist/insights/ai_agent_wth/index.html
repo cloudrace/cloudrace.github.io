@@ -1,0 +1,114 @@
+<!DOCTYPE html><html lang="en" class="bg-background text-foreground"> <head><meta charset="UTF-8"><meta name="description" content="Product Manager to Product Builder"><meta name="viewport" content="width=device-width"><link rel="icon" type="image/svg+xml" href="/favicon.svg"><meta name="generator" content="Astro v4.16.19"><title>WTH are AI Agents? | Cloudrace</title><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Outfit:wght@400;700;900&display=swap" rel="stylesheet"><link rel="stylesheet" href="/_astro/about.CUuGI67M.css"></head> <body class="min-h-screen selection:bg-accent selection:text-white overflow-x-hidden"> <!-- Subtle Background Aurora --> <div class="fixed inset-0 -z-10 bg-background overflow-hidden"> <div class="absolute -top-[10%] -left-[10%] w-[40%] h-[40%] bg-accent/5 blur-[120px] rounded-full animate-pulse-slow"></div> <div class="absolute -bottom-[10%] -right-[10%] w-[40%] h-[40%] bg-accent/5 blur-[120px] rounded-full animate-pulse-slow delay-1000"></div> </div> <nav class="fixed top-0 w-full z-50 backdrop-blur-md border-b border-white/5 bg-background/50"> <div class="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between"> <a href="/" class="font-outfit font-black text-xl tracking-tighter">CLOUDRACE</a> <div class="hidden md:flex items-center space-x-8 text-sm font-medium text-white/60"> <a href="/insights" class="hover:text-white transition-colors">Insights</a> <a href="/builds" class="hover:text-white transition-colors">Builds</a> <a href="/about" class="hover:text-white transition-colors">About</a> </div> <a href="mailto:kanch@cloudrace.info" class="bg-white text-black px-4 py-2 rounded-full text-xs font-bold hover:bg-accent transition-all">Get Started</a> </div> </nav> <main class="relative pt-24 px-6 max-w-6xl mx-auto pb-24">  <article class="max-w-3xl mx-auto py-12"> <header class="mb-12"> <h1 class="font-outfit text-4xl md:text-5xl font-black mb-4 leading-tight">WTH are AI Agents?</h1> <div class="flex items-center space-x-4 text-sm text-white/40"> <time datetime="Tue Sep 03 2024 15:51:00 GMT-0400 (Eastern Daylight Time)">9/3/2024</time> <span class="bg-white/5 px-2 py-1 rounded">#gcp</span><span class="bg-white/5 px-2 py-1 rounded">#generative ai</span><span class="bg-white/5 px-2 py-1 rounded">#ml</span><span class="bg-white/5 px-2 py-1 rounded">#ai agents</span> </div> </header> <div class="prose prose-invert prose-amber max-w-none 
+			prose-headings:font-outfit prose-headings:font-bold prose-headings:tracking-tight
+			prose-blockquote:border-l-accent prose-blockquote:bg-white/[0.02] prose-blockquote:py-2 prose-blockquote:px-6 prose-blockquote:rounded-r-xl"> <h1 id="wth-are-ai-agents">WTH are AI Agents?</h1>
+<p>As a developer, you may be intrigued by the concept of AI Agents. Despite their growing popularity, the underlying idea is not novel. You may have encountered similar concepts before. The democratization of AI happens when developers have access to new tools that align with their knowledge and experience.</p>
+<p>This article aims to bridge the gap between the familiar and the unfamiliar by exploring the similarities and differences between AI Agents and concepts you might have encountered in the past. The goal is to enhance your understanding and utilization of AI Agents.</p>
+<h2 id="agent--as-a-word">“Agent”  as a word</h2>
+<p>Agent is not a new word. Before software engineering existed, Agents existed. Human agents such as Real estate agents, customer service agents, travel agents etc. The specialty of these agents is they understand the context of the request, they have a catalog of information, based on the input request they service the request. They leverage tools to perform their tasks depending on the role</p>
+<p><img src="/images/ai_agent_wth_1.png" alt="alt_text" title="image_tooltip"></p>
+<p>This agent received a request , they consulted the catalog but leveraged some sociocultural reasoning before they created a response.</p>
+<p>For example, Imagine the agent being in a lost and found section,</p>
+<p>Customer : “Where is my bag?”</p>
+<p>Agent: Checks the catalog does not find the bag <em>(Reasons and leverages a tool to perform a task)</em></p>
+<p>Agent: <em>Seeing the bag on shoulder</em>. Agent will use their socio reasoning skills to respond “Are you sure it’s not in your shoulder?”</p>
+<p>Above showcases Reasoning skills, leveraging a tool and performing an action where needed</p>
+<h2 id="agent-in-a-software-world">Agent in a software world</h2>
+<p>Let’s look at the word from software perspective,</p>
+<p>Then came software engineering concepts, we had an evolution of these agents. We had a series of agents: Network agent, monitoring agent, deployment agent. All of these were meant to orchestrate a workflow, create a consistency for repeatability or in general perform a certain task that a path is clearly defined and a sequence of actions can be defined.</p>
+<p>Well, let’s see how the Agents have evolved with AI agents.</p>
+<p>For ex., Consider writing a monitoring agent that we are going to develop (Simplistic approach)</p>
+<ol>
+<li>Initialize monitoring parameters and thresholds.</li>
+<li>Continuously collect data from agent logs, performance metrics, and security events.</li>
+<li>Aggregate and store data in a central repository.</li>
+<li>Perform real-time analysis of data stream:
+<ul>
+<li>Check for anomalies, errors, or security violations.</li>
+<li>If detected, trigger alerts and take appropriate actions.</li>
+</ul>
+</li>
+<li>Perform historical analysis of data:
+<ul>
+<li>Identify trends, patterns, and potential issues.</li>
+</ul>
+</li>
+<li>Generate reports and visualizations on a regular basis.</li>
+<li>Refine monitoring parameters and thresholds based on feedback.</li>
+<li>Repeat steps 2-7 continuously.</li>
+</ol>
+<p>For the above system, let’s write the code in Object oriented programming (hypothetical - with just declarations)</p>
+<pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;" tabindex="0" data-language="plaintext"><code><span class="line"><span>import java.util.*; </span></span>
+<span class="line"><span>public class MonitoringAgent </span></span>
+<span class="line"><span>{ </span></span>
+<span class="line"><span>// Member Variables </span></span>
+<span class="line"><span>private Agent agent; </span></span>
+<span class="line"><span>private DataRepository repository; </span></span>
+<span class="line"><span>private AlertingSystem alerter; </span></span>
+<span class="line"><span>private MonitoringParameters parameters; </span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>// Constructor public </span></span>
+<span class="line"><span>MonitoringAgent(Agent agentToMonitor) </span></span>
+<span class="line"><span>{ // Initialization logic</span></span>
+<span class="line"><span>} </span></span>
+<span class="line"><span>// Main Monitoring Loop </span></span>
+<span class="line"><span>public void run() </span></span>
+<span class="line"><span>{ // Main monitoring loop logic </span></span>
+<span class="line"><span>} </span></span>
+<span class="line"><span>// Other Methods (Placeholders) </span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>// (e.g., for parameter adjustment, historical analysis, etc.) </span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>} </span></span>
+<span class="line"><span></span></span></code></pre>
+<p>In the above example, Agent, DataRepository, AlertingSystem, MonitoringParameters are all classes that instantiate objects in this class MonitoringAgent.</p>
+<p>Each of these agents will have:</p>
+<ol>
+<li>a memory component for knowledge source or external knowledge through files</li>
+<li>a tool component that executes something else, creates something , analyzes</li>
+<li>a layer that connects between these agents where needed</li>
+</ol>
+<h2 id="agents-in-genai">Agents in GenAI</h2>
+<p>Now let’s come to LLM agents, very similar to what we have learnt before with a human agent or a software system built with Object Oriented Programming (OOP) .</p>
+<p>An AI agent is one that leverages reasoning skills, memory and execution skills to complete an interaction. This interaction could be a simple task, simple question, complex task</p>
+<p>Reviewing the concepts from the previous two , they all have most things in common</p>
+<p><img src="/images/ai_agent_wth_2.png" alt="alt_text" title="image_tooltip"></p>
+<p>And when we discuss AI agents , this is an instantiation of a foundation model that performs a task with its ability of corpus of knowledge its trained on and the grounded information that is available to that LLM</p>
+<p>For example, imagine creating a similar monitoring agent with LLM and leveraging the knowledge it has on certain errors, it recommends monitoring agents with recommendations in addition to the capability a regular software agent we built could have provided.</p>
+<p>Lets now walk through an <a href="https://github.com/GoogleCloudPlatform/generative-ai/blob/main/gemini/function-calling/intro_function_calling.ipynb">example</a> that creates an Agent using Gemini with Function calling (tool). We will explore how the agent is defined and how that performs its task using tools and knowledge . You would need a Google Cloud account to test this notebook. Instructions on how to get started <a href="https://cloud.google.com/free?e=48754805&#x26;hl=en">here</a></p>
+<p>Once you get past the installations and declarations, you would find a definition of function</p>
+<pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;" tabindex="0" data-language="plaintext"><code><span class="line"><span>def get_exchange_rate(             </span></span>
+<span class="line"><span>    currency_from: str = "USD",</span></span>
+<span class="line"><span>    currency_to: str = "EUR",</span></span>
+<span class="line"><span>    currency_date: str = "latest",</span></span>
+<span class="line"><span>):</span></span>
+<span class="line"><span>    """Retrieves the exchange rate between two currencies on a specified date."""</span></span>
+<span class="line"><span>    import requests</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>    response = requests.get(</span></span>
+<span class="line"><span>        f"https://api.frankfurter.app/{currency_date}",</span></span>
+<span class="line"><span>        params={"from": currency_from, "to": currency_to},</span></span>
+<span class="line"><span>    )</span></span>
+<span class="line"><span>    return response.json()</span></span>
+<span class="line"><span></span></span></code></pre>
+<p>In this function get_exchange_rate is a tool that calls api.frankfurter.app API</p>
+<pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;" tabindex="0" data-language="plaintext"><code><span class="line"><span>agent = reasoning_engines.LangchainAgent(</span></span>
+<span class="line"><span>    model=model,</span></span>
+<span class="line"><span>    tools=[get_exchange_rate],</span></span>
+<span class="line"><span>    agent_executor_kwargs={"return_intermediate_steps": True},</span></span>
+<span class="line"><span>)</span></span>
+<span class="line"><span></span></span></code></pre>
+<p>The Agent definition is done through a Langchain agent with models and tools. This example does not have a grounded information. It is still worth to have it started from here</p>
+<p><img src="/images/ai_agent_wth_3.png" alt="alt_text" title="image_tooltip"></p>
+<p><em>What we don’t know</em></p>
+<ul>
+<li>Smaller vs Larger - There is still debate about if a large AI agent will be needed to solve a complex problem or if smaller AI agents will focus on excelling certain tasks.</li>
+<li>Cons of LLM follow - Agents being an evolution of LLMs still has all the cons such as Hallucinations</li>
+<li>Autonomous - Though autonomous agents are starting to get the hype and we see prototypes, it’s still a challenge to create an enterprise application without Human in the loop</li>
+</ul>
+<p>Thanks to <a href="https://www.linkedin.com/in/ghchinoy/">Hussain Chinoy</a>for the brainstorming and his relentlessness to make sure we don’t forget and learn from our mistakes of software engineering. If you are looking for best practices may be a good place to start would be from software development</p>
+<p>In our future series, we will cover</p>
+<p>3: Type of Agents</p>
+<p>4: Develop AI Agents</p>
+<p>5: Agent Enterprise needs</p>
+<p>Do you have other topics in mind, please do suggest
+If you have questions/comments/suggestions, please reach out to me <a href="kanch@cloudrace.info">kanch@cloudrace.info</a></p> </div> </article>  </main> <footer class="border-t border-white/5 py-12 px-6"> <div class="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center opacity-40 text-xs"> <p>© 2026 Kanchana Patlolla. Product Builder Era.</p> <div class="flex space-x-6 mt-4 md:mt-0"> <a href="https://linkedin.com/in/kanchanapatlolla" class="hover:text-amber-500">LinkedIn</a> <a href="https://github.com/kanchpat" class="hover:text-amber-500">GitHub</a> </div> </div> </footer> </body></html>

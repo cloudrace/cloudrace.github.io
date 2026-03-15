@@ -1,0 +1,30 @@
+---
+import { getCollection } from 'astro:content';
+import Layout from '../../layouts/Layout.astro';
+
+export async function getStaticPaths() {
+	const entries = await getCollection('builds');
+	return entries.map(entry => ({
+		params: { slug: entry.slug }, props: { entry },
+	}));
+}
+
+const { entry } = Astro.props;
+const { Content } = await entry.render();
+---
+
+<Layout title={entry.data.title}>
+	<article class="max-w-3xl mx-auto py-12">
+		<header class="mb-12">
+			<h1 class="font-outfit text-4xl md:text-5xl font-black mb-4 leading-tight text-accent">{entry.data.title}</h1>
+			<div class="flex items-center space-x-4 text-sm text-white/40 font-bold uppercase tracking-widest">
+				<span>Build Showcase</span>
+			</div>
+		</header>
+		<div class="prose prose-invert prose-amber max-w-none 
+			prose-headings:font-outfit prose-headings:font-bold prose-headings:tracking-tight
+			prose-blockquote:border-l-accent prose-blockquote:bg-white/[0.02] prose-blockquote:py-2 prose-blockquote:px-6 prose-blockquote:rounded-r-xl">
+			<Content />
+		</div>
+	</article>
+</Layout>

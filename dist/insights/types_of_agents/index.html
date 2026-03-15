@@ -1,0 +1,64 @@
+<!DOCTYPE html><html lang="en" class="bg-background text-foreground"> <head><meta charset="UTF-8"><meta name="description" content="Product Manager to Product Builder"><meta name="viewport" content="width=device-width"><link rel="icon" type="image/svg+xml" href="/favicon.svg"><meta name="generator" content="Astro v4.16.19"><title>A Typology of AI Agents | Cloudrace</title><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Outfit:wght@400;700;900&display=swap" rel="stylesheet"><link rel="stylesheet" href="/_astro/about.CUuGI67M.css"></head> <body class="min-h-screen selection:bg-accent selection:text-white overflow-x-hidden"> <!-- Subtle Background Aurora --> <div class="fixed inset-0 -z-10 bg-background overflow-hidden"> <div class="absolute -top-[10%] -left-[10%] w-[40%] h-[40%] bg-accent/5 blur-[120px] rounded-full animate-pulse-slow"></div> <div class="absolute -bottom-[10%] -right-[10%] w-[40%] h-[40%] bg-accent/5 blur-[120px] rounded-full animate-pulse-slow delay-1000"></div> </div> <nav class="fixed top-0 w-full z-50 backdrop-blur-md border-b border-white/5 bg-background/50"> <div class="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between"> <a href="/" class="font-outfit font-black text-xl tracking-tighter">CLOUDRACE</a> <div class="hidden md:flex items-center space-x-8 text-sm font-medium text-white/60"> <a href="/insights" class="hover:text-white transition-colors">Insights</a> <a href="/builds" class="hover:text-white transition-colors">Builds</a> <a href="/about" class="hover:text-white transition-colors">About</a> </div> <a href="mailto:kanch@cloudrace.info" class="bg-white text-black px-4 py-2 rounded-full text-xs font-bold hover:bg-accent transition-all">Get Started</a> </div> </nav> <main class="relative pt-24 px-6 max-w-6xl mx-auto pb-24">  <article class="max-w-3xl mx-auto py-12"> <header class="mb-12"> <h1 class="font-outfit text-4xl md:text-5xl font-black mb-4 leading-tight">A Typology of AI Agents</h1> <div class="flex items-center space-x-4 text-sm text-white/40"> <time datetime="Wed Sep 25 2024 07:51:00 GMT-0400 (Eastern Daylight Time)">9/25/2024</time> <span class="bg-white/5 px-2 py-1 rounded">#gcp</span><span class="bg-white/5 px-2 py-1 rounded">#generative ai</span><span class="bg-white/5 px-2 py-1 rounded">#ml</span><span class="bg-white/5 px-2 py-1 rounded">#ai agents</span> </div> </header> <div class="prose prose-invert prose-amber max-w-none 
+			prose-headings:font-outfit prose-headings:font-bold prose-headings:tracking-tight
+			prose-blockquote:border-l-accent prose-blockquote:bg-white/[0.02] prose-blockquote:py-2 prose-blockquote:px-6 prose-blockquote:rounded-r-xl"> <p><em>Disclaimer: The following article is my own comments based on my research and has no bearing on my employer. Any reproduction of this article needs explicit permission from the author. The article discusses concepts that are rapidly changing and needs to be considered as point of time as of this release in September , 2024</em></p>
+<p>We uncovered some of the key concepts of Agents earlier (<a href="https://cloudrace.info/generative-ai/ai-agents/">Evolution</a> and <a href="https://cloudrace.info/generative-ai/ai_agent_wth/">What are Agents</a>). In this document, we walk through several different types of AI Agents.</p>
+<p>Before we delve into the topic of agent types and their involvement, it’s essential to understand that there is no one-size-fits-all approach. Different perspectives and interpretations exist, and the following is my personal viewpoint. As Andrew Ng once wisely <a href="https://x.com/AndrewYNg/status/1801295202788983136">said</a>, “The only way to learn is to build things.” With that in mind, let’s explore some of the agent types and their potential roles:</p>
+<p>In our current world today, we see most vendors and platforms emphasizing conversational agents as “THE” AI Agents. Every website today has a “kind” of Virtual agent or conversational AI agent.</p>
+<p>We would need to first understand what is difference between a chatbot vs virtual agent vs conversational AI agent</p>
+<p><strong>Chatbot:</strong> A basic program designed to simulate conversation through text or voice, often following scripted interactions. (This existed pre-generative AI)</p>
+<p><strong>Virtual Agent:</strong> A more advanced AI that can perform specific tasks and provide support, often incorporating natural language processing and contextual understanding (This also existed pre-generative AI).</p>
+<p><strong>Conversational AI Agent:</strong> An intelligent system capable of understanding, processing, and generating human-like dialogue across various contexts, often using machine learning to improve interactions over time.</p>
+<p>Then the question comes to are conversational AI agents the only ones? The surfaces for AI agents development are evolving towards a workflow based approach where there is reasoning, planning, evaluation, execution is needed</p>
+<p>Below we differentiate the types based on surface, complexity and domain.</p>
+<p><strong>Based on surface:</strong></p>
+<p>In an Enterprise, we see a few types of agents based on the surface. Some of these are based on conversational just as we mentioned above. and some of these are based on workflow orchestration.
+We classify the agents based on the surface as below
+<strong>Conversational Agents</strong> (Collaborative Agents and Assistive Agents)
+<strong>Workflow Orchestration Agents</strong> (Supervisory, Collaborative and Autonomous)</p>
+<p>More on examples and purpose below
+<img src="/images/agent_complexity.png" alt="alt_text" title="Agent Complexity"></p>
+<p><strong>Based on the complexity</strong></p>
+<ul>
+<li><strong>Single</strong> - When an agent performs <strong>reasoning and acting</strong>(ReAct)
+<ul>
+<li>with its LLM (Foundation model or a Fine tuned model)</li>
+<li>with its one or more context through a RAG based data store</li>
+<li>with its one or more Tools based on OpenAPI schema (any API calls)</li>
+<li>with its session based access information</li>
+<li>with its episodic memory</li>
+<li>with its prompts that adopt a persona, clear instructions and few shot</li>
+</ul>
+</li>
+<li><strong>Multiple</strong> - When multiple agents are orchestrating towards a completion of a task
+<ul>
+<li>with their observation on the other agents tasks and completion</li>
+<li>with their collaboration on orchestration of multiple agents</li>
+</ul>
+</li>
+<li><strong>Autonomous</strong> - When agents perform tasks that does not require intervention and can execute
+<ul>
+<li>with their self refinement</li>
+<li>with their self learning</li>
+<li>with their scaling up and down based on the task needs</li>
+</ul>
+</li>
+</ul>
+<p><strong>Based on the domain</strong></p>
+<p>We see a plethora of companies swarming the market with their own version of Autonomous agents to drive adoptions of their platforms. It can be considered as an evolution of a SaaS platform with more and more Agents in a marketplace. While some of these organizations have started with a chatbot as a starting point, it would be a quick turnaround to “Reason and Act”</p>
+<ul>
+<li><a href="https://www.salesforce.com/blog/ai-software-development/">Salesforce Agents</a></li>
+<li><a href="https://investor.workday.com/2024-09-17-Workday-Announces-New-AI-Agents-to-Transform-HR-and-Finance-Processes">Workday Agents</a></li>
+<li><a href="https://www.adobe.com/ai/overview.html">Adobe Sensei</a></li>
+<li><a href="https://www.hubspot.com/products/artificial-intelligence">Hubspot Breeze</a></li>
+<li><a href="https://www.servicenow.com/products/ai-agents.html">Service Now AI Agent</a></li>
+</ul>
+<p>Though these are the types of agents, there are several different types based on “n” number of classifications. For now, lets focus on what are the frameworks available in the market to deploy these agents</p>
+<p>Popular frameworks available in the market to build AI agents include</p>
+<p><strong>Langchain &#x26; Langgraph</strong></p>
+<p><strong>Crew AI</strong></p>
+<p><strong>Autogen</strong></p>
+<p><strong>Llama Index</strong></p>
+<p><strong>One Two</strong></p>
+<p>Though there are popular frameworks, the overhead of these frameworks are starting to give a pause on widespread adoption. There are certainly adoptions that benefit from it. However, the rising concept of LLMOps/GenOps will need to be certainly evaluated for AI agents and there is certainly more to come.</p>
+<p>In our further series , we will get to do hands on how we can start building agents</p>
+<p>This post is cross posted in <a href="https://medium.com/@kpatlolla/a-typology-of-ai-agents-d5bb016c3821">Medium</a>, <a href="https://www.linkedin.com/pulse/typology-ai-agents-kanchana-patlolla-6ag3c/?published=t">LinkedIn</a> and <a href="https://cloudrace.info/generative-ai/types_of_agents/">my blog</a>.As always please reach out to <a href="mailto:kanch@cloudrace.info">kanch@cloudrace.info</a> for questions/thoughts/suggestions</p> </div> </article>  </main> <footer class="border-t border-white/5 py-12 px-6"> <div class="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center opacity-40 text-xs"> <p>© 2026 Kanchana Patlolla. Product Builder Era.</p> <div class="flex space-x-6 mt-4 md:mt-0"> <a href="https://linkedin.com/in/kanchanapatlolla" class="hover:text-amber-500">LinkedIn</a> <a href="https://github.com/kanchpat" class="hover:text-amber-500">GitHub</a> </div> </div> </footer> </body></html>
