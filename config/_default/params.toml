@@ -1,0 +1,68 @@
+colorScheme = "slate"
+defaultAppearance = "light"
+autoSwitchAppearance = true
+
+enableSearch = true
+enableCodeCopy = true
+
+mainSections = ["posts"]
+disableImageOptimization = false
+highlightCurrentMenuArea = true
+
+[header]
+  layout = "fixed-fill-blur"
+
+[homepage]
+  layout = "hero"
+  homepageImage = "images/headshot.jpeg"
+  showRecent = true
+  showRecentItems = 6
+  showMoreLink = true
+  showMoreLinkDest = "posts"
+  cardView = true
+  cardViewScreenWidth = false
+
+[article]
+  showDate = true
+  showDateUpdated = false
+  showAuthor = false
+  showBreadcrumbs = true
+  showReadingTime = true
+  showTableOfContents = true
+  showTaxonomies = false
+  showWordCount = false
+  showComments = false
+  showHero = true
+  heroStyle = "background"
+
+[list]
+  showBreadcrumbs = false
+  showSummary = true
+  showTableOfContents = false
+  groupByYear = false
+  showCards = true
+  cardView = true
+  cardViewScreenWidth = false
+
+[taxonomy]
+  showTermCount = true
+  showBreadcrumbs = false
+
+[footer]
+  showMenu = true
+  showCopyright = true
+  showThemeAttribution = false
+  showAppearanceSwitcher = true
+  showScrollToTop = true
+
+[author]
+  name = "Kanchana Patlolla"
+  image = "images/headshot.jpeg"
+  headline = "Generative AI Solutions Leader"
+  bio = "Shaping the future of enterprise technology through AI/ML solutions and innovation."
+  links = [
+    { linkedin = "https://linkedin.com/in/kanchanapatlolla" },
+    { github = "https://github.com/kanchpat" },
+    { "x-twitter" = "https://twitter.com/kanchpat" },
+    { email = "mailto:kanch@cloudrace.info" },
+  ]

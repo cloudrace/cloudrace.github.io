@@ -1,0 +1,5 @@
+.DS_Store
+*.backup
+config.yaml.old
+content.backup/
+resources/_gen/

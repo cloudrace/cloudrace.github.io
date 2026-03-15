@@ -1,0 +1,8 @@
+languageCode = "en"
+languageName = "English"
+weight = 1
+title = "Kanch's Cloud Race Musings"
+
+[params]
+  displayName = "EN"
+  description = "Personal website and blog on AI, ML, Cloud, and Technology Leadership"

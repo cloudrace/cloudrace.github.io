@@ -11,7 +11,7 @@ if [ -n "$*" ]; then
 fi  
 
 rm -rf docs
-hugo --gc --cleanDestinationDir
+hugo --gc --cleanDestinationDir --minify
 cp CNAME docs/
 #force add all files when needed
 

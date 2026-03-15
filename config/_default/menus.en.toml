@@ -1,0 +1,44 @@
+[[main]]
+  name = "Blog"
+  pageRef = "posts"
+  weight = 10
+
+[[main]]
+  name = "Projects"
+  pageRef = "posts/projects"
+  weight = 20
+
+[[main]]
+  name = "Publications"
+  pageRef = "publications"
+  weight = 30
+
+[[main]]
+  name = "About"
+  pageRef = "about"
+  weight = 40
+
+[[main]]
+  name = "Resume"
+  pageRef = "resume"
+  weight = 50
+
+[[footer]]
+  name = "About"
+  pageRef = "about"
+  weight = 10
+
+[[footer]]
+  name = "Blog"
+  pageRef = "posts"
+  weight = 20
+
+[[footer]]
+  name = "Publications"
+  pageRef = "publications"
+  weight = 30
+
+[[footer]]
+  name = "Credits"
+  pageRef = "credits"
+  weight = 40

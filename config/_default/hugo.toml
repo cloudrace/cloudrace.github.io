@@ -1,0 +1,28 @@
+baseURL = "https://cloudrace.info/"
+languageCode = "en"
+defaultContentLanguage = "en"
+title = "Kanch's Cloud Race Musings"
+theme = "blowfish"
+
+enableRobotsTXT = true
+publishDir = "docs"
+[pagination]
+  pagerSize = 10
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    noClasses = false
+
+[sitemap]
+  changeFreq = "weekly"
+  priority = 0.5
