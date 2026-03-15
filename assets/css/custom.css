@@ -1,0 +1,38 @@
+html,
+body,
+article,
+.prose,
+.prose p,
+.prose li,
+.prose h1,
+.prose h2,
+.prose h3,
+.prose h4,
+.prose h5,
+.prose h6,
+nav,
+footer,
+button,
+input,
+select,
+textarea,
+code,
+pre,
+td,
+th,
+span,
+a,
+div {
+  font-family: 'Space Grotesk', sans-serif !important;
+}
+
+/* Gradient site title in top-left header */
+a.truncate[href="/"] {
+  background: linear-gradient(135deg, #6366f1, #8b5cf6, #a855f7, #ec4899);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-weight: 700;
+  font-size: 1.15rem;
+  letter-spacing: -0.02em;
+}
