@@ -58,7 +58,7 @@ highlightCurrentMenuArea = true
 [author]
   name = "Kanchana Patlolla"
   image = "images/headshot.jpeg"
-  headline = "Generative AI Solutions Leader"
+  headline = "Product Leader"
   bio = "Shaping the future of enterprise technology through AI/ML solutions and innovation."
   links = [
     { linkedin = "https://linkedin.com/in/kanchanapatlolla" },
