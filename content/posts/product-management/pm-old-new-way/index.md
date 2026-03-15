@@ -1,6 +1,6 @@
 ---
 title: "Product Manager - Product Builder Defined"
-date: 2024-08-25T20:51:00+01:00
+date: 2026-02-22T20:51:00+01:00
 draft: false
 tags: ["product-management", "ai", "leadership"]
 categories: ["Product Management"]

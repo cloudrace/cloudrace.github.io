@@ -1,6 +1,6 @@
 ---
 title: "Product Manager to Product Builder"
-date: 2024-08-25T20:51:00+01:00
+date: 2026-02-23T20:51:00+01:00
 draft: false
 tags: ["product-management", "ai", "leadership"]
 categories: ["Product Management"]
