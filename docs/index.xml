@@ -19,9 +19,12 @@
  
 &lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="https://www.tdcommons.org/dpubs_series/6763/" target="_blank" rel="noreferrer"&gt;Defensive Publication&lt;/a&gt; &amp;ndash; Natural Language to SQL&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://medium.com/google-cloud/unlocking-insights-natural-language-qna-on-structured-data-4055e9d0ddad" target="_blank" rel="noreferrer"&gt;Unlocking Insights&lt;/a&gt; &amp;ndash; Natural Language QnA on Structured Data&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://developers.googleblog.com/en/agent-garden-samples-for-learning-discovering-and-building/" target="_blank" rel="noreferrer"&gt;Agent Garden Product Launch&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://cloud.google.com/blog/products/ai-machine-learning/20-questions-for-the-agentic-enterprise" target="_blank" rel="noreferrer"&gt;20 Questions for the Agentic Enterprise&lt;/a&gt; &amp;ndash; Jul 2026&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://cloud.google.com/blog/products/ai-machine-learning/a-devs-guide-to-production-ready-ai-agents" target="_blank" rel="noreferrer"&gt;A Dev&amp;rsquo;s Guide to Production-Ready AI Agents&lt;/a&gt; &amp;ndash; Feb 2026&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://developers.googleblog.com/en/agent-garden-samples-for-learning-discovering-and-building/" target="_blank" rel="noreferrer"&gt;Agent Garden Product Launch&lt;/a&gt; &amp;ndash; May 2025&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://medium.com/google-cloud/unlocking-insights-natural-language-qna-on-structured-data-4055e9d0ddad" target="_blank" rel="noreferrer"&gt;Unlocking Insights&lt;/a&gt; &amp;ndash; Natural Language QnA on Structured Data &amp;ndash; Nov 2024&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://cloud.google.com/blog/products/ai-machine-learning/entity-standardization-with-google-cloud" target="_blank" rel="noreferrer"&gt;Entity Standardization with Google Cloud&lt;/a&gt; (Collaborator) &amp;ndash; Oct 2022&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.tdcommons.org/dpubs_series/6763/" target="_blank" rel="noreferrer"&gt;Defensive Publication&lt;/a&gt; &amp;ndash; Natural Language to SQL &amp;ndash; Dec 2023&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 class="relative group"&gt;Whitepapers
@@ -33,57 +36,7 @@
  &lt;/span&gt;
  
 &lt;/h2&gt;
-&lt;p&gt;Co-lead of Kaggle &lt;a href="https://www.kaggle.com/learn-guide/5-day-agents" target="_blank" rel="noreferrer"&gt;5 Days of AI Agents Intensive Course&lt;/a&gt;&lt;/p&gt;
-&lt;table&gt;
- &lt;thead&gt;
- &lt;tr&gt;
- &lt;th style="text-align: left"&gt;Topic&lt;/th&gt;
- &lt;th style="text-align: left"&gt;White Paper&lt;/th&gt;
- &lt;th style="text-align: left"&gt;Live Stream&lt;/th&gt;
- &lt;/tr&gt;
- &lt;/thead&gt;
- &lt;tbody&gt;
- &lt;tr&gt;
- &lt;td style="text-align: left"&gt;Introduction to Agents&lt;/td&gt;
- &lt;td style="text-align: left"&gt;&lt;a href="https://www.kaggle.com/whitepaper-introduction-to-agents" target="_blank" rel="noreferrer"&gt;Content Contributor&lt;/a&gt;&lt;/td&gt;
- &lt;td style="text-align: left"&gt;&lt;a href="https://www.youtube.com/watch?v=ZaUcqznlhv8" target="_blank" rel="noreferrer"&gt;Host&lt;/a&gt;&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr&gt;
- &lt;td style="text-align: left"&gt;Agent Tools &amp;amp; Interoperability with MCP&lt;/td&gt;
- &lt;td style="text-align: left"&gt;&lt;a href="https://www.kaggle.com/whitepaper-agent-tools-and-interoperability-with-mcp" target="_blank" rel="noreferrer"&gt;Author&lt;/a&gt;&lt;/td&gt;
- &lt;td style="text-align: left"&gt;&lt;a href="https://www.youtube.com/watch?v=8Gk1BE3uYek" target="_blank" rel="noreferrer"&gt;Host&lt;/a&gt;&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr&gt;
- &lt;td style="text-align: left"&gt;Context Engineering: Sessions &amp;amp; Memory&lt;/td&gt;
- &lt;td style="text-align: left"&gt;&lt;a href="https://www.kaggle.com/whitepaper-context-engineering-sessions-and-memory" target="_blank" rel="noreferrer"&gt;Content Contributor&lt;/a&gt;&lt;/td&gt;
- &lt;td style="text-align: left"&gt;&lt;a href="https://www.youtube.com/watch?v=8o-GXj8A3nE" target="_blank" rel="noreferrer"&gt;Host&lt;/a&gt;&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr&gt;
- &lt;td style="text-align: left"&gt;Agent Quality&lt;/td&gt;
- &lt;td style="text-align: left"&gt;&lt;a href="https://www.kaggle.com/whitepaper-agent-quality" target="_blank" rel="noreferrer"&gt;Content Contributor&lt;/a&gt;&lt;/td&gt;
- &lt;td style="text-align: left"&gt;&lt;a href="https://www.youtube.com/watch?v=JW1Yybfxyr4" target="_blank" rel="noreferrer"&gt;Host&lt;/a&gt;&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr&gt;
- &lt;td style="text-align: left"&gt;Prototype to Production&lt;/td&gt;
- &lt;td style="text-align: left"&gt;&lt;a href="https://www.kaggle.com/whitepaper-prototype-to-production" target="_blank" rel="noreferrer"&gt;Content Contributor&lt;/a&gt;&lt;/td&gt;
- &lt;td style="text-align: left"&gt;&lt;a href="https://www.youtube.com/watch?v=4XjPh5or0ws" target="_blank" rel="noreferrer"&gt;Host&lt;/a&gt;&lt;/td&gt;
- &lt;/tr&gt;
- &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;h2 class="relative group"&gt;Conference Talks
- &lt;div id="conference-talks" class="anchor"&gt;&lt;/div&gt;
- 
- &lt;span
- class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
- &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#conference-talks" aria-label="Anchor"&gt;#&lt;/a&gt;
- &lt;/span&gt;
- 
-&lt;/h2&gt;
-&lt;div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 1.5rem; margin: 1.5rem 0;"&gt;
-&lt;div&gt;
-&lt;a href="https://www.youtube.com/watch?v=EyfliMSwSkM"&gt;&lt;img src="https://img.youtube.com/vi/EyfliMSwSkM/hqdefault.jpg" style="width:100%; border-radius: 8px;" alt="ODSC Keynote"&gt;&lt;/a&gt;
-&lt;p&gt;&lt;strong&gt;Solving the Intelligent Agent Puzzle&lt;/strong&gt;&lt;br&gt;&lt;em&gt;ODSC Keynote -- May 2025&lt;/em&gt;&lt;/p&gt;</description></item><item><title>Credits</title><link>https://cloudrace.info/credits/</link><pubDate>Mon, 17 Jun 2019 23:53:00 +0100</pubDate><guid>https://cloudrace.info/credits/</guid><description>&lt;ol&gt;
+&lt;p&gt;Co-lead of Kaggle &lt;a href="https://www.kaggle.com/learn-guide/5-day-agents" target="_blank" rel="noreferrer"&gt;5 Days of AI Agents Intensive Course&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Credits</title><link>https://cloudrace.info/credits/</link><pubDate>Mon, 17 Jun 2019 23:53:00 +0100</pubDate><guid>https://cloudrace.info/credits/</guid><description>&lt;ol&gt;
 &lt;li&gt;Built with &lt;a href="https://gohugo.io/" target="_blank" rel="noreferrer"&gt;Hugo&lt;/a&gt; and the &lt;a href="https://blowfish.page/" target="_blank" rel="noreferrer"&gt;Blowfish Theme&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Hosted and deployed using GitHub Pages&lt;/li&gt;
 &lt;li&gt;Domain using Google Domains&lt;/li&gt;

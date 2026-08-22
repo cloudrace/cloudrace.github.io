@@ -7,9 +7,12 @@ layout: "simple"
 
 ## Blogs
 
-- [Defensive Publication](https://www.tdcommons.org/dpubs_series/6763/) -- Natural Language to SQL
-- [Unlocking Insights](https://medium.com/google-cloud/unlocking-insights-natural-language-qna-on-structured-data-4055e9d0ddad) -- Natural Language QnA on Structured Data
-- [Agent Garden Product Launch](https://developers.googleblog.com/en/agent-garden-samples-for-learning-discovering-and-building/)
+- [20 Questions for the Agentic Enterprise](https://cloud.google.com/blog/products/ai-machine-learning/20-questions-for-the-agentic-enterprise) -- Jul 2026
+- [A Dev's Guide to Production-Ready AI Agents](https://cloud.google.com/blog/products/ai-machine-learning/a-devs-guide-to-production-ready-ai-agents) -- Feb 2026
+- [Agent Garden Product Launch](https://developers.googleblog.com/en/agent-garden-samples-for-learning-discovering-and-building/) -- May 2025
+- [Unlocking Insights](https://medium.com/google-cloud/unlocking-insights-natural-language-qna-on-structured-data-4055e9d0ddad) -- Natural Language QnA on Structured Data -- Nov 2024
+- [Entity Standardization with Google Cloud](https://cloud.google.com/blog/products/ai-machine-learning/entity-standardization-with-google-cloud) (Collaborator) -- Oct 2022
+- [Defensive Publication](https://www.tdcommons.org/dpubs_series/6763/) -- Natural Language to SQL -- Dec 2023
 
 ## Whitepapers
 
@@ -23,9 +26,19 @@ Co-lead of Kaggle [5 Days of AI Agents Intensive Course](https://www.kaggle.com/
 | Agent Quality | [Content Contributor](https://www.kaggle.com/whitepaper-agent-quality) | [Host](https://www.youtube.com/watch?v=JW1Yybfxyr4) |
 | Prototype to Production | [Content Contributor](https://www.kaggle.com/whitepaper-prototype-to-production) | [Host](https://www.youtube.com/watch?v=4XjPh5or0ws) |
 
+### Other Guides & Codelabs
+
+- [Agent Tools and Interoperability](https://www.kaggle.com/whitepaper-agent-tools-and-interoperability) -- Jun 2026
+- [Fraud Detection using Cloud Console](https://codelabs.developers.google.com/codelabs/frauddetection-using-console#0) -- Mar 2019
+
 ## Conference Talks
 
 <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 1.5rem; margin: 1.5rem 0;">
+
+<div>
+<a href="https://www.youtube.com/watch?v=Mq4ZY3eE5dI"><img src="https://img.youtube.com/vi/Mq4ZY3eE5dI/hqdefault.jpg" style="width:100%; border-radius: 8px;" alt="Google Cloud Next 2026"></a>
+<p><strong>Building Production Ready Agents</strong><br><em>Google Cloud Next -- Apr 2026</em></p>
+</div>
 
 <div>
 <a href="https://www.youtube.com/watch?v=EyfliMSwSkM"><img src="https://img.youtube.com/vi/EyfliMSwSkM/hqdefault.jpg" style="width:100%; border-radius: 8px;" alt="ODSC Keynote"></a>
