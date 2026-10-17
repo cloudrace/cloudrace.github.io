@@ -1,6 +1,6 @@
 ---
 title: "AI For Everyone Series"
-date: 2026-04-01T12:00:00-04:00
+date: 2026-01-15T12:00:00-05:00
 draft: false
 tags: ["projects", "ai", "gemini", "education"]
 categories: ["Projects"]

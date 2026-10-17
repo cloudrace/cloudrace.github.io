@@ -1,6 +1,6 @@
 ---
 title: "Workout Tracker"
-date: 2026-04-15T12:00:00-04:00
+date: 2026-10-15T12:00:00-04:00
 draft: false
 tags: ["projects", "fitness", "nextjs", "pwa", "cloud-run"]
 categories: ["Projects"]

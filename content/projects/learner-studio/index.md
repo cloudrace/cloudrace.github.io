@@ -1,6 +1,6 @@
 ---
 title: "Learner Studio"
-date: 2026-03-25T12:00:00-04:00
+date: 2026-05-15T12:00:00-04:00
 draft: false
 tags: ["projects", "ai", "nextjs", "education"]
 categories: ["Projects"]
